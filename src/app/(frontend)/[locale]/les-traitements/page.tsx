@@ -52,7 +52,7 @@ export default async function SoinsPage({
     {
       eyebrow: t('medicalEyebrow'),
       title: t('medicalTitle'),
-      image: '/images/medical.jpg',
+      image: '/images/medical.webp',
       priority: true,
       body: (
         <>
@@ -67,7 +67,7 @@ export default async function SoinsPage({
     {
       eyebrow: t('sportEyebrow'),
       title: t('sportTitle'),
-      image: '/images/sport.jpg',
+      image: '/images/sport.webp',
       reverse: true,
       body: (
         <>
@@ -82,7 +82,7 @@ export default async function SoinsPage({
     {
       eyebrow: t('estheticEyebrow'),
       title: t('estheticTitle'),
-      image: '/images/esthetique.jpg',
+      image: '/images/esthetique.webp',
       body: (
         <>
           <p>{t('estheticP')}</p>

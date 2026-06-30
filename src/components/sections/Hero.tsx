@@ -46,7 +46,7 @@ export async function Hero() {
       >
         <div className="relative rounded-[14px]">
           <Image
-            src="/images/hero-portrait.jpg"
+            src="/images/hero-portrait.webp"
             alt={`${SITE.name} — physiothérapeute à Lausanne`}
             fill
             priority

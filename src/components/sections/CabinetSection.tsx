@@ -37,7 +37,7 @@ export async function CabinetSection() {
           className="relative h-[320px] md:h-[440px] rounded-[14px] overflow-hidden"
         >
           <Image
-            src="/images/cabinet-soin.jpg"
+            src="/images/cabinet-soin.webp"
             alt={t('title')}
             fill
             sizes="(max-width: 1024px) 100vw, 600px"

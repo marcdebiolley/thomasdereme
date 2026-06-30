@@ -65,24 +65,24 @@ export default async function CabinetPage({
       {/* Gallery */}
       <Container className="py-14 md:py-20">
         <Figure
-          src="/images/entree.jpg"
+          src="/images/entree.webp"
           caption={t('galleryEntree')}
           className="h-[260px] md:h-[440px] mb-6"
           priority
         />
         <div className="grid sm:grid-cols-3 gap-6">
           <Figure
-            src="/images/salle.jpg"
+            src="/images/salle.webp"
             caption={t('gallerySalle')}
             className="h-[280px] md:h-[360px]"
           />
           <Figure
-            src="/images/sanitaires.jpg"
+            src="/images/sanitaires.webp"
             caption={t('gallerySanitaires')}
             className="h-[280px] md:h-[360px]"
           />
           <Figure
-            src="/images/equipement.jpg"
+            src="/images/equipement.webp"
             caption={t('galleryEquipement')}
             className="h-[280px] md:h-[360px]"
           />

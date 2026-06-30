@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Image from 'next/image';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import type { Locale } from '@/i18n/routing';
 import { buildPageMetadata } from '@/lib/seo/metadata';
@@ -35,7 +36,7 @@ export default async function PhysioPage({
       <SplitSection
         eyebrow={t('parcoursEyebrow')}
         title={t('parcoursTitle')}
-        image="/images/physio.jpg"
+        image="/images/physio.webp"
         alt={`${SITE.name} — physiothérapeute à Lausanne`}
         priority
       >
@@ -44,33 +45,82 @@ export default async function PhysioPage({
         <p>{t('parcoursP3')}</p>
       </SplitSection>
 
-      <SplitSection
-        reverse
-        eyebrow={t('trailEyebrow')}
-        title={t('trailTitle')}
-        image="/images/trail.jpg"
-        alt={`${SITE.name} — coureur de trail`}
-      >
-        <p>{t('trailP1')}</p>
-        <div className="flex gap-5 pt-2">
-          <a
-            href={SITE.social.instagram}
-            target="_blank"
-            rel="noopener noreferrer"
-            className={linkUnderline}
-          >
-            Instagram
-          </a>
-          <a
-            href={SITE.social.linkedin}
-            target="_blank"
-            rel="noopener noreferrer"
-            className={linkUnderline}
-          >
-            LinkedIn
-          </a>
-        </div>
-      </SplitSection>
+      {/* Trail — emphasis on the sport/athlete identity */}
+      <section className="border-t border-line">
+        <Container className="py-16 md:py-24">
+          <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
+            <div data-reveal>
+              <div className="eyebrow">{t('trailEyebrow')}</div>
+              <h2 className="display font-normal text-[clamp(28px,3.8vw,48px)] leading-[1.1] tracking-[-0.01em] text-ink mt-5">
+                {t('trailTitle')}
+              </h2>
+              <p className="mt-6 text-muted text-base leading-[1.8] max-w-[520px]">
+                {t('trailP1')}
+              </p>
+              <div className="flex gap-5 pt-6">
+                <a
+                  href={SITE.social.instagram}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={linkUnderline}
+                >
+                  Instagram
+                </a>
+                <a
+                  href={SITE.social.linkedin}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={linkUnderline}
+                >
+                  LinkedIn
+                </a>
+              </div>
+            </div>
+            <div
+              data-reveal
+              className="relative aspect-[4/5] rounded-[14px] overflow-hidden"
+            >
+              <Image
+                src="/images/trail-main.webp"
+                alt={`${SITE.name} — coureur de trail`}
+                fill
+                sizes="(max-width: 1024px) 100vw, 560px"
+                className="object-cover"
+              />
+            </div>
+          </div>
+
+          {/* Compétition — aux côtés de Maximilien Drion */}
+          <div data-reveal className="mt-8 md:mt-10">
+            <div className="grid grid-cols-3 gap-3 md:gap-5">
+              {['skimo-1', 'skimo-2', 'skimo-3'].map((img) => (
+                <div
+                  key={img}
+                  className="relative aspect-[3/4] rounded-[14px] overflow-hidden bg-[#e4e3dd]"
+                >
+                  <Image
+                    src={`/images/${img}.webp`}
+                    alt={`${SITE.name} — ${t('skimoCaption')}`}
+                    fill
+                    sizes="(max-width: 768px) 33vw, 380px"
+                    className="object-cover"
+                  />
+                </div>
+              ))}
+            </div>
+            <p className="mt-4">
+              <a
+                href="https://maximiliendrion.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="ph hover:text-ink transition-colors"
+              >
+                {t('skimoCaption')} ↗
+              </a>
+            </p>
+          </div>
+        </Container>
+      </section>
 
       <section className="border-t border-line">
         <Container className="py-16 md:py-24">
