@@ -1,0 +1,271 @@
+{
+  "Nav": {
+    "physio": "The physio",
+    "treatments": "Care",
+    "cabinet": "The practice",
+    "articles": "Articles",
+    "book": "Book an appointment"
+  },
+  "Home": {
+    "hero": {
+      "eyebrow": "Physiotherapy · Lausanne",
+      "titleLine1": "The standard",
+      "titleLine2": "of care,",
+      "titleItalic": "in a setting that fits.",
+      "lead": "Medical, sport and aesthetic — tailored care, recognised by Swiss basic insurance, in a comfortable, considered setting.",
+      "ctaBook": "Book a session",
+      "ctaCabinet": "Discover the practice",
+      "vertical": "Care · Movement · Recovery",
+      "portraitLabel": "Portrait — to replace"
+    },
+    "services": {
+      "items": [
+        {
+          "num": "I",
+          "title": "Medical physio",
+          "text": "Recognised by every Swiss basic insurance plan. Any musculoskeletal condition or injury."
+        },
+        {
+          "num": "II",
+          "title": "Sports care",
+          "text": "Personalised sports follow-up, assessment and goal planning. Every level, from getting back in shape to competition."
+        },
+        {
+          "num": "III",
+          "title": "Aesthetic treatment",
+          "text": "Lymphatic drainage, endermologie and scar work, with or without a prescription. LPG®-trained and equipped."
+        }
+      ]
+    },
+    "cabinet": {
+      "eyebrow": "The practice",
+      "title": "A physio space in the heart of your city.",
+      "text": "The practice is inside Dr Burgener’s Maison-B — a comfortable, considered space, 400 m from Lausanne station and 350 m from Place Saint-François.",
+      "cta": "Discover the practice",
+      "photoLabel": "the practice — to replace"
+    },
+    "contact": {
+      "eyebrow": "Get in touch",
+      "titleLine": "Your treatment",
+      "titleItalic": "starts here.",
+      "book": "Book an appointment",
+      "write": "Write",
+      "call": "Call",
+      "come": "Visit"
+    },
+    "quote": "The body adapts to what you ask of it."
+  },
+  "Footer": {
+    "tagline": "Physiotherapist — Medical · Sport · Aesthetic"
+  },
+  "Common": {
+    "name": "Thomas Derême",
+    "skipToContent": "Skip to content"
+  },
+  "Consent": {
+    "title": "Cookies",
+    "text": "This site uses audience-measurement cookies (Google Analytics) and the Google Maps embed. You can accept or decline.",
+    "learn": "Learn more",
+    "accept": "Accept",
+    "refuse": "Decline",
+    "mapBlocked": "The Google Maps embed is disabled until cookies are accepted.",
+    "mapLoad": "Show the map"
+  },
+  "CtaBand": {
+    "eyebrow": "Book an appointment",
+    "title": "Your treatment starts here.",
+    "book": "Book an appointment"
+  },
+  "PhysioPage": {
+    "eyebrow": "The physio",
+    "title": "Scientific rigour, human attention.",
+    "lead": "I’m a physiotherapist, trained in Belgium, with a passion for movement, health and performance. My path has taken me through varied settings: from professional sport to general private practice, and specialised fields such as senology and geriatrics.",
+    "parcoursEyebrow": "Background",
+    "parcoursTitle": "Many paths, not one.",
+    "parcoursP1": "These experiences let me discover different approaches to physiotherapy and develop a rich, nuanced view of care. I learned there is no single way to treat — but a multitude of paths, to adapt to each patient.",
+    "parcoursP2": "My practice draws on scientifically validated techniques while giving listening an essential place. Every person is unique, with their own story, goals and needs. My role is to understand that uniqueness and offer tailored support.",
+    "parcoursP3": "Driven by a sincere desire to help, I commit to guiding my patients towards their best version — in recovery, prevention or performance.",
+    "trailEyebrow": "Sport & trail",
+    "trailTitle": "A high-level trail athlete.",
+    "trailP1": "Alongside my practice, I’m a high-level trail runner myself. That personal experience feeds my understanding of physical and mental demands, and strengthens my ability to support athletes and anyone wishing to regain confidence in their body.",
+    "approachEyebrow": "Training & approach",
+    "approachTitle": "Helping you move forward, for good.",
+    "approachP1": "Over the years I’ve completed many training courses to broaden my skills and build a varied toolbox. This lets me adapt each treatment to the condition, the personality and the goals of each person.",
+    "approachP2": "Today my approach is rigorous, human and personalised, with one simple goal: to help you move forward, durably.",
+    "follow": "Follow Thomas"
+  },
+  "SoinsPage": {
+    "eyebrow": "Care",
+    "title": "Precise treatment, guided by science.",
+    "lead": "Medical (with or without a prescription), sport and aesthetic — individualised and recognised by Swiss basic insurance.",
+    "medicalEyebrow": "Medical",
+    "medicalTitle": "Medical physio",
+    "medicalP": "On prescription or direct access, precise care for musculoskeletal conditions: orthopaedics, traumatology, functional rehabilitation and acute or chronic pain.",
+    "medicalD1": "With prescription — 30 min",
+    "medicalD2": "Without prescription — 30 min or 1 h",
+    "medicalTech": [
+      "Orthopaedics",
+      "Traumatology",
+      "Functional rehabilitation",
+      "Pre-operative preparation",
+      "Geriatrics",
+      "Dry needling",
+      "Massage",
+      "Assessment & prevention"
+    ],
+    "sportEyebrow": "Sport",
+    "sportTitle": "Sports follow-up & coaching",
+    "sportP": "A first 30-minute session to assess your needs, then personalised follow-up. For athletes and amateurs alike: goal planning with medical follow-up, coaching and recovery.",
+    "sportD1": "1st session 30 min, then personalised follow-up",
+    "sportTech": [
+      "Assessment",
+      "Goal planning",
+      "Coaching",
+      "Recovery"
+    ],
+    "estheticEyebrow": "Aesthetic",
+    "estheticTitle": "Aesthetic care",
+    "estheticP": "Lymphatic drainage, multilayer bandaging, scar work and LPG® sessions — with or without a prescription, for visible, lasting results.",
+    "estheticD1": "30 min or 1 h",
+    "estheticTech": [
+      "Lymphatic drainage",
+      "Multilayer bandaging",
+      "Scar work",
+      "LPG® session"
+    ]
+  },
+  "CabinetPage": {
+    "eyebrow": "The practice",
+    "title": "A comfortable, considered space.",
+    "lead": "A space designed to make you feel cared for, inside Maison-B, within Dr Burgener’s practice.",
+    "galleryEntree": "The entrance — Maison.b",
+    "gallerySalle": "The active room",
+    "gallerySanitaires": "Shower & facilities",
+    "galleryEquipement": "Recovery & equipment",
+    "spacesEyebrow": "The spaces",
+    "spacesTitle": "Designed to support you.",
+    "spaces": [
+      {
+        "name": "Waiting room",
+        "text": "A calm, soothing space to welcome you."
+      },
+      {
+        "name": "Treatment room",
+        "text": "For personalised care, in full privacy."
+      },
+      {
+        "name": "Active room",
+        "text": "Equipped for movement, rehabilitation and exercise."
+      },
+      {
+        "name": "Shower & facilities",
+        "text": "For your comfort, before or after sessions."
+      }
+    ],
+    "equipEyebrow": "Equipment",
+    "equipTitle": "Equipped for every step.",
+    "equipments": [
+      {
+        "name": "LPG®",
+        "text": "Mechanical stimulation that boosts circulation."
+      },
+      {
+        "name": "Compression boots",
+        "text": "To improve blood and lymphatic circulation."
+      },
+      {
+        "name": "Infrared room",
+        "text": "Gentle heat that eases muscle tension."
+      },
+      {
+        "name": "Iyashi Dôme",
+        "text": "Japanese long-infrared technology to support detoxification."
+      }
+    ],
+    "accessEyebrow": "Access & location",
+    "accessTitle": "In the heart of Lausanne.",
+    "accessText": "Maison-B (Dr Burgener’s practice), 400 m from Lausanne station. A few spaces on the street, Alpha-Palmiers car park 200 m away.",
+    "mapPlaceholder": "Map — shown after you accept cookies."
+  },
+  "Pages": {
+    "physio": {
+      "title": "The physio",
+      "lead": "Thomas’s background and approach — content to migrate from the current site."
+    },
+    "treatments": {
+      "title": "Care",
+      "lead": "Four detailed services — content to migrate from the current site."
+    },
+    "cabinet": {
+      "title": "The practice",
+      "lead": "Spaces and equipment — content to migrate from the current site."
+    },
+    "articles": {
+      "title": "Articles",
+      "lead": "Prevention, recovery, trail & performance, techniques and tips.",
+      "all": "All",
+      "empty": "The first articles are coming soon."
+    },
+    "booking": {
+      "title": "Book an appointment",
+      "lead": "A question? Get in touch about any of my services. Book your session online through OneDoc — I usually reply within 1 to 2 working days.",
+      "widgetPlaceholder": "The OneDoc booking module will appear here once the account is connected."
+    },
+    "legalNotice": {
+      "title": "Legal notice"
+    },
+    "privacy": {
+      "title": "Privacy policy",
+      "intro": "This policy describes how data is processed on this site, in line with the Swiss Federal Act on Data Protection (nLPD).",
+      "dataTitle": "Data collected",
+      "dataText": "No health data is collected through this site. The contact details you share (email, phone) are used only to answer your request.",
+      "cookiesTitle": "Cookies & audience measurement",
+      "cookiesText": "With your consent, Google Analytics 4 measures site audience (Consent Mode v2, anonymised IP). You can decline or withdraw your consent at any time via the cookie banner.",
+      "mapsTitle": "Google Maps",
+      "mapsText": "The practice map (Google Maps) is only loaded after you accept cookies.",
+      "rightsTitle": "Your rights",
+      "rightsText": "You have the right to access, correct and delete your data. For any request, contact Thomas Derême.",
+      "note": "This document should be reviewed by a professional before going live."
+    }
+  },
+  "Faq": {
+    "eyebrow": "Frequently asked",
+    "title": "Good to know.",
+    "items": [
+      {
+        "q": "Do I need a prescription?",
+        "a": "No. Thomas sees patients with or without a prescription. With a prescription, physiotherapy is recognised by Swiss basic insurance; without one, sessions last 30 or 60 minutes."
+      },
+      {
+        "q": "Are sessions recognised by insurance?",
+        "a": "Yes — medical physiotherapy on prescription is recognised by Swiss basic insurance (LAMal)."
+      },
+      {
+        "q": "Where is the practice?",
+        "a": "At 12 Rue du Midi, 1003 Lausanne, in Dr Burgener’s Maison-B, 400 m from Lausanne station."
+      },
+      {
+        "q": "Do you offer dry needling and lymphatic drainage?",
+        "a": "Yes. Thomas offers dry needling, lymphatic drainage, LPG® endermologie and scar work, among others."
+      },
+      {
+        "q": "How do I book?",
+        "a": "Online via OneDoc, or by phone at +41 76 688 72 81."
+      }
+    ]
+  },
+  "Blog": {
+    "related": "Read next",
+    "back": "All articles",
+    "published": "Published on"
+  },
+  "Metadata": {
+    "siteName": "Thomas Derême Physiotherapist",
+    "titleTemplate": "%s | Thomas Derême Physiotherapist — Lausanne",
+    "defaultTitle": "Physiotherapist in Lausanne",
+    "home": {
+      "title": "Home",
+      "description": "Thomas Derême, physiotherapist in Lausanne. Medical, sports and aesthetic physio. Recognised by Swiss basic insurance. Book an appointment."
+    }
+  }
+}

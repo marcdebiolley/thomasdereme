@@ -1,0 +1,271 @@
+{
+  "Nav": {
+    "physio": "Le physio",
+    "treatments": "Soins",
+    "cabinet": "Le cabinet",
+    "articles": "Articles",
+    "book": "Prendre rendez-vous"
+  },
+  "Home": {
+    "hero": {
+      "eyebrow": "Physiothérapie · Lausanne",
+      "titleLine1": "L’exigence",
+      "titleLine2": "du soin,",
+      "titleItalic": "dans un cadre adapté.",
+      "lead": "Médical, sport et esthétique — un suivi sur mesure, reconnu par les assurances de base suisses, dans un cadre confortable et soigné.",
+      "ctaBook": "Réserver une séance",
+      "ctaCabinet": "Découvrir le cabinet",
+      "vertical": "Soin · Mouvement · Récupération",
+      "portraitLabel": "Portrait — à remplacer"
+    },
+    "services": {
+      "items": [
+        {
+          "num": "I",
+          "title": "Physio médical",
+          "text": "Reconnu par toutes les assurances de base suisses. Toute atteinte ou pathologie liée au musculosquelettique."
+        },
+        {
+          "num": "II",
+          "title": "Prise en charge du sportif",
+          "text": "Suivi sportif personnalisé, bilan et planification d’objectifs. Pour tout niveau, de la remise en forme à la compétition."
+        },
+        {
+          "num": "III",
+          "title": "Traitement esthétique",
+          "text": "Drainage lymphatique, endermologie et travail cicatriciel, avec ou sans prescription. Formé et équipé LPG®."
+        }
+      ]
+    },
+    "cabinet": {
+      "eyebrow": "Le cabinet",
+      "title": "Un espace physio au cœur de votre ville.",
+      "text": "Le cabinet se situe dans la Maison-B du Dr Burgener — un lieu confortable et soigné, à 400 m de la gare de Lausanne et à 350 m de la place Saint-François.",
+      "cta": "Découvrir le cabinet",
+      "photoLabel": "le cabinet — à remplacer"
+    },
+    "contact": {
+      "eyebrow": "Contactez-moi",
+      "titleLine": "Votre traitement",
+      "titleItalic": "commence ici.",
+      "book": "Prendre rendez-vous",
+      "write": "Écrire",
+      "call": "Appeler",
+      "come": "Venir"
+    },
+    "quote": "Le corps s’adapte à ce que vous lui proposez."
+  },
+  "Footer": {
+    "tagline": "Physiothérapeute — Médical · Sport · Esthétique"
+  },
+  "Common": {
+    "name": "Thomas Derême",
+    "skipToContent": "Aller au contenu"
+  },
+  "Consent": {
+    "title": "Cookies",
+    "text": "Ce site utilise des cookies de mesure d’audience (Google Analytics) et la carte Google Maps. Vous pouvez accepter ou refuser.",
+    "learn": "En savoir plus",
+    "accept": "Accepter",
+    "refuse": "Refuser",
+    "mapBlocked": "La carte Google Maps est désactivée tant que les cookies ne sont pas acceptés.",
+    "mapLoad": "Afficher la carte"
+  },
+  "CtaBand": {
+    "eyebrow": "Prendre rendez-vous",
+    "title": "Votre traitement commence ici.",
+    "book": "Prendre rendez-vous"
+  },
+  "PhysioPage": {
+    "eyebrow": "Le physio",
+    "title": "Rigueur scientifique, écoute humaine.",
+    "lead": "Je suis physiothérapeute, formé en Belgique, et passionné par le mouvement, la santé et la performance. Mon parcours m’a amené à évoluer dans des environnements variés : du sport professionnel au cabinet privé général, en passant par des domaines spécialisés comme la sénologie et la gériatrie.",
+    "parcoursEyebrow": "Parcours",
+    "parcoursTitle": "Une multitude de chemins.",
+    "parcoursP1": "Ces expériences m’ont permis de découvrir différentes approches de la physiothérapie et de développer une vision riche et nuancée de la prise en charge. J’ai appris qu’il n’existe pas une seule manière de soigner, mais une multitude de chemins, à adapter à chaque patient.",
+    "parcoursP2": "Ma pratique s’appuie sur des techniques validées scientifiquement, tout en accordant une place essentielle à l’écoute. Chaque personne est unique, avec son histoire, ses objectifs et ses besoins. Mon rôle est de comprendre cette singularité pour proposer un accompagnement sur mesure.",
+    "parcoursP3": "Animé par l’envie sincère d’aider, je m’engage à accompagner mes patients vers leur meilleure version, que ce soit dans la récupération, la prévention ou la performance.",
+    "trailEyebrow": "Sport & trail",
+    "trailTitle": "Sportif de haut niveau en trail.",
+    "trailP1": "En parallèle de mon activité, je suis moi-même sportif de haut niveau en trail. Cette expérience personnelle nourrit ma compréhension des exigences physiques et mentales, et renforce ma capacité à accompagner aussi bien les sportifs que toute personne souhaitant retrouver confiance en son corps.",
+    "approachEyebrow": "Formations & approche",
+    "approachTitle": "Vous aider à avancer durablement.",
+    "approachP1": "Au fil des années, j’ai suivi de nombreuses formations afin d’élargir mes compétences et disposer d’un éventail d’outils thérapeutiques variés. Cela me permet d’adapter chaque prise en charge en fonction des pathologies, des personnalités et des objectifs de chacun.",
+    "approachP2": "Aujourd’hui, mon approche se veut à la fois rigoureuse, humaine et personnalisée, avec un objectif simple : vous aider à avancer durablement.",
+    "follow": "Suivre Thomas"
+  },
+  "SoinsPage": {
+    "eyebrow": "Les soins",
+    "title": "Un traitement précis, guidé par la science.",
+    "lead": "Médical (avec ou sans ordonnance), sport et esthétique — individualisés et reconnus par les assurances de base suisses.",
+    "medicalEyebrow": "Médical",
+    "medicalTitle": "Physio médical",
+    "medicalP": "Sur ordonnance ou en accès direct, une prise en charge précise des troubles de l’appareil musculosquelettique : orthopédie, traumatologie, rééducation fonctionnelle et douleurs aiguës ou chroniques.",
+    "medicalD1": "Sur ordonnance — 30 min",
+    "medicalD2": "Sans ordonnance — 30 min ou 1 h",
+    "medicalTech": [
+      "Orthopédie",
+      "Traumatologie",
+      "Rééducation fonctionnelle",
+      "Préparation préopératoire",
+      "Gériatrie",
+      "Dry needling",
+      "Massage",
+      "Bilan & prévention"
+    ],
+    "sportEyebrow": "Sport",
+    "sportTitle": "Suivi & encadrement sportif",
+    "sportP": "Une première séance de 30 minutes pour évaluer vos besoins, puis un suivi personnalisé. Pour l’athlète comme le sportif amateur : planification d’objectifs avec suivi médical, encadrement et récupération.",
+    "sportD1": "1ʳᵉ séance 30 min, puis suivi personnalisé",
+    "sportTech": [
+      "Bilan",
+      "Planification d’objectifs",
+      "Encadrement",
+      "Récupération"
+    ],
+    "estheticEyebrow": "Esthétique",
+    "estheticTitle": "Soins esthétiques",
+    "estheticP": "Drainage lymphatique, bandage multicouche, travail cicatriciel et séances LPG® — avec ou sans prescription, pour des résultats visibles et durables.",
+    "estheticD1": "30 min ou 1 h",
+    "estheticTech": [
+      "Drainage lymphatique",
+      "Bandage multicouche",
+      "Travail cicatriciel",
+      "Séance LPG®"
+    ]
+  },
+  "CabinetPage": {
+    "eyebrow": "Le cabinet",
+    "title": "Un espace confortable et soigné.",
+    "lead": "Un espace pensé pour se sentir accompagné, au sein de la Maison-B, dans l’enceinte du cabinet du Dr Burgener.",
+    "galleryEntree": "L’entrée — Maison.b",
+    "gallerySalle": "La salle active",
+    "gallerySanitaires": "Douche & sanitaires",
+    "galleryEquipement": "Récupération & équipements",
+    "spacesEyebrow": "Les espaces",
+    "spacesTitle": "Pensé pour vous accompagner.",
+    "spaces": [
+      {
+        "name": "Salle d’attente",
+        "text": "Un espace calme et apaisant pour vous accueillir."
+      },
+      {
+        "name": "Salle de traitement",
+        "text": "Dédiée aux soins personnalisés, en toute confidentialité."
+      },
+      {
+        "name": "Salle active",
+        "text": "Un espace équipé pour le mouvement, la rééducation et les exercices."
+      },
+      {
+        "name": "Douche & sanitaires",
+        "text": "Pour votre confort, avant ou après les séances."
+      }
+    ],
+    "equipEyebrow": "Équipements",
+    "equipTitle": "Équipé pour chaque étape.",
+    "equipments": [
+      {
+        "name": "LPG®",
+        "text": "Stimulation mécanique favorisant la circulation."
+      },
+      {
+        "name": "Bottes de compression",
+        "text": "Pour améliorer la circulation sanguine et lymphatique."
+      },
+      {
+        "name": "Chambre infrarouge",
+        "text": "Chaleur douce favorisant la détente musculaire."
+      },
+      {
+        "name": "Iyashi Dôme",
+        "text": "Infrarouges longs japonais, pour stimuler la détoxification."
+      }
+    ],
+    "accessEyebrow": "Accès & localisation",
+    "accessTitle": "Au cœur de Lausanne.",
+    "accessText": "Maison-B (cabinet du Dr Burgener), à 400 m de la gare de Lausanne. Quelques places dans la rue, parking Alpha-Palmiers à 200 m.",
+    "mapPlaceholder": "Carte — affichée après acceptation des cookies."
+  },
+  "Pages": {
+    "physio": {
+      "title": "Le physio",
+      "lead": "Présentation et parcours de Thomas — contenu à migrer depuis le site actuel."
+    },
+    "treatments": {
+      "title": "Les soins",
+      "lead": "Quatre prestations détaillées — contenu à migrer depuis le site actuel."
+    },
+    "cabinet": {
+      "title": "Le cabinet",
+      "lead": "Espaces et équipements — contenu à migrer depuis le site actuel."
+    },
+    "articles": {
+      "title": "Articles",
+      "lead": "Prévention, récupération, trail & performance, techniques et conseils.",
+      "all": "Tous",
+      "empty": "Les premiers articles arrivent bientôt."
+    },
+    "booking": {
+      "title": "Prendre rendez-vous",
+      "lead": "Une question ? Contactez-moi pour toute demande concernant mes prestations. Réservez votre séance en ligne via OneDoc — je réponds généralement sous 1 à 2 jours ouvrables.",
+      "widgetPlaceholder": "Le module de réservation OneDoc s’affichera ici une fois le compte connecté."
+    },
+    "legalNotice": {
+      "title": "Mentions légales"
+    },
+    "privacy": {
+      "title": "Politique de confidentialité",
+      "intro": "Cette politique décrit le traitement des données sur ce site, dans le respect de la loi fédérale sur la protection des données (nLPD).",
+      "dataTitle": "Données collectées",
+      "dataText": "Aucune donnée de santé n’est collectée via ce site. Les coordonnées que vous transmettez (e-mail, téléphone) servent uniquement à répondre à votre demande.",
+      "cookiesTitle": "Cookies & mesure d’audience",
+      "cookiesText": "Avec votre consentement, Google Analytics 4 mesure l’audience du site (Consent Mode v2, adresse IP anonymisée). Vous pouvez refuser ou retirer votre consentement à tout moment via le bandeau de cookies.",
+      "mapsTitle": "Carte Google Maps",
+      "mapsText": "La carte du cabinet (Google Maps) n’est chargée qu’après votre acceptation des cookies.",
+      "rightsTitle": "Vos droits",
+      "rightsText": "Vous disposez d’un droit d’accès, de rectification et de suppression de vos données. Pour toute demande, contactez Thomas Derême.",
+      "note": "Document à faire valider par un professionnel avant la mise en ligne."
+    }
+  },
+  "Faq": {
+    "eyebrow": "Questions fréquentes",
+    "title": "Bon à savoir.",
+    "items": [
+      {
+        "q": "Faut-il une ordonnance pour consulter ?",
+        "a": "Non. Thomas reçoit avec ou sans ordonnance. Sur ordonnance, la physiothérapie est reconnue par les assurances de base suisses ; sans ordonnance, les séances durent 30 ou 60 minutes."
+      },
+      {
+        "q": "Les séances sont-elles reconnues par les assurances ?",
+        "a": "Oui, la physiothérapie médicale sur prescription est reconnue par les assurances de base suisses (LAMal)."
+      },
+      {
+        "q": "Où se trouve le cabinet ?",
+        "a": "Au 12 Rue du Midi, 1003 Lausanne, dans la Maison-B du Dr Burgener, à 400 m de la gare de Lausanne."
+      },
+      {
+        "q": "Proposez-vous le dry needling et le drainage lymphatique ?",
+        "a": "Oui. Thomas pratique notamment le dry needling, le drainage lymphatique, l’endermologie LPG® et le travail cicatriciel."
+      },
+      {
+        "q": "Comment prendre rendez-vous ?",
+        "a": "En ligne via OneDoc, ou par téléphone au +41 76 688 72 81."
+      }
+    ]
+  },
+  "Blog": {
+    "related": "À lire aussi",
+    "back": "Tous les articles",
+    "published": "Publié le"
+  },
+  "Metadata": {
+    "siteName": "Thomas Derême Physiothérapeute",
+    "titleTemplate": "%s | Thomas Derême Physiothérapeute — Lausanne",
+    "defaultTitle": "Physiothérapeute à Lausanne",
+    "home": {
+      "title": "Accueil",
+      "description": "Thomas Derême, physiothérapeute à Lausanne. Physio médical, sport et esthétique. Reconnu par les assurances de base. Prenez rendez-vous."
+    }
+  }
+}

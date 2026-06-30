@@ -1,0 +1,125 @@
+@import 'tailwindcss';
+
+/* ------------------------------------------------------------------ */
+/* Design tokens — ported 1:1 from the validated « Thomas Dereme Serif »*/
+/* design. Fonts injected as CSS vars by next/font (see layout).        */
+/* ------------------------------------------------------------------ */
+@theme {
+  --color-sand: #f4f4f2; /* page background */
+  --color-dark: #23231f; /* accent bars, dark section, pills */
+  --color-ink: #1f1e18; /* headings */
+  --color-body: #26251f; /* body text */
+  --color-muted: #56544c; /* secondary text */
+  --color-muted2: #54524a; /* nav links */
+  --color-taupe: #7c7468; /* accent — italics, numerals */
+  --color-taupe-soft: #8a8478; /* eyebrows */
+  --color-line: #cfcbc0; /* hairlines */
+  --color-cream: #eceae2; /* text / pills on dark */
+
+  --font-sans: var(--font-hanken), system-ui, sans-serif;
+  --font-serif: var(--font-spectral), Georgia, 'Times New Roman', serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-sand);
+  color: var(--color-body);
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Serif display helper */
+.display {
+  font-family: var(--font-serif);
+}
+
+/* Eyebrow — uppercase, wide tracking, taupe */
+.eyebrow {
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 0.26em;
+  text-transform: uppercase;
+  color: var(--color-taupe-soft);
+}
+
+/* Placeholder labels + striped fills (image stand-ins) */
+.ph {
+  font-family: var(--font-sans);
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  color: rgba(0, 0, 0, 0.32);
+  text-transform: uppercase;
+}
+.ph-stripe {
+  background: repeating-linear-gradient(
+    150deg,
+    #e4e3dd,
+    #e4e3dd 16px,
+    #eeede9 16px,
+    #eeede9 32px
+  );
+}
+.ph-stripe-dark {
+  background: repeating-linear-gradient(
+    150deg,
+    #2b2b27,
+    #2b2b27 16px,
+    #34342f 16px,
+    #34342f 32px
+  );
+  color: rgba(255, 255, 255, 0.28);
+}
+
+/* Service rows — slide right + warm the numeral on hover */
+.svcrow {
+  transition: padding-left 0.5s cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+.svcrow:hover {
+  padding-left: 14px;
+}
+.svcnum {
+  transition: color 0.4s ease;
+}
+.svcrow:hover .svcnum {
+  color: #7a7770;
+}
+
+/* Pill buttons */
+.btn {
+  transition: transform 0.3s ease;
+}
+.btn:hover {
+  transform: translateY(-2px);
+}
+
+/* Scroll reveal */
+.reveal {
+  opacity: 0;
+  transform: translateY(22px);
+  transition:
+    opacity 0.9s ease,
+    transform 0.9s cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+.reveal.in {
+  opacity: 1;
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+  .btn:hover {
+    transform: none;
+  }
+}
