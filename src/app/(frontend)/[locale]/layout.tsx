@@ -60,8 +60,6 @@ export default async function LocaleLayout({
   return (
     <html lang={locale} className={`${sans.variable} ${serif.variable}`}>
       <body>
-        {/* top accent bar */}
-        <div className="h-2 bg-dark" />
         <NextIntlClientProvider>
           <ConsentProvider>
             <Header />
@@ -71,8 +69,6 @@ export default async function LocaleLayout({
             <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_ID} />
           </ConsentProvider>
         </NextIntlClientProvider>
-        {/* bottom accent bar */}
-        <div className="h-2 bg-dark" />
         <RevealObserver />
       </body>
     </html>
