@@ -21,7 +21,12 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'Pages.articles' });
-  const meta = await buildPageMetadata({ locale, href: '/articles', title: t('title') });
+  const meta = await buildPageMetadata({
+    locale,
+    href: '/articles',
+    title: t('title'),
+    description: t('metaDescription'),
+  });
   return {
     ...meta,
     alternates: {

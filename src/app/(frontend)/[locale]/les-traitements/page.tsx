@@ -29,7 +29,12 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'Pages.treatments' });
-  return buildPageMetadata({ locale, href: '/les-traitements', title: t('title') });
+  return buildPageMetadata({
+    locale,
+    href: '/les-traitements',
+    title: t('title'),
+    description: t('metaDescription'),
+  });
 }
 
 export default async function SoinsPage({

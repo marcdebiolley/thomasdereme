@@ -191,15 +191,18 @@
   "Pages": {
     "physio": {
       "title": "The physio",
-      "lead": "Thomas’s background and approach — content to migrate from the current site."
+      "lead": "Thomas’s background and approach — content to migrate from the current site.",
+      "metaDescription": "Thomas Derême, physiotherapist in Lausanne recognised by Swiss basic insurance. Scientific, human approach; trail athlete."
     },
     "treatments": {
       "title": "Care",
-      "lead": "Four detailed services — content to migrate from the current site."
+      "lead": "Four detailed services — content to migrate from the current site.",
+      "metaDescription": "Medical and sports physio, dry needling, lymphatic drainage and LPG endermologie in Lausanne. With or without a prescription."
     },
     "cabinet": {
       "title": "The practice",
-      "lead": "Spaces and equipment — content to migrate from the current site."
+      "lead": "Spaces and equipment — content to migrate from the current site.",
+      "metaDescription": "Physiotherapy practice in Lausanne (Maison-B), 400 m from the station. Active room, LPG, compression boots, infrared room, Iyashi Dôme."
     },
     "articles": {
       "title": "Articles",
@@ -208,12 +211,14 @@
       "empty": "The first articles are coming soon.",
       "prev": "Previous",
       "next": "Next",
-      "rss": "RSS feed"
+      "rss": "RSS feed",
+      "metaDescription": "Physiotherapy tips in Lausanne: prevention, recovery after trail, dry needling, lymphatic drainage."
     },
     "booking": {
       "title": "Book an appointment",
       "lead": "A question? Get in touch about any of my services. Book your session online through OneDoc — I usually reply within 1 to 2 working days.",
-      "widgetPlaceholder": "The OneDoc booking module will appear here once the account is connected."
+      "widgetPlaceholder": "The OneDoc booking module will appear here once the account is connected.",
+      "metaDescription": "Book your physiotherapist in Lausanne, near the station. Online booking via OneDoc."
     },
     "legalNotice": {
       "title": "Legal notice"
@@ -269,7 +274,17 @@
     "defaultTitle": "Physiotherapist in Lausanne",
     "home": {
       "title": "Home",
-      "description": "Thomas Derême, physiotherapist in Lausanne. Medical, sports and aesthetic physio. Recognised by Swiss basic insurance. Book an appointment."
-    }
+      "description": "Thomas Derême, physiotherapist in Lausanne. Medical and sports physio (trail), dry needling, lymphatic drainage and LPG endermologie. Recognised by Swiss basic insurance."
+    },
+    "keywords": [
+      "physiotherapy Lausanne",
+      "sports physio Lausanne",
+      "dry needling Lausanne",
+      "lymphatic drainage Lausanne",
+      "LPG endermologie Lausanne",
+      "therapeutic massage",
+      "rehabilitation",
+      "physiotherapist near Lausanne station"
+    ]
   }
 }

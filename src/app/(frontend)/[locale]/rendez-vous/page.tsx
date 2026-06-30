@@ -14,7 +14,12 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'Pages.booking' });
-  return buildPageMetadata({ locale, href: '/rendez-vous', title: t('title') });
+  return buildPageMetadata({
+    locale,
+    href: '/rendez-vous',
+    title: t('title'),
+    description: t('metaDescription'),
+  });
 }
 
 export default async function BookingPage({

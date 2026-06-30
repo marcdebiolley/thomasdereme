@@ -42,6 +42,7 @@ export async function generateMetadata({
     metadataBase: new URL(SITE.url),
     title: { default: t('defaultTitle'), template: t('titleTemplate') },
     description: t('home.description'),
+    keywords: t.raw('keywords') as string[],
   };
 }
 

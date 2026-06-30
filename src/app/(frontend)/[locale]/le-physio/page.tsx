@@ -17,7 +17,12 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'Pages.physio' });
-  return buildPageMetadata({ locale, href: '/le-physio', title: t('title') });
+  return buildPageMetadata({
+    locale,
+    href: '/le-physio',
+    title: t('title'),
+    description: t('metaDescription'),
+  });
 }
 
 export default async function PhysioPage({

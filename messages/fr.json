@@ -191,15 +191,18 @@
   "Pages": {
     "physio": {
       "title": "Le physio",
-      "lead": "Présentation et parcours de Thomas — contenu à migrer depuis le site actuel."
+      "lead": "Présentation et parcours de Thomas — contenu à migrer depuis le site actuel.",
+      "metaDescription": "Thomas Derême, physiothérapeute à Lausanne reconnu par les assurances de base. Approche scientifique et humaine ; athlète de trail."
     },
     "treatments": {
       "title": "Les soins",
-      "lead": "Quatre prestations détaillées — contenu à migrer depuis le site actuel."
+      "lead": "Quatre prestations détaillées — contenu à migrer depuis le site actuel.",
+      "metaDescription": "Physio médical et du sport, dry needling, drainage lymphatique et LPG endermologie à Lausanne. Avec ou sans ordonnance."
     },
     "cabinet": {
       "title": "Le cabinet",
-      "lead": "Espaces et équipements — contenu à migrer depuis le site actuel."
+      "lead": "Espaces et équipements — contenu à migrer depuis le site actuel.",
+      "metaDescription": "Cabinet de physiothérapie à Lausanne (Maison-B), à 400 m de la gare. Salle active, LPG, bottes de compression, chambre infrarouge, Iyashi Dôme."
     },
     "articles": {
       "title": "Articles",
@@ -208,12 +211,14 @@
       "empty": "Les premiers articles arrivent bientôt.",
       "prev": "Précédent",
       "next": "Suivant",
-      "rss": "Flux RSS"
+      "rss": "Flux RSS",
+      "metaDescription": "Conseils de physiothérapie à Lausanne : prévention, récupération après trail, dry needling, drainage lymphatique."
     },
     "booking": {
       "title": "Prendre rendez-vous",
       "lead": "Une question ? Contactez-moi pour toute demande concernant mes prestations. Réservez votre séance en ligne via OneDoc — je réponds généralement sous 1 à 2 jours ouvrables.",
-      "widgetPlaceholder": "Le module de réservation OneDoc s’affichera ici une fois le compte connecté."
+      "widgetPlaceholder": "Le module de réservation OneDoc s’affichera ici une fois le compte connecté.",
+      "metaDescription": "Prendre rendez-vous avec votre physiothérapeute à Lausanne, proche de la gare. Réservation en ligne via OneDoc."
     },
     "legalNotice": {
       "title": "Mentions légales"
@@ -269,7 +274,17 @@
     "defaultTitle": "Physiothérapeute à Lausanne",
     "home": {
       "title": "Accueil",
-      "description": "Thomas Derême, physiothérapeute à Lausanne. Physio médical, sport et esthétique. Reconnu par les assurances de base. Prenez rendez-vous."
-    }
+      "description": "Thomas Derême, physiothérapeute à Lausanne. Physio médical et du sport (trail), dry needling, drainage lymphatique et LPG endermologie. Reconnu par les assurances de base."
+    },
+    "keywords": [
+      "physiothérapie Lausanne",
+      "physio du sport Lausanne",
+      "dry needling Lausanne",
+      "drainage lymphatique Lausanne",
+      "LPG endermologie Lausanne",
+      "massage thérapeutique",
+      "rééducation",
+      "physiothérapeute proche gare Lausanne"
+    ]
   }
 }

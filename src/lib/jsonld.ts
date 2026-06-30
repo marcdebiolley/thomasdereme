@@ -1,15 +1,19 @@
 import { SITE } from './site';
 
-/** Physiotherapy LocalBusiness schema — used on the home page. */
+/** Physiotherapy LocalBusiness schema — local SEO + GEO/IA, used on the home page. */
 export function physiotherapyJsonLd() {
   return {
     '@context': 'https://schema.org',
     '@type': 'Physiotherapy',
     '@id': `${SITE.url}/#business`,
     name: 'Thomas Derême — Physiothérapeute',
+    description:
+      'Physiothérapie à Lausanne : médical, sport et esthétique. Dry needling, drainage lymphatique, LPG endermologie. Reconnu par les assurances de base suisses.',
     url: SITE.url,
     telephone: SITE.phone,
     email: SITE.email,
+    image: `${SITE.url}/images/hero-portrait.webp`,
+    priceRange: '$$',
     address: {
       '@type': 'PostalAddress',
       streetAddress: SITE.address.street,
@@ -23,8 +27,33 @@ export function physiotherapyJsonLd() {
       latitude: SITE.geo.lat,
       longitude: SITE.geo.lng,
     },
-    areaServed: { '@type': 'City', name: 'Lausanne' },
+    hasMap: `https://www.google.com/maps?q=${encodeURIComponent(
+      `${SITE.address.street}, ${SITE.address.postalCode} ${SITE.address.locality}`,
+    )}`,
+    areaServed: [
+      { '@type': 'City', name: 'Lausanne' },
+      { '@type': 'AdministrativeArea', name: 'Canton de Vaud' },
+    ],
     medicalSpecialty: 'Physiotherapy',
+    knowsAbout: [
+      'Physiothérapie',
+      'Physiothérapie du sport',
+      'Dry needling',
+      'Drainage lymphatique',
+      'LPG endermologie',
+      'Massage thérapeutique',
+      'Rééducation',
+      'Trail',
+    ],
+    availableService: [
+      'Physiothérapie médicale',
+      'Physiothérapie du sport',
+      'Dry needling',
+      'Drainage lymphatique',
+      'LPG endermologie',
+      'Massage thérapeutique',
+      'Rééducation',
+    ].map((name) => ({ '@type': 'MedicalTherapy', name })),
     sameAs: [SITE.social.instagram, SITE.social.linkedin],
   };
 }
