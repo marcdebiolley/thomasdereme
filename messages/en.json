@@ -205,7 +205,10 @@
       "title": "Articles",
       "lead": "Prevention, recovery, trail & performance, techniques and tips.",
       "all": "All",
-      "empty": "The first articles are coming soon."
+      "empty": "The first articles are coming soon.",
+      "prev": "Previous",
+      "next": "Next",
+      "rss": "RSS feed"
     },
     "booking": {
       "title": "Book an appointment",
