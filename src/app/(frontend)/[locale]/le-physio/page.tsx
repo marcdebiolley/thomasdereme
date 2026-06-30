@@ -100,7 +100,7 @@ export default async function PhysioPage({
                 >
                   <Image
                     src={`/images/${img}.webp`}
-                    alt={`${SITE.name} — ${t('skimoCaption')}`}
+                    alt={`${SITE.name} — Maximilien Drion, ski-alpinisme`}
                     fill
                     sizes="(max-width: 768px) 33vw, 380px"
                     className="object-cover"
@@ -108,15 +108,19 @@ export default async function PhysioPage({
                 </div>
               ))}
             </div>
-            <p className="mt-4">
-              <a
-                href="https://maximiliendrion.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="ph hover:text-ink transition-colors"
-              >
-                {t('skimoCaption')} ↗
-              </a>
+            <p className="mt-5 text-muted text-base leading-[1.8] max-w-2xl">
+              {t.rich('skimoText', {
+                link: (chunks) => (
+                  <a
+                    href="https://maximiliendrion.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-ink underline hover:text-taupe"
+                  >
+                    {chunks}
+                  </a>
+                ),
+              })}
             </p>
           </div>
         </Container>
