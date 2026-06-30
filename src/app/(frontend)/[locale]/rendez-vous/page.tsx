@@ -4,7 +4,7 @@ import type { Locale } from '@/i18n/routing';
 import { buildPageMetadata } from '@/lib/seo/metadata';
 import { PageHeader } from '@/components/sections/PageHeader';
 import { Container } from '@/components/ui/Container';
-import { OneDocEmbed } from '@/components/booking/OneDocEmbed';
+import { OneDocWidget } from '@/components/booking/OneDocWidget';
 import { SITE, emailHref } from '@/lib/site';
 
 export async function generateMetadata({
@@ -36,7 +36,7 @@ export default async function BookingPage({
       <PageHeader title={t('title')} lead={t('lead')} />
       <Container className="py-16 md:py-24 grid lg:grid-cols-3 gap-12">
         <div className="lg:col-span-2">
-          <OneDocEmbed placeholder={t('widgetPlaceholder')} />
+          <OneDocWidget locale={locale} />
         </div>
         <aside className="text-sm text-muted space-y-4">
           <div>

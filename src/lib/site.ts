@@ -20,8 +20,12 @@ export const SITE = {
     instagram: 'https://www.instagram.com/',
     linkedin: 'https://www.linkedin.com/',
   },
-  /** OneDoc booking URL — set NEXT_PUBLIC_ONEDOC_URL once Thomas's account exists. */
+  /** OneDoc booking page URL (link-out fallback). */
   onedocUrl: process.env.NEXT_PUBLIC_ONEDOC_URL ?? '',
+  /** OneDoc embed widget id (public). Overridable via env. */
+  onedocWidgetId:
+    process.env.NEXT_PUBLIC_ONEDOC_WIDGET_ID ??
+    '1dad7bb916538a1d557af457208861800b64a2f6600ba221c1932be45247e64d',
   /** Canonical production origin. */
   url: process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.thomasdereme.ch',
 } as const;
