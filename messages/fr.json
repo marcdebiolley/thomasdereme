@@ -4,7 +4,8 @@
     "treatments": "Soins",
     "cabinet": "Le cabinet",
     "articles": "Articles",
-    "book": "Prendre rendez-vous"
+    "book": "Prendre rendez-vous",
+    "sport": "Le sport"
   },
   "Home": {
     "hero": {
@@ -92,8 +93,7 @@
     "approachTitle": "Vous aider à avancer durablement.",
     "approachP1": "Au fil des années, j’ai suivi de nombreuses formations afin d’élargir mes compétences et disposer d’un éventail d’outils thérapeutiques variés. Cela me permet d’adapter chaque prise en charge en fonction des pathologies, des personnalités et des objectifs de chacun.",
     "approachP2": "Aujourd’hui, mon approche se veut à la fois rigoureuse, humaine et personnalisée, avec un objectif simple : vous aider à avancer durablement.",
-    "follow": "Suivre Thomas",
-    "skimoText": "J’accompagne <link>Maximilien Drion</link>, athlète de ski-alpinisme, comme physiothérapeute et ostéopathe dans la préparation de ses compétitions internationales et olympiques."
+    "follow": "Suivre Thomas"
   },
   "SoinsPage": {
     "eyebrow": "Les soins",
@@ -286,5 +286,21 @@
       "rééducation",
       "physiothérapeute proche gare Lausanne"
     ]
+  },
+  "SportPage": {
+    "eyebrow": "Le sport",
+    "title": "Du trail à la performance.",
+    "lead": "Athlète de trail et physiothérapeute, j’accompagne les sportifs — de la prévention à la performance, jusqu’au plus haut niveau.",
+    "metaDescription": "Physio du sport à Lausanne : suivi du sportif, prévention et récupération. Thomas Derême, athlète de trail, accompagne Maximilien Drion.",
+    "athleteEyebrow": "Athlète",
+    "athleteTitle": "Le mouvement, de l’intérieur.",
+    "athleteText": "En parallèle de mon activité, je suis moi-même sportif de haut niveau en trail. Cette expérience personnelle nourrit ma compréhension des exigences physiques et mentales, et renforce ma capacité à accompagner aussi bien les sportifs que toute personne souhaitant retrouver confiance en son corps.",
+    "maxEyebrow": "Haut niveau",
+    "maxTitle": "Aux côtés de Maximilien Drion.",
+    "maxText": "J’accompagne <link>Maximilien Drion</link>, athlète de ski-alpinisme, comme physiothérapeute et ostéopathe dans la préparation de ses compétitions internationales et olympiques.",
+    "maxText2": "Un suivi exigeant — prévention des blessures, récupération et planification — au plus près des contraintes du sport de haut niveau.",
+    "careEyebrow": "Prise en charge",
+    "careTitle": "Un suivi sur mesure, à chaque étape.",
+    "careText": "Bilan, planification d’objectifs et suivi personnalisé. De la reprise en douceur jusqu’à la compétition, j’adapte chaque accompagnement à votre pratique et à vos objectifs."
   }
 }

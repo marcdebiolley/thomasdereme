@@ -7,6 +7,7 @@ import { PageHeader } from '@/components/sections/PageHeader';
 import { SplitSection } from '@/components/sections/SplitSection';
 import { CtaBand } from '@/components/sections/CtaBand';
 import { Container } from '@/components/ui/Container';
+import { Link } from '@/i18n/navigation';
 import { SITE } from '@/lib/site';
 import { linkUnderline } from '@/components/ui/button';
 
@@ -33,6 +34,7 @@ export default async function PhysioPage({
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations('PhysioPage');
+  const tn = await getTranslations('Nav');
 
   return (
     <>
@@ -79,6 +81,9 @@ export default async function PhysioPage({
                 >
                   LinkedIn
                 </a>
+                <Link href="/le-sport" className={linkUnderline}>
+                  {tn('sport')} →
+                </Link>
               </div>
             </div>
             <div
@@ -93,40 +98,6 @@ export default async function PhysioPage({
                 className="object-cover"
               />
             </div>
-          </div>
-
-          {/* Compétition — aux côtés de Maximilien Drion */}
-          <div data-reveal className="mt-8 md:mt-10">
-            <div className="grid grid-cols-3 gap-3 md:gap-5">
-              {['skimo-1', 'skimo-2', 'skimo-3'].map((img) => (
-                <div
-                  key={img}
-                  className="relative aspect-[3/4] rounded-[14px] overflow-hidden bg-[#e4e3dd]"
-                >
-                  <Image
-                    src={`/images/${img}.webp`}
-                    alt={`${SITE.name} — Maximilien Drion, ski-alpinisme`}
-                    fill
-                    sizes="(max-width: 768px) 33vw, 380px"
-                    className="object-cover"
-                  />
-                </div>
-              ))}
-            </div>
-            <p className="mt-5 text-muted text-base leading-[1.8] max-w-2xl">
-              {t.rich('skimoText', {
-                link: (chunks) => (
-                  <a
-                    href="https://maximiliendrion.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-ink underline hover:text-taupe"
-                  >
-                    {chunks}
-                  </a>
-                ),
-              })}
-            </p>
           </div>
         </Container>
       </section>

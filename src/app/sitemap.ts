@@ -9,6 +9,7 @@ import type { ArticleSlug } from '@/lib/sanity/types';
 const routes = [
   '/',
   '/le-physio',
+  '/le-sport',
   '/les-traitements',
   '/le-cabinet',
   '/rendez-vous',

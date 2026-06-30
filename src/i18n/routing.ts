@@ -12,6 +12,7 @@ export const routing = defineRouting({
   pathnames: {
     '/': '/',
     '/le-physio': { fr: '/le-physio', en: '/the-physio' },
+    '/le-sport': { fr: '/le-sport', en: '/sport' },
     '/les-traitements': { fr: '/les-traitements', en: '/treatments' },
     '/le-cabinet': { fr: '/le-cabinet', en: '/the-practice' },
     '/rendez-vous': { fr: '/rendez-vous', en: '/booking' },

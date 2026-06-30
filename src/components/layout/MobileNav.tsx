@@ -7,6 +7,7 @@ import { btnDarkSm } from '@/components/ui/button';
 
 const links = [
   { href: '/le-physio', key: 'physio' },
+  { href: '/le-sport', key: 'sport' },
   { href: '/les-traitements', key: 'treatments' },
   { href: '/le-cabinet', key: 'cabinet' },
   { href: '/articles', key: 'articles' },
