@@ -42,7 +42,7 @@ export default async function PrestationsPage({
     <>
       <PageHeader eyebrow={t('eyebrow')} title={t('title')} lead={t('lead')} />
 
-      <Container className="pb-16 md:pb-24">
+      <Container className="pt-12 md:pt-16 pb-16 md:pb-24">
         <div className="grid md:grid-cols-3 gap-6 md:gap-8">
           {CARDS.map((c, i) => (
             <Link

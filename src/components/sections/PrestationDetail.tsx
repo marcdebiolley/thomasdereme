@@ -50,7 +50,7 @@ export function PrestationDetail({
     <>
       <PageHeader eyebrow={eyebrow} title={title} lead={lead} />
 
-      <Container className="pb-8 md:pb-14">
+      <Container className="pt-12 md:pt-16 pb-8 md:pb-14">
         <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-start">
           <div
             data-reveal
