@@ -40,7 +40,7 @@ export async function CabinetSection() {
             src="/images/cabinet-soin.webp"
             alt={t('title')}
             fill
-            quality={90}
+            quality={95}
             sizes="(max-width: 1024px) 100vw, 600px"
             className="object-cover object-[50%_28%]"
           />

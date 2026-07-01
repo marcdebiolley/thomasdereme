@@ -87,7 +87,7 @@ export default async function SportPage({
                   src={`/images/${img}.webp`}
                   alt={`${SITE.name} — Maximilien Drion, ski-alpinisme`}
                   fill
-                  quality={90}
+                  quality={95}
                   sizes="(max-width: 768px) 33vw, 380px"
                   className="object-cover"
                 />

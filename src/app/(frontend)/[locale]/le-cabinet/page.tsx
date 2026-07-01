@@ -13,11 +13,13 @@ function Figure({
   src,
   caption,
   className,
+  sizes,
   priority,
 }: {
   src: string;
   caption: string;
   className?: string;
+  sizes: string;
   priority?: boolean;
 }) {
   return (
@@ -27,8 +29,8 @@ function Figure({
           src={src}
           alt={caption}
           fill
-          quality={90}
-          sizes="(max-width: 768px) 100vw, 50vw"
+          quality={95}
+          sizes={sizes}
           className="object-cover"
           priority={priority}
         />
@@ -74,6 +76,7 @@ export default async function CabinetPage({
           src="/images/entree.webp"
           caption={t('galleryEntree')}
           className="h-[260px] md:h-[440px] mb-6"
+          sizes="(min-width: 1200px) 1120px, 100vw"
           priority
         />
         <div className="grid sm:grid-cols-3 gap-6">
@@ -81,16 +84,19 @@ export default async function CabinetPage({
             src="/images/salle.webp"
             caption={t('gallerySalle')}
             className="h-[280px] md:h-[360px]"
+            sizes="(max-width: 640px) 100vw, 33vw"
           />
           <Figure
             src="/images/sanitaires.webp"
             caption={t('gallerySanitaires')}
             className="h-[280px] md:h-[360px]"
+            sizes="(max-width: 640px) 100vw, 33vw"
           />
           <Figure
             src="/images/equipement.webp"
             caption={t('galleryEquipement')}
             className="h-[280px] md:h-[360px]"
+            sizes="(max-width: 640px) 100vw, 33vw"
           />
         </div>
       </Container>
