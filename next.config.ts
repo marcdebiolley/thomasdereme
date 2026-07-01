@@ -20,7 +20,7 @@ const nextConfig: NextConfig = {
     return [
       { source: '/qui-suis-je', destination: '/fr/le-physio', statusCode: 301 },
       { source: '/about-us', destination: '/fr/le-physio', statusCode: 301 },
-      { source: '/les-traitements', destination: '/fr/les-traitements', statusCode: 301 },
+      { source: '/les-traitements', destination: '/fr/les-prestations', statusCode: 301 },
       { source: '/le-cabinet', destination: '/fr/le-cabinet', statusCode: 301 },
       { source: '/contactus', destination: '/fr/rendez-vous', statusCode: 301 },
       { source: '/privacy', destination: '/fr/politique-confidentialite', statusCode: 301 },

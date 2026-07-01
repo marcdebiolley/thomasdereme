@@ -7,7 +7,6 @@ import { PageHeader } from '@/components/sections/PageHeader';
 import { SplitSection } from '@/components/sections/SplitSection';
 import { CtaBand } from '@/components/sections/CtaBand';
 import { Container } from '@/components/ui/Container';
-import { Link } from '@/i18n/navigation';
 import { SITE, CERTIFICATIONS } from '@/lib/site';
 import { linkUnderline } from '@/components/ui/button';
 
@@ -34,7 +33,6 @@ export default async function PhysioPage({
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations('PhysioPage');
-  const tn = await getTranslations('Nav');
 
   return (
     <>
@@ -81,9 +79,6 @@ export default async function PhysioPage({
                 >
                   LinkedIn
                 </a>
-                <Link href="/le-sport" className={linkUnderline}>
-                  {tn('sport')} →
-                </Link>
               </div>
             </div>
             <div

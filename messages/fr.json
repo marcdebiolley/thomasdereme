@@ -1,15 +1,13 @@
 {
   "Nav": {
     "physio": "Le physio",
-    "treatments": "Soins",
     "cabinet": "Le cabinet",
     "articles": "Articles",
     "book": "Prendre rendez-vous",
-    "sport": "Le sport",
     "prestations": "Les prestations",
-    "presMedical": "Physio médical / général",
-    "presSport": "Physio du sport",
-    "presDermato": "Physio dermato-fonctionnelle"
+    "presMedical": "Physio générale & médicale",
+    "presSport": "Physio & sport",
+    "presEsthetic": "Traitements esthétiques"
   },
   "Home": {
     "hero": {
@@ -107,45 +105,63 @@
     ],
     "orgsLabel": "Formations & organismes reconnus"
   },
-  "SoinsPage": {
-    "eyebrow": "Les soins",
-    "title": "Un traitement précis, guidé par la science.",
+  "Prestations": {
+    "eyebrow": "Les prestations",
+    "title": "Trois expertises, un même soin sur mesure.",
     "lead": "Médical (avec ou sans ordonnance), sport et esthétique - individualisés et reconnus par les assurances de base suisses.",
-    "medicalEyebrow": "Médical",
-    "medicalTitle": "Physio médical",
-    "medicalP": "Sur ordonnance ou en accès direct, une prise en charge précise des troubles de l’appareil musculosquelettique : orthopédie, traumatologie, rééducation fonctionnelle et douleurs aiguës ou chroniques.",
-    "medicalD1": "Sur ordonnance - 30 min",
-    "medicalD2": "Sans ordonnance - 30 min ou 1 h",
-    "medicalTech": [
-      "Orthopédie",
-      "Traumatologie",
-      "Rééducation fonctionnelle",
-      "Préparation préopératoire",
-      "Gériatrie",
-      "Dry needling",
-      "Massage",
-      "Bilan & prévention"
-    ],
-    "sportEyebrow": "Sport",
-    "sportTitle": "Suivi & encadrement sportif",
-    "sportP": "Une première séance de 30 minutes pour évaluer vos besoins, puis un suivi personnalisé. Pour l’athlète comme le sportif amateur : planification d’objectifs avec suivi médical, encadrement et récupération.",
-    "sportD1": "1ʳᵉ séance 30 min, puis suivi personnalisé",
-    "sportTech": [
-      "Bilan",
-      "Planification d’objectifs",
-      "Encadrement",
-      "Récupération"
-    ],
-    "estheticEyebrow": "Esthétique",
-    "estheticTitle": "Soins esthétiques",
-    "estheticP": "Drainage lymphatique, bandage multicouche, travail cicatriciel et séances LPG® - avec ou sans prescription, pour des résultats visibles et durables.",
-    "estheticD1": "30 min ou 1 h",
-    "estheticTech": [
-      "Drainage lymphatique",
-      "Bandage multicouche",
-      "Travail cicatriciel",
-      "Séance LPG®"
-    ]
+    "learnMore": "Découvrir",
+    "durationsLabel": "Durées & modalités",
+    "expertiseLabel": "Domaines & techniques",
+    "medical": {
+      "eyebrow": "Médical",
+      "title": "Physio générale & médicale.",
+      "lead": "Toute atteinte ou pathologie de l’appareil musculosquelettique, reconnue par les assurances de base suisses.",
+      "card": "Reconnu par toutes les assurances de base suisses. Toute atteinte ou pathologie liée au musculosquelettique.",
+      "body": "Sur ordonnance ou en accès direct, une prise en charge précise des troubles de l’appareil musculosquelettique : orthopédie, traumatologie, rééducation fonctionnelle et douleurs aiguës ou chroniques.",
+      "durations": ["Sur ordonnance - 30 min", "Sans ordonnance - 30 min ou 1 h"],
+      "tech": [
+        "Orthopédie",
+        "Traumatologie",
+        "Rééducation fonctionnelle",
+        "Préparation préopératoire",
+        "Gériatrie",
+        "Dry needling",
+        "Massage",
+        "Bilan & prévention"
+      ],
+      "metaDescription": "Physiothérapie médicale et générale à Lausanne : orthopédie, traumatologie, rééducation, dry needling. Avec ou sans ordonnance, reconnu par les assurances de base."
+    },
+    "sport": {
+      "eyebrow": "Sport",
+      "title": "Physio & sport.",
+      "lead": "Du sportif amateur à l’athlète de haut niveau : bilan, planification et récupération, par un physiothérapeute lui-même coureur de trail.",
+      "card": "Suivi sportif personnalisé, bilan et planification d’objectifs. Pour tout niveau, de la remise en forme à la compétition.",
+      "body": "Une première séance de 30 minutes pour évaluer vos besoins, puis un suivi personnalisé. Pour l’athlète comme le sportif amateur : planification d’objectifs, encadrement et récupération. Coureur de trail moi-même, je connais de l’intérieur les exigences de l’effort et de la récupération.",
+      "durations": ["1ʳᵉ séance 30 min, puis suivi personnalisé"],
+      "tech": [
+        "Bilan",
+        "Planification d’objectifs",
+        "Encadrement",
+        "Récupération",
+        "Prévention des blessures"
+      ],
+      "metaDescription": "Physiothérapie du sport à Lausanne : bilan, planification d’objectifs, prévention et récupération. Suivi du sportif amateur au haut niveau."
+    },
+    "esthetic": {
+      "eyebrow": "Esthétique",
+      "title": "Traitements esthétiques.",
+      "lead": "Drainage lymphatique, endermologie et travail cicatriciel - avec ou sans prescription. Formé et équipé LPG®.",
+      "card": "Drainage lymphatique, endermologie et travail cicatriciel, avec ou sans prescription. Formé et équipé LPG®.",
+      "body": "Drainage lymphatique, bandage multicouche, travail cicatriciel et séances LPG® - avec ou sans prescription, pour des résultats visibles et durables.",
+      "durations": ["30 min ou 1 h"],
+      "tech": [
+        "Drainage lymphatique",
+        "Bandage multicouche",
+        "Travail cicatriciel",
+        "Séance LPG®"
+      ],
+      "metaDescription": "Traitements esthétiques à Lausanne : drainage lymphatique, endermologie LPG®, travail cicatriciel. Avec ou sans prescription."
+    }
   },
   "CabinetPage": {
     "eyebrow": "Le cabinet",
@@ -206,10 +222,10 @@
       "lead": "Présentation et parcours de Thomas - contenu à migrer depuis le site actuel.",
       "metaDescription": "Thomas Derême, physiothérapeute à Lausanne reconnu par les assurances de base. Approche scientifique et humaine ; athlète de trail."
     },
-    "treatments": {
-      "title": "Les soins",
-      "lead": "Quatre prestations détaillées - contenu à migrer depuis le site actuel.",
-      "metaDescription": "Physio médical et du sport, dry needling, drainage lymphatique et LPG endermologie à Lausanne. Avec ou sans ordonnance."
+    "prestations": {
+      "title": "Les prestations",
+      "lead": "Physio générale & médicale, physio du sport et traitements esthétiques.",
+      "metaDescription": "Physio médicale et du sport, dry needling, drainage lymphatique et LPG endermologie à Lausanne. Avec ou sans ordonnance."
     },
     "cabinet": {
       "title": "Le cabinet",
@@ -298,22 +314,5 @@
       "rééducation",
       "physiothérapeute proche gare Lausanne"
     ]
-  },
-  "SportPage": {
-    "eyebrow": "Le sport",
-    "title": "Du trail à la performance.",
-    "lead": "Athlète de trail et physiothérapeute, j’accompagne les sportifs - de la prévention à la performance, jusqu’au plus haut niveau.",
-    "metaDescription": "Physio du sport à Lausanne : suivi du sportif, prévention et récupération. Thomas Derême, athlète de trail, accompagne Maximilien Drion.",
-    "athleteEyebrow": "Athlète",
-    "athleteTitle": "Le mouvement, de l’intérieur.",
-    "maxEyebrow": "Haut niveau",
-    "maxTitle": "Aux côtés de Maximilien Drion.",
-    "maxText": "J’accompagne <link>Maximilien Drion</link>, athlète de ski-alpinisme, comme physiothérapeute et ostéopathe dans la préparation de ses compétitions internationales et olympiques.",
-    "maxText2": "Un suivi exigeant - prévention des blessures, récupération et planification - au plus près des contraintes du sport de haut niveau.",
-    "careEyebrow": "Prise en charge",
-    "careTitle": "Un suivi sur mesure, à chaque étape.",
-    "careText": "Bilan, planification d’objectifs et suivi personnalisé. De la reprise en douceur jusqu’à la compétition, j’adapte chaque accompagnement à votre pratique et à vos objectifs.",
-    "athleteP1": "En parallèle de mon activité de physiothérapeute, je pratique le trail à haut niveau. Cette expérience me permet de comprendre de l’intérieur les exigences physiques, techniques et mentales auxquelles sont confrontés les sportifs, mais aussi l’importance d’une récupération adaptée, de la prévention des blessures et d’un accompagnement individualisé.",
-    "athleteP2": "Au-delà du sport, elle renforce les valeurs qui guident ma pratique au quotidien : l’écoute, la rigueur, la persévérance et une prise en charge centrée sur chaque patient. Mon objectif est d’accompagner chacun, sportif ou non, vers une récupération durable, en lui permettant de retrouver confiance en son corps, de reprendre ses activités dans les meilleures conditions et d’atteindre ses objectifs en toute sécurité."
   }
 }

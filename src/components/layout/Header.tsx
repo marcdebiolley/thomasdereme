@@ -1,6 +1,5 @@
-import { useLocale, useTranslations } from 'next-intl';
-import { Link, getPathname } from '@/i18n/navigation';
-import type { Locale } from '@/i18n/routing';
+import { useTranslations } from 'next-intl';
+import { Link } from '@/i18n/navigation';
 import { SITE } from '@/lib/site';
 import { btnDarkSm } from '@/components/ui/button';
 import { LanguageSwitcher } from './LanguageSwitcher';
@@ -8,8 +7,6 @@ import { MobileNav } from './MobileNav';
 
 export function Header() {
   const t = useTranslations('Nav');
-  const locale = useLocale() as Locale;
-  const soins = getPathname({ locale, href: '/les-traitements' });
 
   const dropdownItem =
     'block px-5 py-2.5 whitespace-nowrap hover:text-ink hover:bg-[#eceae2] transition-colors';
@@ -32,7 +29,7 @@ export function Header() {
           {/* Les prestations - dropdown */}
           <div className="relative group">
             <Link
-              href="/les-traitements"
+              href="/les-prestations"
               className="inline-flex items-center gap-1.5 hover:text-ink transition-colors"
             >
               {t('prestations')}
@@ -40,15 +37,15 @@ export function Header() {
             </Link>
             <div className="absolute left-1/2 -translate-x-1/2 top-full pt-3 opacity-0 invisible translate-y-1 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-200">
               <div className="bg-sand border border-line rounded-2xl shadow-xl py-2 min-w-[240px]">
-                <a href={`${soins}#medical`} className={dropdownItem}>
+                <Link href="/les-prestations/physio-medicale" className={dropdownItem}>
                   {t('presMedical')}
-                </a>
-                <Link href="/le-sport" className={dropdownItem}>
+                </Link>
+                <Link href="/les-prestations/physio-sport" className={dropdownItem}>
                   {t('presSport')}
                 </Link>
-                <a href={`${soins}#dermato`} className={dropdownItem}>
-                  {t('presDermato')}
-                </a>
+                <Link href="/les-prestations/esthetique" className={dropdownItem}>
+                  {t('presEsthetic')}
+                </Link>
               </div>
             </div>
           </div>

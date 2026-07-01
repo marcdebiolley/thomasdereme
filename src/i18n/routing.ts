@@ -12,8 +12,19 @@ export const routing = defineRouting({
   pathnames: {
     '/': '/',
     '/le-physio': { fr: '/le-physio', en: '/the-physio' },
-    '/le-sport': { fr: '/le-sport', en: '/sport' },
-    '/les-traitements': { fr: '/les-traitements', en: '/treatments' },
+    '/les-prestations': { fr: '/les-prestations', en: '/services' },
+    '/les-prestations/physio-medicale': {
+      fr: '/les-prestations/physio-medicale',
+      en: '/services/medical-physiotherapy',
+    },
+    '/les-prestations/physio-sport': {
+      fr: '/les-prestations/physio-sport',
+      en: '/services/sports-physiotherapy',
+    },
+    '/les-prestations/esthetique': {
+      fr: '/les-prestations/esthetique',
+      en: '/services/aesthetic-treatments',
+    },
     '/le-cabinet': { fr: '/le-cabinet', en: '/the-practice' },
     '/rendez-vous': { fr: '/rendez-vous', en: '/booking' },
     '/articles': '/articles',

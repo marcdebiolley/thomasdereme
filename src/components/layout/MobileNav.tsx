@@ -1,16 +1,13 @@
 'use client';
 
 import { useState } from 'react';
-import { useLocale, useTranslations } from 'next-intl';
-import { Link, getPathname } from '@/i18n/navigation';
-import type { Locale } from '@/i18n/routing';
+import { useTranslations } from 'next-intl';
+import { Link } from '@/i18n/navigation';
 import { btnDarkSm } from '@/components/ui/button';
 
 export function MobileNav() {
   const [open, setOpen] = useState(false);
   const t = useTranslations('Nav');
-  const locale = useLocale() as Locale;
-  const soins = getPathname({ locale, href: '/les-traitements' });
   const close = () => setOpen(false);
 
   return (
@@ -35,22 +32,34 @@ export function MobileNav() {
 
           <div>
             <Link
-              href="/les-traitements"
+              href="/les-prestations"
               onClick={close}
               className="hover:text-ink transition-colors"
             >
               {t('prestations')}
             </Link>
             <div className="flex flex-col gap-3 mt-3 pl-4 border-l border-line">
-              <a href={`${soins}#medical`} onClick={close} className="hover:text-ink transition-colors">
+              <Link
+                href="/les-prestations/physio-medicale"
+                onClick={close}
+                className="hover:text-ink transition-colors"
+              >
                 {t('presMedical')}
-              </a>
-              <Link href="/le-sport" onClick={close} className="hover:text-ink transition-colors">
+              </Link>
+              <Link
+                href="/les-prestations/physio-sport"
+                onClick={close}
+                className="hover:text-ink transition-colors"
+              >
                 {t('presSport')}
               </Link>
-              <a href={`${soins}#dermato`} onClick={close} className="hover:text-ink transition-colors">
-                {t('presDermato')}
-              </a>
+              <Link
+                href="/les-prestations/esthetique"
+                onClick={close}
+                className="hover:text-ink transition-colors"
+              >
+                {t('presEsthetic')}
+              </Link>
             </div>
           </div>
 

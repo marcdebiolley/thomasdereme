@@ -1,15 +1,13 @@
 {
   "Nav": {
     "physio": "The physio",
-    "treatments": "Care",
     "cabinet": "The practice",
     "articles": "Articles",
     "book": "Book an appointment",
-    "sport": "Sport",
     "prestations": "Services",
-    "presMedical": "Medical / general physio",
+    "presMedical": "General & medical physio",
     "presSport": "Sports physio",
-    "presDermato": "Dermato-functional physio"
+    "presEsthetic": "Aesthetic treatments"
   },
   "Home": {
     "hero": {
@@ -107,45 +105,63 @@
     ],
     "orgsLabel": "Recognised training & bodies"
   },
-  "SoinsPage": {
-    "eyebrow": "Care",
-    "title": "Precise treatment, guided by science.",
+  "Prestations": {
+    "eyebrow": "Services",
+    "title": "Three areas of expertise, one tailored care.",
     "lead": "Medical (with or without a prescription), sport and aesthetic - individualised and recognised by Swiss basic insurance.",
-    "medicalEyebrow": "Medical",
-    "medicalTitle": "Medical physio",
-    "medicalP": "On prescription or direct access, precise care for musculoskeletal conditions: orthopaedics, traumatology, functional rehabilitation and acute or chronic pain.",
-    "medicalD1": "With prescription - 30 min",
-    "medicalD2": "Without prescription - 30 min or 1 h",
-    "medicalTech": [
-      "Orthopaedics",
-      "Traumatology",
-      "Functional rehabilitation",
-      "Pre-operative preparation",
-      "Geriatrics",
-      "Dry needling",
-      "Massage",
-      "Assessment & prevention"
-    ],
-    "sportEyebrow": "Sport",
-    "sportTitle": "Sports follow-up & coaching",
-    "sportP": "A first 30-minute session to assess your needs, then personalised follow-up. For athletes and amateurs alike: goal planning with medical follow-up, coaching and recovery.",
-    "sportD1": "1st session 30 min, then personalised follow-up",
-    "sportTech": [
-      "Assessment",
-      "Goal planning",
-      "Coaching",
-      "Recovery"
-    ],
-    "estheticEyebrow": "Aesthetic",
-    "estheticTitle": "Aesthetic care",
-    "estheticP": "Lymphatic drainage, multilayer bandaging, scar work and LPG® sessions - with or without a prescription, for visible, lasting results.",
-    "estheticD1": "30 min or 1 h",
-    "estheticTech": [
-      "Lymphatic drainage",
-      "Multilayer bandaging",
-      "Scar work",
-      "LPG® session"
-    ]
+    "learnMore": "Learn more",
+    "durationsLabel": "Duration & terms",
+    "expertiseLabel": "Fields & techniques",
+    "medical": {
+      "eyebrow": "Medical",
+      "title": "General & medical physio.",
+      "lead": "Any musculoskeletal condition or injury, recognised by Swiss basic insurance.",
+      "card": "Recognised by all Swiss basic insurance. Any musculoskeletal condition or injury.",
+      "body": "On prescription or direct access, precise care for musculoskeletal conditions: orthopaedics, traumatology, functional rehabilitation and acute or chronic pain.",
+      "durations": ["With prescription - 30 min", "Without prescription - 30 min or 1 h"],
+      "tech": [
+        "Orthopaedics",
+        "Traumatology",
+        "Functional rehabilitation",
+        "Pre-operative preparation",
+        "Geriatrics",
+        "Dry needling",
+        "Massage",
+        "Assessment & prevention"
+      ],
+      "metaDescription": "Medical and general physiotherapy in Lausanne: orthopaedics, traumatology, rehabilitation, dry needling. With or without a prescription, recognised by basic insurance."
+    },
+    "sport": {
+      "eyebrow": "Sport",
+      "title": "Sports physio.",
+      "lead": "From amateur to elite athlete: assessment, planning and recovery, from a physiotherapist who is himself a trail runner.",
+      "card": "Personalised sports follow-up, assessment and goal planning. For every level, from getting back in shape to competition.",
+      "body": "A first 30-minute session to assess your needs, then personalised follow-up. For athletes and amateurs alike: goal planning, coaching and recovery. A trail runner myself, I understand from the inside the demands of effort and recovery.",
+      "durations": ["1st session 30 min, then personalised follow-up"],
+      "tech": [
+        "Assessment",
+        "Goal planning",
+        "Coaching",
+        "Recovery",
+        "Injury prevention"
+      ],
+      "metaDescription": "Sports physiotherapy in Lausanne: assessment, goal planning, prevention and recovery. Athlete follow-up from amateur to elite level."
+    },
+    "esthetic": {
+      "eyebrow": "Aesthetic",
+      "title": "Aesthetic treatments.",
+      "lead": "Lymphatic drainage, endermologie and scar work - with or without a prescription. LPG®-trained and equipped.",
+      "card": "Lymphatic drainage, endermologie and scar work, with or without a prescription. LPG®-trained and equipped.",
+      "body": "Lymphatic drainage, multilayer bandaging, scar work and LPG® sessions - with or without a prescription, for visible, lasting results.",
+      "durations": ["30 min or 1 h"],
+      "tech": [
+        "Lymphatic drainage",
+        "Multilayer bandaging",
+        "Scar work",
+        "LPG® session"
+      ],
+      "metaDescription": "Aesthetic treatments in Lausanne: lymphatic drainage, LPG® endermologie, scar work. With or without a prescription."
+    }
   },
   "CabinetPage": {
     "eyebrow": "The practice",
@@ -206,9 +222,9 @@
       "lead": "Thomas’s background and approach - content to migrate from the current site.",
       "metaDescription": "Thomas Derême, physiotherapist in Lausanne recognised by Swiss basic insurance. Scientific, human approach; trail athlete."
     },
-    "treatments": {
-      "title": "Care",
-      "lead": "Four detailed services - content to migrate from the current site.",
+    "prestations": {
+      "title": "Services",
+      "lead": "General & medical physio, sports physio and aesthetic treatments.",
       "metaDescription": "Medical and sports physio, dry needling, lymphatic drainage and LPG endermologie in Lausanne. With or without a prescription."
     },
     "cabinet": {
@@ -298,22 +314,5 @@
       "rehabilitation",
       "physiotherapist near Lausanne station"
     ]
-  },
-  "SportPage": {
-    "eyebrow": "Sport",
-    "title": "From trail to performance.",
-    "lead": "A trail athlete and physiotherapist, I support athletes - from prevention to performance, up to the highest level.",
-    "metaDescription": "Sports physio in Lausanne: athlete follow-up, prevention and recovery. Thomas Derême, a trail athlete, supports Maximilien Drion.",
-    "athleteEyebrow": "Athlete",
-    "athleteTitle": "Movement, from the inside.",
-    "maxEyebrow": "Elite level",
-    "maxTitle": "Alongside Maximilien Drion.",
-    "maxText": "I support <link>Maximilien Drion</link>, a ski-mountaineering athlete, as a physiotherapist and osteopath in his preparation for international and Olympic competitions.",
-    "maxText2": "A demanding follow-up - injury prevention, recovery and planning - as close as possible to the constraints of elite sport.",
-    "careEyebrow": "Care",
-    "careTitle": "Tailored support, at every step.",
-    "careText": "Assessment, goal planning and personalised follow-up. From a gentle return to competition, I adapt every plan to your practice and your goals.",
-    "athleteP1": "Alongside my work as a physiotherapist, I practise trail running at a high level. This experience lets me understand from the inside the physical, technical and mental demands athletes face - as well as the importance of proper recovery, injury prevention and individualised support.",
-    "athleteP2": "Beyond sport, it reinforces the values that guide my practice every day: listening, rigour, perseverance and care centred on each patient. My goal is to guide everyone, athlete or not, towards lasting recovery - helping them regain confidence in their body, return to their activities in the best conditions and reach their goals safely."
   }
 }
