@@ -145,7 +145,13 @@
         "Récupération",
         "Prévention des blessures"
       ],
-      "metaDescription": "Physiothérapie du sport à Lausanne : bilan, planification d’objectifs, prévention et récupération. Suivi du sportif amateur au haut niveau."
+      "metaDescription": "Physiothérapie du sport à Lausanne : bilan, planification d’objectifs, prévention et récupération. Suivi du sportif amateur au haut niveau.",
+      "max": {
+        "eyebrow": "Haut niveau",
+        "title": "Aux côtés de Maximilien Drion.",
+        "text": "J’accompagne <link>Maximilien Drion</link>, athlète de ski-alpinisme, comme physiothérapeute et ostéopathe dans la préparation de ses compétitions internationales et olympiques.",
+        "text2": "Un suivi exigeant - prévention des blessures, récupération et planification - au plus près des contraintes du sport de haut niveau."
+      }
     },
     "esthetic": {
       "eyebrow": "Esthétique",

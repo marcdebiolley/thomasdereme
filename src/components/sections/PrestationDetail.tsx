@@ -1,3 +1,4 @@
+import type { ReactNode } from 'react';
 import Image from 'next/image';
 import { PageHeader } from '@/components/sections/PageHeader';
 import { CtaBand } from '@/components/sections/CtaBand';
@@ -14,6 +15,7 @@ type Props = {
   expertiseLabel: string;
   image: string;
   alt: string;
+  children?: ReactNode;
 };
 
 function Chips({ items }: { items: string[] }) {
@@ -42,6 +44,7 @@ export function PrestationDetail({
   expertiseLabel,
   image,
   alt,
+  children,
 }: Props) {
   return (
     <>
@@ -86,6 +89,8 @@ export function PrestationDetail({
           </div>
         </div>
       </Container>
+
+      {children}
 
       <CtaBand />
     </>
