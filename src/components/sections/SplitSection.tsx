@@ -34,6 +34,7 @@ export function SplitSection({
             src={image}
             alt={alt}
             fill
+            quality={90}
             sizes="(max-width: 1024px) 100vw, 560px"
             className="object-cover"
             priority={priority}

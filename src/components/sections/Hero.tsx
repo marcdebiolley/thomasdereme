@@ -49,6 +49,7 @@ export async function Hero() {
             src="/images/hero-b.webp"
             alt={`${SITE.name} — coureur de trail`}
             fill
+            quality={90}
             priority
             sizes="(max-width: 1024px) 50vw, 280px"
             className="object-cover"
@@ -59,6 +60,7 @@ export async function Hero() {
             src="/images/hero-a.webp"
             alt={`${SITE.name} — physiothérapeute à Lausanne`}
             fill
+            quality={90}
             sizes="(max-width: 1024px) 50vw, 280px"
             className="object-cover"
           />

@@ -94,6 +94,7 @@ export default async function PhysioPage({
                 src="/images/trail-main.webp"
                 alt={`${SITE.name} — coureur de trail`}
                 fill
+                quality={90}
                 sizes="(max-width: 1024px) 100vw, 560px"
                 className="object-cover"
               />
