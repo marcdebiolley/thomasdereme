@@ -49,50 +49,48 @@ export default async function PhysioSportPage({
       {/* Maximilien Drion */}
       <section className="border-t border-line">
         <Container className="py-16 md:py-24">
-          <div data-reveal className="max-w-2xl">
-            <div className="eyebrow">{tm('eyebrow')}</div>
-            <h2 className="display font-normal text-[clamp(28px,3.8vw,48px)] leading-[1.1] tracking-[-0.01em] text-ink mt-5">
-              {tm('title')}
-            </h2>
-          </div>
+          <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
+            <div data-reveal className="grid grid-cols-3 gap-3 md:gap-4">
+              {['skimo-1', 'skimo-2', 'skimo-3'].map((img) => (
+                <div
+                  key={img}
+                  className="relative aspect-[3/4] rounded-[12px] overflow-hidden bg-[#e4e3dd]"
+                >
+                  <Image
+                    src={`/images/${img}.webp`}
+                    alt={`${SITE.name} - Maximilien Drion, ski-alpinisme`}
+                    fill
+                    quality={95}
+                    sizes="(max-width: 1024px) 33vw, 190px"
+                    className="object-cover"
+                  />
+                </div>
+              ))}
+            </div>
 
-          <div className="grid grid-cols-3 gap-3 md:gap-5 mt-8">
-            {['skimo-1', 'skimo-2', 'skimo-3'].map((img) => (
-              <div
-                key={img}
-                className="relative aspect-[3/4] rounded-[14px] overflow-hidden bg-[#e4e3dd]"
-              >
-                <Image
-                  src={`/images/${img}.webp`}
-                  alt={`${SITE.name} - Maximilien Drion, ski-alpinisme`}
-                  fill
-                  quality={95}
-                  sizes="(max-width: 768px) 33vw, 380px"
-                  className="object-cover"
-                />
+            <div data-reveal>
+              <div className="eyebrow">{tm('eyebrow')}</div>
+              <h2 className="display font-normal text-[clamp(28px,3.4vw,44px)] leading-[1.12] tracking-[-0.01em] text-ink mt-5">
+                {tm('title')}
+              </h2>
+              <div className="mt-6 text-muted text-base leading-[1.8] space-y-4">
+                <p>
+                  {tm.rich('text', {
+                    link: (chunks) => (
+                      <a
+                        href="https://maximiliendrion.com/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-ink underline hover:text-taupe"
+                      >
+                        {chunks}
+                      </a>
+                    ),
+                  })}
+                </p>
+                <p>{tm('text2')}</p>
               </div>
-            ))}
-          </div>
-
-          <div
-            data-reveal
-            className="mt-8 max-w-2xl text-muted text-base leading-[1.8] space-y-4"
-          >
-            <p>
-              {tm.rich('text', {
-                link: (chunks) => (
-                  <a
-                    href="https://maximiliendrion.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-ink underline hover:text-taupe"
-                  >
-                    {chunks}
-                  </a>
-                ),
-              })}
-            </p>
-            <p>{tm('text2')}</p>
+            </div>
           </div>
         </Container>
       </section>
