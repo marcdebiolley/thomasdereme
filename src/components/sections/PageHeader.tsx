@@ -12,7 +12,7 @@ export function PageHeader({
 }) {
   return (
     <section className="border-b border-line">
-      <Container className="pt-12 md:pt-20 pb-12 md:pb-16">
+      <Container className="pt-14 md:pt-24 pb-16 md:pb-24">
         {eyebrow && <span className="eyebrow">{eyebrow}</span>}
         <h1 className="display font-normal text-4xl md:text-[56px] tracking-[-0.01em] mt-5 leading-[1.05] text-ink">
           {title}
