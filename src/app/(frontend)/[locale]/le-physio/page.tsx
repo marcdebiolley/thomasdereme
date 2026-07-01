@@ -8,7 +8,7 @@ import { SplitSection } from '@/components/sections/SplitSection';
 import { CtaBand } from '@/components/sections/CtaBand';
 import { Container } from '@/components/ui/Container';
 import { Link } from '@/i18n/navigation';
-import { SITE } from '@/lib/site';
+import { SITE, CERTIFICATIONS } from '@/lib/site';
 import { linkUnderline } from '@/components/ui/button';
 
 export async function generateMetadata({
@@ -116,6 +116,23 @@ export default async function PhysioPage({
               {(t.raw('formations') as string[]).map((p) => (
                 <p key={p.slice(0, 24)}>{p}</p>
               ))}
+            </div>
+
+            <div className="mt-10">
+              <p className="ph mb-4">{t('orgsLabel')}</p>
+              <div className="flex flex-wrap gap-2.5">
+                {CERTIFICATIONS.map((c) => (
+                  <a
+                    key={c.name}
+                    href={c.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn font-sans text-sm text-muted border border-line rounded-full px-5 py-2.5 hover:text-ink hover:border-ink transition-colors"
+                  >
+                    {c.name}
+                  </a>
+                ))}
+              </div>
             </div>
           </div>
         </Container>

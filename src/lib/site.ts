@@ -31,3 +31,14 @@ export const SITE = {
 } as const;
 
 export const emailHref = `mailto:${SITE.email}`;
+
+/** Recognised training bodies / certifications — outbound links (SEO/GEO). */
+export const CERTIFICATIONS = [
+  {
+    name: 'Croix-Rouge suisse',
+    url: 'https://www.redcross.ch/fr/notre-offre/professions-de-la-sante-reconnaissance-et-enregistrement',
+  },
+  { name: 'Méthode Leduc', url: 'https://www.lympho.net/' },
+  { name: 'David G. Simons Academy', url: 'https://www.dgs-academy.com/' },
+  { name: 'LPG endermologie', url: 'https://www.lpg-group.com/fr' },
+] as const;
