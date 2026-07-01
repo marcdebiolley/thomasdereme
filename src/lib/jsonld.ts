@@ -1,12 +1,12 @@
 import { SITE } from './site';
 
-/** Physiotherapy LocalBusiness schema — local SEO + GEO/IA, used on the home page. */
+/** Physiotherapy LocalBusiness schema - local SEO + GEO/IA, used on the home page. */
 export function physiotherapyJsonLd() {
   return {
     '@context': 'https://schema.org',
     '@type': 'Physiotherapy',
     '@id': `${SITE.url}/#business`,
-    name: 'Thomas Derême — Physiothérapeute',
+    name: 'Thomas Derême - Physiothérapeute',
     description:
       'Physiothérapie à Lausanne : médical, sport et esthétique. Dry needling, drainage lymphatique, LPG endermologie. Reconnu par les assurances de base suisses.',
     url: SITE.url,

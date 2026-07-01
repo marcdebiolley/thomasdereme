@@ -30,7 +30,7 @@ export default async function LegalNoticePage({
       <PageHeader title={t('title')} />
       <Container className="py-16 md:py-24">
         <div className="max-w-2xl text-sm text-muted space-y-2 leading-relaxed">
-          <p className="text-ink font-medium">Thomas Derême — Physiothérapeute</p>
+          <p className="text-ink font-medium">Thomas Derême - Physiothérapeute</p>
           <p>
             {SITE.address.street}, {SITE.address.postalCode} {SITE.address.locality},
             Suisse
@@ -45,7 +45,7 @@ export default async function LegalNoticePage({
             </a>
           </p>
           <p className="pt-4 italic">
-            {/* TODO: statut (indépendant), N° IDE/TVA, hébergeur — à compléter. */}
+            {/* TODO: statut (indépendant), N° IDE/TVA, hébergeur - à compléter. */}
             Informations légales complètes à compléter (statut, N° IDE/TVA, hébergeur).
           </p>
         </div>

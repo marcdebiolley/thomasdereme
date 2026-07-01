@@ -1,5 +1,5 @@
 /**
- * Non-translated site constants — contact, address, geo, socials.
+ * Non-translated site constants - contact, address, geo, socials.
  * Single source of truth for JSON-LD, footer, booking and legal pages.
  */
 export const SITE = {
@@ -14,7 +14,7 @@ export const SITE = {
     region: 'Vaud',
     country: 'CH',
   },
-  /** Approx. coordinates of 12 Rue du Midi, Lausanne — refine before go-live. */
+  /** Approx. coordinates of 12 Rue du Midi, Lausanne - refine before go-live. */
   geo: { lat: 46.5167, lng: 6.6296 },
   social: {
     instagram: 'https://www.instagram.com/',
@@ -32,7 +32,7 @@ export const SITE = {
 
 export const emailHref = `mailto:${SITE.email}`;
 
-/** Recognised training bodies / certifications — outbound links (SEO/GEO). */
+/** Recognised training bodies / certifications - outbound links (SEO/GEO). */
 export const CERTIFICATIONS = [
   {
     name: 'Croix-Rouge suisse',

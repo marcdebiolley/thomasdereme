@@ -1,7 +1,7 @@
 @import 'tailwindcss';
 
 /* ------------------------------------------------------------------ */
-/* Design tokens — ported 1:1 from the validated « Thomas Dereme Serif »*/
+/* Design tokens - ported 1:1 from the validated « Thomas Dereme Serif »*/
 /* design. Fonts injected as CSS vars by next/font (see layout).        */
 /* ------------------------------------------------------------------ */
 @theme {
@@ -11,7 +11,7 @@
   --color-body: #26251f; /* body text */
   --color-muted: #56544c; /* secondary text */
   --color-muted2: #54524a; /* nav links */
-  --color-taupe: #7c7468; /* accent — italics, numerals */
+  --color-taupe: #7c7468; /* accent - italics, numerals */
   --color-taupe-soft: #8a8478; /* eyebrows */
   --color-line: #cfcbc0; /* hairlines */
   --color-cream: #eceae2; /* text / pills on dark */
@@ -37,7 +37,7 @@ body {
   font-family: var(--font-serif);
 }
 
-/* Eyebrow — uppercase, wide tracking, taupe */
+/* Eyebrow - uppercase, wide tracking, taupe */
 .eyebrow {
   font-family: var(--font-sans);
   font-weight: 600;
@@ -75,7 +75,7 @@ body {
   color: rgba(255, 255, 255, 0.28);
 }
 
-/* Service rows — slide right + warm the numeral on hover */
+/* Service rows - slide right + warm the numeral on hover */
 .svcrow {
   transition: padding-left 0.5s cubic-bezier(0.2, 0.7, 0.2, 1);
 }

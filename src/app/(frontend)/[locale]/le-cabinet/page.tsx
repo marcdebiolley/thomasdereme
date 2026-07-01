@@ -145,7 +145,7 @@ export default async function CabinetPage({
             {t('accessTitle')}
           </h2>
           <p className="text-ink font-medium mt-6 text-lg">
-            {SITE.address.street} — {SITE.address.postalCode} {SITE.address.locality}
+            {SITE.address.street} - {SITE.address.postalCode} {SITE.address.locality}
           </p>
           <p className="text-muted leading-[1.8] mt-3 max-w-md">{t('accessText')}</p>
         </div>

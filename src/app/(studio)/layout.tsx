@@ -1,5 +1,5 @@
 export const metadata = {
-  title: 'Studio — Thomas Derême',
+  title: 'Studio - Thomas Derême',
   robots: { index: false, follow: false },
 };
 

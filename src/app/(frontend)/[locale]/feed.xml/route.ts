@@ -26,7 +26,7 @@ export async function GET(
 
   const listUrl = `${SITE.url}${getPathname({ locale, href: '/articles' })}`;
   const selfUrl = `${SITE.url}/${locale}/feed.xml`;
-  const title = `${SITE.name} — Articles`;
+  const title = `${SITE.name} - Articles`;
   const description = isFr
     ? 'Prévention, récupération, trail & performance, techniques et conseils.'
     : 'Prevention, recovery, trail & performance, techniques and tips.';

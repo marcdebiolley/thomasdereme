@@ -42,7 +42,7 @@ export default async function SportPage({
         eyebrow={t('athleteEyebrow')}
         title={t('athleteTitle')}
         image="/images/trail-main.webp"
-        alt={`${SITE.name} — coureur de trail`}
+        alt={`${SITE.name} - coureur de trail`}
         priority
       >
         <p>{t('athleteP1')}</p>
@@ -85,7 +85,7 @@ export default async function SportPage({
               >
                 <Image
                   src={`/images/${img}.webp`}
-                  alt={`${SITE.name} — Maximilien Drion, ski-alpinisme`}
+                  alt={`${SITE.name} - Maximilien Drion, ski-alpinisme`}
                   fill
                   quality={95}
                   sizes="(max-width: 768px) 33vw, 380px"
@@ -123,7 +123,7 @@ export default async function SportPage({
         eyebrow={t('careEyebrow')}
         title={t('careTitle')}
         image="/images/sport.webp"
-        alt={`${SITE.name} — prise en charge du sportif`}
+        alt={`${SITE.name} - prise en charge du sportif`}
       >
         <p>{t('careText')}</p>
       </SplitSection>

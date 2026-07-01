@@ -16,7 +16,7 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ message: 'Invalid secret' }, { status: 401 });
   }
 
-  // Revalidate the whole site on content publish (small site — simple + safe).
+  // Revalidate the whole site on content publish (small site - simple + safe).
   revalidatePath('/', 'layout');
   return NextResponse.json({ revalidated: true });
 }

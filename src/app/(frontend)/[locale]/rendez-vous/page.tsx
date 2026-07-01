@@ -41,7 +41,7 @@ export default async function BookingPage({
         <aside className="text-sm text-muted space-y-4">
           <div>
             <p className="text-ink font-medium">
-              {SITE.address.street} — {SITE.address.postalCode} {SITE.address.locality}
+              {SITE.address.street} - {SITE.address.postalCode} {SITE.address.locality}
             </p>
             <p>Maison-B (cabinet Dr Burgener)</p>
           </div>

@@ -1,7 +1,7 @@
 import { defineRouting } from 'next-intl/routing';
 
 /**
- * Bilingual routing — FR (default) + EN, both prefixed (/fr, /en).
+ * Bilingual routing - FR (default) + EN, both prefixed (/fr, /en).
  * `pathnames` keys are the canonical hrefs you pass to <Link>; next-intl
  * swaps in the localized segment per locale and keeps hreflang in sync.
  */

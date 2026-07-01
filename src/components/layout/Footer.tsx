@@ -28,7 +28,7 @@ export function Footer() {
 
         <div className="text-sm text-muted space-y-1">
           <p>
-            {SITE.address.street} — {SITE.address.postalCode} {SITE.address.locality}
+            {SITE.address.street} - {SITE.address.postalCode} {SITE.address.locality}
           </p>
           <p>
             <a href={emailHref} className="hover:text-ink transition-colors">

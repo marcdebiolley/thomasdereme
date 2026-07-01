@@ -27,7 +27,7 @@ const subscribe = (cb: () => void) => {
 const serverSnapshot = (): Consent => 'unset';
 
 export function ConsentProvider({ children }: { children: ReactNode }) {
-  // Read the cookie via an external store — avoids setState-in-effect and
+  // Read the cookie via an external store - avoids setState-in-effect and
   // hydrates cleanly ('unset' on the server, real value on the client).
   const consent = useSyncExternalStore(subscribe, readConsent, serverSnapshot);
 

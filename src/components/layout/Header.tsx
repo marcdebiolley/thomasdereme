@@ -29,7 +29,7 @@ export function Header() {
             {t('physio')}
           </Link>
 
-          {/* Les prestations — dropdown */}
+          {/* Les prestations - dropdown */}
           <div className="relative group">
             <Link
               href="/les-traitements"

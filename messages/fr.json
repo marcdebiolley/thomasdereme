@@ -17,11 +17,11 @@
       "titleLine1": "L’exigence",
       "titleLine2": "du soin,",
       "titleItalic": "dans un cadre adapté.",
-      "lead": "Médical, sport et esthétique — un suivi sur mesure, reconnu par les assurances de base suisses, dans un cadre confortable et soigné.",
+      "lead": "Médical, sport et esthétique - un suivi sur mesure, reconnu par les assurances de base suisses, dans un cadre confortable et soigné.",
       "ctaBook": "Réserver une séance",
       "ctaCabinet": "Découvrir le cabinet",
       "vertical": "Soin · Mouvement · Récupération",
-      "portraitLabel": "Portrait — à remplacer"
+      "portraitLabel": "Portrait - à remplacer"
     },
     "services": {
       "items": [
@@ -45,9 +45,9 @@
     "cabinet": {
       "eyebrow": "Le cabinet",
       "title": "Un espace physio au cœur de votre ville.",
-      "text": "Le cabinet se situe dans la Maison-B du Dr Burgener — un lieu confortable et soigné, à 400 m de la gare de Lausanne et à 350 m de la place Saint-François.",
+      "text": "Le cabinet se situe dans la Maison-B du Dr Burgener - un lieu confortable et soigné, à 400 m de la gare de Lausanne et à 350 m de la place Saint-François.",
       "cta": "Découvrir le cabinet",
-      "photoLabel": "le cabinet — à remplacer"
+      "photoLabel": "le cabinet - à remplacer"
     },
     "contact": {
       "eyebrow": "Contactez-moi",
@@ -61,7 +61,7 @@
     "quote": "Le corps s’adapte à ce que vous lui proposez."
   },
   "Footer": {
-    "tagline": "Physiothérapeute — Médical · Sport · Esthétique"
+    "tagline": "Physiothérapeute - Médical · Sport · Esthétique"
   },
   "Common": {
     "name": "Thomas Derême",
@@ -92,7 +92,7 @@
     "parcoursP3": "Animé par l’envie sincère d’aider, je m’engage à accompagner mes patients vers leur meilleure version, que ce soit dans la récupération, la prévention ou la performance.",
     "trailEyebrow": "Sport & trail",
     "trailTitle": "Sportif de haut niveau en trail.",
-    "trailP1": "Coureur de trail, je connais de l’intérieur les exigences de l’effort et de la récupération — une compréhension du sport qui nourrit chaque accompagnement.",
+    "trailP1": "Coureur de trail, je connais de l’intérieur les exigences de l’effort et de la récupération - une compréhension du sport qui nourrit chaque accompagnement.",
     "follow": "Suivre Thomas",
     "formationsEyebrow": "Mes formations",
     "formationsTitle": "Rester à la pointe.",
@@ -110,12 +110,12 @@
   "SoinsPage": {
     "eyebrow": "Les soins",
     "title": "Un traitement précis, guidé par la science.",
-    "lead": "Médical (avec ou sans ordonnance), sport et esthétique — individualisés et reconnus par les assurances de base suisses.",
+    "lead": "Médical (avec ou sans ordonnance), sport et esthétique - individualisés et reconnus par les assurances de base suisses.",
     "medicalEyebrow": "Médical",
     "medicalTitle": "Physio médical",
     "medicalP": "Sur ordonnance ou en accès direct, une prise en charge précise des troubles de l’appareil musculosquelettique : orthopédie, traumatologie, rééducation fonctionnelle et douleurs aiguës ou chroniques.",
-    "medicalD1": "Sur ordonnance — 30 min",
-    "medicalD2": "Sans ordonnance — 30 min ou 1 h",
+    "medicalD1": "Sur ordonnance - 30 min",
+    "medicalD2": "Sans ordonnance - 30 min ou 1 h",
     "medicalTech": [
       "Orthopédie",
       "Traumatologie",
@@ -138,7 +138,7 @@
     ],
     "estheticEyebrow": "Esthétique",
     "estheticTitle": "Soins esthétiques",
-    "estheticP": "Drainage lymphatique, bandage multicouche, travail cicatriciel et séances LPG® — avec ou sans prescription, pour des résultats visibles et durables.",
+    "estheticP": "Drainage lymphatique, bandage multicouche, travail cicatriciel et séances LPG® - avec ou sans prescription, pour des résultats visibles et durables.",
     "estheticD1": "30 min ou 1 h",
     "estheticTech": [
       "Drainage lymphatique",
@@ -151,7 +151,7 @@
     "eyebrow": "Le cabinet",
     "title": "Un espace confortable et soigné.",
     "lead": "Un espace pensé pour se sentir accompagné, au sein de la Maison-B, dans l’enceinte du cabinet du Dr Burgener.",
-    "galleryEntree": "L’entrée — Maison.b",
+    "galleryEntree": "L’entrée - Maison.b",
     "gallerySalle": "La salle active",
     "gallerySanitaires": "Douche & sanitaires",
     "galleryEquipement": "Récupération & équipements",
@@ -198,22 +198,22 @@
     "accessEyebrow": "Accès & localisation",
     "accessTitle": "Au cœur de Lausanne.",
     "accessText": "Maison-B (cabinet du Dr Burgener), à 400 m de la gare de Lausanne. Quelques places dans la rue, parking Alpha-Palmiers à 200 m.",
-    "mapPlaceholder": "Carte — affichée après acceptation des cookies."
+    "mapPlaceholder": "Carte - affichée après acceptation des cookies."
   },
   "Pages": {
     "physio": {
       "title": "Le physio",
-      "lead": "Présentation et parcours de Thomas — contenu à migrer depuis le site actuel.",
+      "lead": "Présentation et parcours de Thomas - contenu à migrer depuis le site actuel.",
       "metaDescription": "Thomas Derême, physiothérapeute à Lausanne reconnu par les assurances de base. Approche scientifique et humaine ; athlète de trail."
     },
     "treatments": {
       "title": "Les soins",
-      "lead": "Quatre prestations détaillées — contenu à migrer depuis le site actuel.",
+      "lead": "Quatre prestations détaillées - contenu à migrer depuis le site actuel.",
       "metaDescription": "Physio médical et du sport, dry needling, drainage lymphatique et LPG endermologie à Lausanne. Avec ou sans ordonnance."
     },
     "cabinet": {
       "title": "Le cabinet",
-      "lead": "Espaces et équipements — contenu à migrer depuis le site actuel.",
+      "lead": "Espaces et équipements - contenu à migrer depuis le site actuel.",
       "metaDescription": "Cabinet de physiothérapie à Lausanne (Maison-B), à 400 m de la gare. Salle active, LPG, bottes de compression, chambre infrarouge, Iyashi Dôme."
     },
     "articles": {
@@ -228,7 +228,7 @@
     },
     "booking": {
       "title": "Prendre rendez-vous",
-      "lead": "Une question ? Contactez-moi pour toute demande concernant mes prestations. Réservez votre séance en ligne via OneDoc — je réponds généralement sous 1 à 2 jours ouvrables.",
+      "lead": "Une question ? Contactez-moi pour toute demande concernant mes prestations. Réservez votre séance en ligne via OneDoc - je réponds généralement sous 1 à 2 jours ouvrables.",
       "widgetPlaceholder": "Le module de réservation OneDoc s’affichera ici une fois le compte connecté.",
       "metaDescription": "Prendre rendez-vous avec votre physiothérapeute à Lausanne, proche de la gare. Réservation en ligne via OneDoc."
     },
@@ -282,7 +282,7 @@
   },
   "Metadata": {
     "siteName": "Thomas Derême Physiothérapeute",
-    "titleTemplate": "%s | Thomas Derême Physiothérapeute — Lausanne",
+    "titleTemplate": "%s | Thomas Derême Physiothérapeute - Lausanne",
     "defaultTitle": "Physiothérapeute à Lausanne",
     "home": {
       "title": "Accueil",
@@ -302,14 +302,14 @@
   "SportPage": {
     "eyebrow": "Le sport",
     "title": "Du trail à la performance.",
-    "lead": "Athlète de trail et physiothérapeute, j’accompagne les sportifs — de la prévention à la performance, jusqu’au plus haut niveau.",
+    "lead": "Athlète de trail et physiothérapeute, j’accompagne les sportifs - de la prévention à la performance, jusqu’au plus haut niveau.",
     "metaDescription": "Physio du sport à Lausanne : suivi du sportif, prévention et récupération. Thomas Derême, athlète de trail, accompagne Maximilien Drion.",
     "athleteEyebrow": "Athlète",
     "athleteTitle": "Le mouvement, de l’intérieur.",
     "maxEyebrow": "Haut niveau",
     "maxTitle": "Aux côtés de Maximilien Drion.",
     "maxText": "J’accompagne <link>Maximilien Drion</link>, athlète de ski-alpinisme, comme physiothérapeute et ostéopathe dans la préparation de ses compétitions internationales et olympiques.",
-    "maxText2": "Un suivi exigeant — prévention des blessures, récupération et planification — au plus près des contraintes du sport de haut niveau.",
+    "maxText2": "Un suivi exigeant - prévention des blessures, récupération et planification - au plus près des contraintes du sport de haut niveau.",
     "careEyebrow": "Prise en charge",
     "careTitle": "Un suivi sur mesure, à chaque étape.",
     "careText": "Bilan, planification d’objectifs et suivi personnalisé. De la reprise en douceur jusqu’à la compétition, j’adapte chaque accompagnement à votre pratique et à vos objectifs.",

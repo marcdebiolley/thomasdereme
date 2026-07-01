@@ -44,7 +44,7 @@ export default async function PhysioPage({
         eyebrow={t('parcoursEyebrow')}
         title={t('parcoursTitle')}
         image="/images/physio.webp"
-        alt={`${SITE.name} — physiothérapeute à Lausanne`}
+        alt={`${SITE.name} - physiothérapeute à Lausanne`}
         priority
       >
         <p>{t('parcoursP1')}</p>
@@ -52,7 +52,7 @@ export default async function PhysioPage({
         <p>{t('parcoursP3')}</p>
       </SplitSection>
 
-      {/* Trail — emphasis on the sport/athlete identity */}
+      {/* Trail - emphasis on the sport/athlete identity */}
       <section className="border-t border-line">
         <Container className="py-16 md:py-24">
           <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
@@ -92,7 +92,7 @@ export default async function PhysioPage({
             >
               <Image
                 src="/images/trail-main.webp"
-                alt={`${SITE.name} — coureur de trail`}
+                alt={`${SITE.name} - coureur de trail`}
                 fill
                 quality={95}
                 sizes="(max-width: 1024px) 100vw, 560px"

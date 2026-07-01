@@ -17,11 +17,11 @@
       "titleLine1": "The standard",
       "titleLine2": "of care,",
       "titleItalic": "in a setting that fits.",
-      "lead": "Medical, sport and aesthetic — tailored care, recognised by Swiss basic insurance, in a comfortable, considered setting.",
+      "lead": "Medical, sport and aesthetic - tailored care, recognised by Swiss basic insurance, in a comfortable, considered setting.",
       "ctaBook": "Book a session",
       "ctaCabinet": "Discover the practice",
       "vertical": "Care · Movement · Recovery",
-      "portraitLabel": "Portrait — to replace"
+      "portraitLabel": "Portrait - to replace"
     },
     "services": {
       "items": [
@@ -45,9 +45,9 @@
     "cabinet": {
       "eyebrow": "The practice",
       "title": "A physio space in the heart of your city.",
-      "text": "The practice is inside Dr Burgener’s Maison-B — a comfortable, considered space, 400 m from Lausanne station and 350 m from Place Saint-François.",
+      "text": "The practice is inside Dr Burgener’s Maison-B - a comfortable, considered space, 400 m from Lausanne station and 350 m from Place Saint-François.",
       "cta": "Discover the practice",
-      "photoLabel": "the practice — to replace"
+      "photoLabel": "the practice - to replace"
     },
     "contact": {
       "eyebrow": "Get in touch",
@@ -61,7 +61,7 @@
     "quote": "The body adapts to what you ask of it."
   },
   "Footer": {
-    "tagline": "Physiotherapist — Medical · Sport · Aesthetic"
+    "tagline": "Physiotherapist - Medical · Sport · Aesthetic"
   },
   "Common": {
     "name": "Thomas Derême",
@@ -87,12 +87,12 @@
     "lead": "I’m a physiotherapist, trained in Belgium, with a passion for movement, health and performance. My path has taken me through varied settings: from professional sport to general private practice, and specialised fields such as senology and geriatrics.",
     "parcoursEyebrow": "Background",
     "parcoursTitle": "Listen, understand, adapt.",
-    "parcoursP1": "These experiences let me discover different approaches to physiotherapy and develop a rich, nuanced view of care. I learned there is no single way to treat — but a multitude of paths, to adapt to each patient.",
+    "parcoursP1": "These experiences let me discover different approaches to physiotherapy and develop a rich, nuanced view of care. I learned there is no single way to treat - but a multitude of paths, to adapt to each patient.",
     "parcoursP2": "My practice draws on scientifically validated techniques while giving listening an essential place. Every person is unique, with their own story, goals and needs. My role is to understand that uniqueness and offer tailored support.",
-    "parcoursP3": "Driven by a sincere desire to help, I commit to guiding my patients towards their best version — in recovery, prevention or performance.",
+    "parcoursP3": "Driven by a sincere desire to help, I commit to guiding my patients towards their best version - in recovery, prevention or performance.",
     "trailEyebrow": "Sport & trail",
     "trailTitle": "A high-level trail athlete.",
-    "trailP1": "A trail runner myself, I know the demands of effort and recovery from the inside — an understanding of sport that informs every session.",
+    "trailP1": "A trail runner myself, I know the demands of effort and recovery from the inside - an understanding of sport that informs every session.",
     "follow": "Follow Thomas",
     "formationsEyebrow": "Training",
     "formationsTitle": "Staying at the forefront.",
@@ -110,12 +110,12 @@
   "SoinsPage": {
     "eyebrow": "Care",
     "title": "Precise treatment, guided by science.",
-    "lead": "Medical (with or without a prescription), sport and aesthetic — individualised and recognised by Swiss basic insurance.",
+    "lead": "Medical (with or without a prescription), sport and aesthetic - individualised and recognised by Swiss basic insurance.",
     "medicalEyebrow": "Medical",
     "medicalTitle": "Medical physio",
     "medicalP": "On prescription or direct access, precise care for musculoskeletal conditions: orthopaedics, traumatology, functional rehabilitation and acute or chronic pain.",
-    "medicalD1": "With prescription — 30 min",
-    "medicalD2": "Without prescription — 30 min or 1 h",
+    "medicalD1": "With prescription - 30 min",
+    "medicalD2": "Without prescription - 30 min or 1 h",
     "medicalTech": [
       "Orthopaedics",
       "Traumatology",
@@ -138,7 +138,7 @@
     ],
     "estheticEyebrow": "Aesthetic",
     "estheticTitle": "Aesthetic care",
-    "estheticP": "Lymphatic drainage, multilayer bandaging, scar work and LPG® sessions — with or without a prescription, for visible, lasting results.",
+    "estheticP": "Lymphatic drainage, multilayer bandaging, scar work and LPG® sessions - with or without a prescription, for visible, lasting results.",
     "estheticD1": "30 min or 1 h",
     "estheticTech": [
       "Lymphatic drainage",
@@ -151,7 +151,7 @@
     "eyebrow": "The practice",
     "title": "A comfortable, considered space.",
     "lead": "A space designed to make you feel cared for, inside Maison-B, within Dr Burgener’s practice.",
-    "galleryEntree": "The entrance — Maison.b",
+    "galleryEntree": "The entrance - Maison.b",
     "gallerySalle": "The active room",
     "gallerySanitaires": "Shower & facilities",
     "galleryEquipement": "Recovery & equipment",
@@ -198,22 +198,22 @@
     "accessEyebrow": "Access & location",
     "accessTitle": "In the heart of Lausanne.",
     "accessText": "Maison-B (Dr Burgener’s practice), 400 m from Lausanne station. A few spaces on the street, Alpha-Palmiers car park 200 m away.",
-    "mapPlaceholder": "Map — shown after you accept cookies."
+    "mapPlaceholder": "Map - shown after you accept cookies."
   },
   "Pages": {
     "physio": {
       "title": "The physio",
-      "lead": "Thomas’s background and approach — content to migrate from the current site.",
+      "lead": "Thomas’s background and approach - content to migrate from the current site.",
       "metaDescription": "Thomas Derême, physiotherapist in Lausanne recognised by Swiss basic insurance. Scientific, human approach; trail athlete."
     },
     "treatments": {
       "title": "Care",
-      "lead": "Four detailed services — content to migrate from the current site.",
+      "lead": "Four detailed services - content to migrate from the current site.",
       "metaDescription": "Medical and sports physio, dry needling, lymphatic drainage and LPG endermologie in Lausanne. With or without a prescription."
     },
     "cabinet": {
       "title": "The practice",
-      "lead": "Spaces and equipment — content to migrate from the current site.",
+      "lead": "Spaces and equipment - content to migrate from the current site.",
       "metaDescription": "Physiotherapy practice in Lausanne (Maison-B), 400 m from the station. Active room, LPG, compression boots, infrared room, Iyashi Dôme."
     },
     "articles": {
@@ -228,7 +228,7 @@
     },
     "booking": {
       "title": "Book an appointment",
-      "lead": "A question? Get in touch about any of my services. Book your session online through OneDoc — I usually reply within 1 to 2 working days.",
+      "lead": "A question? Get in touch about any of my services. Book your session online through OneDoc - I usually reply within 1 to 2 working days.",
       "widgetPlaceholder": "The OneDoc booking module will appear here once the account is connected.",
       "metaDescription": "Book your physiotherapist in Lausanne, near the station. Online booking via OneDoc."
     },
@@ -259,7 +259,7 @@
       },
       {
         "q": "Are sessions recognised by insurance?",
-        "a": "Yes — medical physiotherapy on prescription is recognised by Swiss basic insurance (LAMal)."
+        "a": "Yes - medical physiotherapy on prescription is recognised by Swiss basic insurance (LAMal)."
       },
       {
         "q": "Where is the practice?",
@@ -282,7 +282,7 @@
   },
   "Metadata": {
     "siteName": "Thomas Derême Physiotherapist",
-    "titleTemplate": "%s | Thomas Derême Physiotherapist — Lausanne",
+    "titleTemplate": "%s | Thomas Derême Physiotherapist - Lausanne",
     "defaultTitle": "Physiotherapist in Lausanne",
     "home": {
       "title": "Home",
@@ -302,18 +302,18 @@
   "SportPage": {
     "eyebrow": "Sport",
     "title": "From trail to performance.",
-    "lead": "A trail athlete and physiotherapist, I support athletes — from prevention to performance, up to the highest level.",
+    "lead": "A trail athlete and physiotherapist, I support athletes - from prevention to performance, up to the highest level.",
     "metaDescription": "Sports physio in Lausanne: athlete follow-up, prevention and recovery. Thomas Derême, a trail athlete, supports Maximilien Drion.",
     "athleteEyebrow": "Athlete",
     "athleteTitle": "Movement, from the inside.",
     "maxEyebrow": "Elite level",
     "maxTitle": "Alongside Maximilien Drion.",
     "maxText": "I support <link>Maximilien Drion</link>, a ski-mountaineering athlete, as a physiotherapist and osteopath in his preparation for international and Olympic competitions.",
-    "maxText2": "A demanding follow-up — injury prevention, recovery and planning — as close as possible to the constraints of elite sport.",
+    "maxText2": "A demanding follow-up - injury prevention, recovery and planning - as close as possible to the constraints of elite sport.",
     "careEyebrow": "Care",
     "careTitle": "Tailored support, at every step.",
     "careText": "Assessment, goal planning and personalised follow-up. From a gentle return to competition, I adapt every plan to your practice and your goals.",
-    "athleteP1": "Alongside my work as a physiotherapist, I practise trail running at a high level. This experience lets me understand from the inside the physical, technical and mental demands athletes face — as well as the importance of proper recovery, injury prevention and individualised support.",
-    "athleteP2": "Beyond sport, it reinforces the values that guide my practice every day: listening, rigour, perseverance and care centred on each patient. My goal is to guide everyone, athlete or not, towards lasting recovery — helping them regain confidence in their body, return to their activities in the best conditions and reach their goals safely."
+    "athleteP1": "Alongside my work as a physiotherapist, I practise trail running at a high level. This experience lets me understand from the inside the physical, technical and mental demands athletes face - as well as the importance of proper recovery, injury prevention and individualised support.",
+    "athleteP2": "Beyond sport, it reinforces the values that guide my practice every day: listening, rigour, perseverance and care centred on each patient. My goal is to guide everyone, athlete or not, towards lasting recovery - helping them regain confidence in their body, return to their activities in the best conditions and reach their goals safely."
   }
 }

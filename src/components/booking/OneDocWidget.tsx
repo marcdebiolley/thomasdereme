@@ -53,7 +53,7 @@ export function OneDocWidget({ locale = 'fr' }: { locale?: string }) {
     <iframe
       ref={ref}
       id={`od-widget-${id}`}
-      title="Réservation en ligne — OneDoc"
+      title="Réservation en ligne - OneDoc"
       src="about:blank"
       className="od-widget w-full rounded-2xl border border-line"
       style={{ maxWidth: 1024, height: 400 }}

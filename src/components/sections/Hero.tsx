@@ -39,7 +39,7 @@ export async function Hero() {
         </div>
       </div>
 
-      {/* image composition — two staggered photos */}
+      {/* image composition - two staggered photos */}
       <div
         data-reveal
         className="grid grid-cols-2 gap-3 md:gap-[18px] h-[420px] md:h-[560px]"
@@ -47,7 +47,7 @@ export async function Hero() {
         <div className="relative rounded-[14px] overflow-hidden self-end h-[90%]">
           <Image
             src="/images/hero-b.webp"
-            alt={`${SITE.name} — coureur de trail`}
+            alt={`${SITE.name} - coureur de trail`}
             fill
             quality={95}
             priority
@@ -58,7 +58,7 @@ export async function Hero() {
         <div className="relative rounded-[14px] overflow-hidden self-start h-[78%]">
           <Image
             src="/images/hero-a.webp"
-            alt={`${SITE.name} — physiothérapeute à Lausanne`}
+            alt={`${SITE.name} - physiothérapeute à Lausanne`}
             fill
             quality={95}
             sizes="(max-width: 1024px) 60vw, 420px"
