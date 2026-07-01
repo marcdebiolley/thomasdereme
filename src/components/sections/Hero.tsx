@@ -39,24 +39,29 @@ export async function Hero() {
         </div>
       </div>
 
-      {/* image composition */}
+      {/* image composition — two staggered photos */}
       <div
         data-reveal
-        className="relative grid grid-cols-[1fr_72px] md:grid-cols-[1fr_96px] gap-[18px] h-[420px] md:h-[560px]"
+        className="grid grid-cols-2 gap-3 md:gap-[18px] h-[420px] md:h-[560px]"
       >
-        <div className="relative rounded-[14px]">
+        <div className="relative rounded-[14px] overflow-hidden self-end h-[90%]">
           <Image
-            src="/images/hero-portrait.webp"
-            alt={`${SITE.name} — physiothérapeute à Lausanne`}
+            src="/images/hero-b.webp"
+            alt={`${SITE.name} — coureur de trail`}
             fill
             priority
-            sizes="(max-width: 1024px) 100vw, 520px"
-            className="object-cover rounded-[14px]"
+            sizes="(max-width: 1024px) 50vw, 280px"
+            className="object-cover"
           />
         </div>
-        <div className="rounded-[14px] bg-dark" />
-        <div className="absolute -left-2 top-1/2 -translate-y-1/2 rotate-180 [writing-mode:vertical-rl] font-sans font-semibold text-[11px] tracking-[0.34em] uppercase text-taupe-soft hidden md:block">
-          {t('vertical')}
+        <div className="relative rounded-[14px] overflow-hidden self-start h-[78%]">
+          <Image
+            src="/images/hero-a.webp"
+            alt={`${SITE.name} — physiothérapeute à Lausanne`}
+            fill
+            sizes="(max-width: 1024px) 50vw, 280px"
+            className="object-cover"
+          />
         </div>
       </div>
     </section>
