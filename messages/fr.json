@@ -89,11 +89,18 @@
     "trailEyebrow": "Sport & trail",
     "trailTitle": "Sportif de haut niveau en trail.",
     "trailP1": "Coureur de trail, je connais de l’intérieur les exigences de l’effort et de la récupération — une compréhension du sport qui nourrit chaque accompagnement.",
-    "approachEyebrow": "Formations & approche",
-    "approachTitle": "Vous aider à avancer durablement.",
-    "approachP1": "Au fil des années, j’ai suivi de nombreuses formations afin d’élargir mes compétences et disposer d’un éventail d’outils thérapeutiques variés. Cela me permet d’adapter chaque prise en charge en fonction des pathologies, des personnalités et des objectifs de chacun.",
-    "approachP2": "Aujourd’hui, mon approche se veut à la fois rigoureuse, humaine et personnalisée, avec un objectif simple : vous aider à avancer durablement.",
-    "follow": "Suivre Thomas"
+    "follow": "Suivre Thomas",
+    "formationsEyebrow": "Mes formations",
+    "formationsTitle": "Des compétences reconnues.",
+    "formationsIntro": "Mon parcours de formation a été guidé par une volonté constante d’acquérir des compétences reconnues auprès d’organismes de référence, afin de proposer une prise en charge fondée sur les meilleures pratiques.",
+    "formations": [
+      "Après l’obtention de mon diplôme de physiothérapeute à Bruxelles, j’ai obtenu l’équivalence suisse de mon diplôme auprès de la Croix-Rouge suisse, me permettant d’exercer en Suisse.",
+      "J’ai ensuite suivi la formation en Drainage Lymphatique Manuel – Méthode Leduc, une méthode de référence enseignée par les formateurs officiels de l’École Leduc, reconnue internationalement.",
+      "Souhaitant intégrer des techniques modernes et validées scientifiquement, je me suis formé au Dry Needling auprès de la David G. Simons Academy, un organisme de renommée internationale spécialisé dans le traitement des douleurs myofasciales.",
+      "En parallèle, j’ai entrepris une formation longue en Thérapie Manuelle du Sport en Belgique, qui m’a permis d’approfondir mes connaissances en biomécanique, thérapie manuelle et prise en charge des sportifs, du sportif amateur au sportif de haut niveau.",
+      "Convaincu que la formation continue est indispensable pour offrir des soins de qualité, je poursuis régulièrement mon perfectionnement. Je participe notamment à des journées de formation au Centre Suisse LPG, afin de rester à jour sur les dernières évolutions des technologies LPG, leurs protocoles de traitement et les recommandations de prise en charge en endermologie, cicatricielle et drainage.",
+      "Aujourd’hui, je continue à enrichir mes compétences dans mes trois domaines d’expertise : la physio générale, la physio du sport et la physio dermato-fonctionnelle, en participant à différents séminaires ou en échangeant avec d’autres professionnels de la santé."
+    ]
   },
   "SoinsPage": {
     "eyebrow": "Les soins",
@@ -294,13 +301,14 @@
     "metaDescription": "Physio du sport à Lausanne : suivi du sportif, prévention et récupération. Thomas Derême, athlète de trail, accompagne Maximilien Drion.",
     "athleteEyebrow": "Athlète",
     "athleteTitle": "Le mouvement, de l’intérieur.",
-    "athleteText": "En parallèle de mon activité, je suis moi-même sportif de haut niveau en trail. Cette expérience personnelle nourrit ma compréhension des exigences physiques et mentales, et renforce ma capacité à accompagner aussi bien les sportifs que toute personne souhaitant retrouver confiance en son corps.",
     "maxEyebrow": "Haut niveau",
     "maxTitle": "Aux côtés de Maximilien Drion.",
     "maxText": "J’accompagne <link>Maximilien Drion</link>, athlète de ski-alpinisme, comme physiothérapeute et ostéopathe dans la préparation de ses compétitions internationales et olympiques.",
     "maxText2": "Un suivi exigeant — prévention des blessures, récupération et planification — au plus près des contraintes du sport de haut niveau.",
     "careEyebrow": "Prise en charge",
     "careTitle": "Un suivi sur mesure, à chaque étape.",
-    "careText": "Bilan, planification d’objectifs et suivi personnalisé. De la reprise en douceur jusqu’à la compétition, j’adapte chaque accompagnement à votre pratique et à vos objectifs."
+    "careText": "Bilan, planification d’objectifs et suivi personnalisé. De la reprise en douceur jusqu’à la compétition, j’adapte chaque accompagnement à votre pratique et à vos objectifs.",
+    "athleteP1": "En parallèle de mon activité de physiothérapeute, je pratique le trail à haut niveau. Cette expérience me permet de comprendre de l’intérieur les exigences physiques, techniques et mentales auxquelles sont confrontés les sportifs, mais aussi l’importance d’une récupération adaptée, de la prévention des blessures et d’un accompagnement individualisé.",
+    "athleteP2": "Au-delà du sport, elle renforce les valeurs qui guident ma pratique au quotidien : l’écoute, la rigueur, la persévérance et une prise en charge centrée sur chaque patient. Mon objectif est d’accompagner chacun, sportif ou non, vers une récupération durable, en lui permettant de retrouver confiance en son corps, de reprendre ses activités dans les meilleures conditions et d’atteindre ses objectifs en toute sécurité."
   }
 }

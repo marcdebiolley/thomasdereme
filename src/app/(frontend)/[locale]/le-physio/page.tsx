@@ -105,13 +105,17 @@ export default async function PhysioPage({
       <section className="border-t border-line">
         <Container className="py-16 md:py-24">
           <div data-reveal className="max-w-2xl">
-            <div className="eyebrow">{t('approachEyebrow')}</div>
+            <div className="eyebrow">{t('formationsEyebrow')}</div>
             <h2 className="display font-normal text-[clamp(28px,3.4vw,44px)] leading-[1.12] tracking-[-0.01em] text-ink mt-5">
-              {t('approachTitle')}
+              {t('formationsTitle')}
             </h2>
-            <div className="mt-6 space-y-4 text-muted text-base leading-[1.8]">
-              <p>{t('approachP1')}</p>
-              <p>{t('approachP2')}</p>
+            <p className="mt-6 text-muted text-base leading-[1.8]">
+              {t('formationsIntro')}
+            </p>
+            <div className="mt-4 space-y-4 text-muted text-base leading-[1.8]">
+              {(t.raw('formations') as string[]).map((p) => (
+                <p key={p.slice(0, 24)}>{p}</p>
+              ))}
             </div>
           </div>
         </Container>

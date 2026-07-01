@@ -45,7 +45,8 @@ export default async function SportPage({
         alt={`${SITE.name} — coureur de trail`}
         priority
       >
-        <p>{t('athleteText')}</p>
+        <p>{t('athleteP1')}</p>
+        <p>{t('athleteP2')}</p>
         <div className="flex gap-5 pt-2">
           <a
             href={SITE.social.instagram}
