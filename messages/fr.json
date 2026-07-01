@@ -5,7 +5,11 @@
     "cabinet": "Le cabinet",
     "articles": "Articles",
     "book": "Prendre rendez-vous",
-    "sport": "Le sport"
+    "sport": "Le sport",
+    "prestations": "Les prestations",
+    "presMedical": "Physio médical / général",
+    "presSport": "Physio du sport",
+    "presDermato": "Physio dermato-fonctionnelle"
   },
   "Home": {
     "hero": {

@@ -47,6 +47,7 @@ export default async function SoinsPage({
   const t = await getTranslations('SoinsPage');
 
   const blocks: {
+    id?: string;
     eyebrow: string;
     title: string;
     body: ReactNode;
@@ -55,6 +56,7 @@ export default async function SoinsPage({
     priority?: boolean;
   }[] = [
     {
+      id: 'medical',
       eyebrow: t('medicalEyebrow'),
       title: t('medicalTitle'),
       image: '/images/medical.webp',
@@ -85,6 +87,7 @@ export default async function SoinsPage({
       ),
     },
     {
+      id: 'dermato',
       eyebrow: t('estheticEyebrow'),
       title: t('estheticTitle'),
       image: '/images/esthetique.webp',
@@ -106,6 +109,7 @@ export default async function SoinsPage({
       {blocks.map((b) => (
         <SplitSection
           key={b.title}
+          id={b.id}
           eyebrow={b.eyebrow}
           title={b.title}
           image={b.image}

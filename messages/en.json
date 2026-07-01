@@ -5,7 +5,11 @@
     "cabinet": "The practice",
     "articles": "Articles",
     "book": "Book an appointment",
-    "sport": "Sport"
+    "sport": "Sport",
+    "prestations": "Services",
+    "presMedical": "Medical / general physio",
+    "presSport": "Sports physio",
+    "presDermato": "Dermato-functional physio"
   },
   "Home": {
     "hero": {

@@ -4,6 +4,7 @@ import { Container } from '@/components/ui/Container';
 import { cn } from '@/lib/cn';
 
 export function SplitSection({
+  id,
   eyebrow,
   title,
   children,
@@ -12,6 +13,7 @@ export function SplitSection({
   reverse = false,
   priority = false,
 }: {
+  id?: string;
   eyebrow?: string;
   title: string;
   children: ReactNode;
@@ -21,7 +23,7 @@ export function SplitSection({
   priority?: boolean;
 }) {
   return (
-    <Container className="py-14 md:py-20">
+    <Container id={id} className="scroll-mt-8 py-14 md:py-20">
       <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
         <div
           data-reveal
