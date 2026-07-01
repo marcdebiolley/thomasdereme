@@ -9,7 +9,7 @@ export async function Hero() {
 
   return (
     <section className="grid lg:grid-cols-[1.05fr_1fr] gap-12 lg:gap-12 items-center max-w-[1400px] mx-auto px-6 md:px-14 pt-12 md:pt-20 pb-16 md:pb-[90px]">
-      <div>
+      <div className="text-center lg:text-left">
         <div data-reveal className="eyebrow mb-8 md:mb-[34px]">
           {t('eyebrow')}
         </div>
@@ -25,11 +25,11 @@ export async function Hero() {
         </h1>
         <p
           data-reveal
-          className="font-sans text-[17px] leading-[1.7] text-muted max-w-[400px] mt-8"
+          className="font-sans text-[17px] leading-[1.7] text-muted max-w-[400px] mx-auto lg:mx-0 mt-8"
         >
           {t('lead')}
         </p>
-        <div data-reveal className="flex items-center gap-6 sm:gap-[30px] mt-10 md:mt-11">
+        <div data-reveal className="flex items-center justify-center lg:justify-start gap-6 sm:gap-[30px] mt-10 md:mt-11">
           <Link href="/rendez-vous" className={btnDark}>
             {t('ctaBook')}
           </Link>
