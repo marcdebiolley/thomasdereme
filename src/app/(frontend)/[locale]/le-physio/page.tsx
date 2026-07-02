@@ -41,7 +41,7 @@ export default async function PhysioPage({
       <SplitSection
         eyebrow={t('parcoursEyebrow')}
         title={t('parcoursTitle')}
-        image="/images/physio.webp"
+        image="/images/physio-parcours.webp"
         alt={`${SITE.name} - physiothérapeute à Lausanne`}
         priority
       >
