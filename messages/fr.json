@@ -193,7 +193,32 @@
         "Travail cicatriciel",
         "Séance LPG®"
       ],
-      "metaDescription": "Traitements esthétiques à Lausanne : drainage lymphatique, endermologie LPG®, travail cicatriciel. Avec ou sans prescription."
+      "metaDescription": "Traitements esthétiques à Lausanne : drainage lymphatique, endermologie LPG®, travail cicatriciel. Avec ou sans prescription.",
+      "machinesEyebrow": "Équipements",
+      "machinesTitle": "Des technologies LPG® de pointe.",
+      "machinesIntro": "Le cabinet est équipé des dernières technologies LPG®, utilisées en complément des techniques manuelles pour des résultats visibles et durables.",
+      "machines": [
+        {
+          "name": "Cellu M6 Infinity®",
+          "tag": "Endermologie",
+          "body": "La référence de l’endermologie médicale et esthétique. Sa tête de traitement motorisée mécanise les tissus en douceur : elle relance la circulation, draine les tissus et réactive la production naturelle de collagène et d’élastine - sans douleur, de façon non invasive.",
+          "points": [
+            "Drainage lymphatique",
+            "Cicatrices & fibroses",
+            "Raffermissement de la peau"
+          ]
+        },
+        {
+          "name": "Huber 360® Evolution",
+          "tag": "Mobilité & équilibre",
+          "body": "Une plateforme motorisée qui engage l’ensemble du système musculosquelettique : équilibre, renforcement profond, mobilité et coordination. Son bilan fonctionnel intégré permet de mesurer les progrès séance après séance.",
+          "points": [
+            "Rééducation neuromusculaire",
+            "Équilibre & posture",
+            "Renforcement profond"
+          ]
+        }
+      ]
     }
   },
   "CabinetPage": {
