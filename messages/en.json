@@ -152,7 +152,22 @@
         "Massage",
         "Assessment & prevention"
       ],
-      "metaDescription": "Medical and general physiotherapy in Lausanne: orthopaedics, traumatology, rehabilitation, dry needling. With or without a prescription, recognised by basic insurance."
+      "metaDescription": "Medical and general physiotherapy in Lausanne: orthopaedics, traumatology, rehabilitation, dry needling. With or without a prescription, recognised by basic insurance.",
+      "machinesEyebrow": "Equipment",
+      "machinesTitle": "Rehabilitation at 360°.",
+      "machinesIntro": "The practice is equipped with the Huber 360® Evolution by LPG Medical, used alongside manual techniques for functional rehabilitation.",
+      "machines": [
+        {
+          "name": "Huber 360® Evolution",
+          "tag": "Mobility & balance",
+          "body": "A motorised platform that engages the entire musculoskeletal system: balance, deep strengthening, mobility and coordination. Its built-in functional assessment tracks progress session after session.",
+          "points": [
+            "Neuromuscular rehabilitation",
+            "Balance & posture",
+            "Deep strengthening"
+          ]
+        }
+      ]
     },
     "sport": {
       "eyebrow": "Sport",
@@ -195,8 +210,8 @@
       ],
       "metaDescription": "Aesthetic treatments in Lausanne: lymphatic drainage, LPG® endermologie, scar work. With or without a prescription.",
       "machinesEyebrow": "Equipment",
-      "machinesTitle": "State-of-the-art LPG® technologies.",
-      "machinesIntro": "The practice is equipped with the latest LPG® technologies, used alongside manual techniques for visible, lasting results.",
+      "machinesTitle": "Endermologie, technology-assisted.",
+      "machinesIntro": "The practice is equipped with the Cellu M6 Infinity®, the latest LPG® generation, used alongside manual techniques for visible, lasting results.",
       "machines": [
         {
           "name": "Cellu M6 Infinity®",
@@ -206,16 +221,6 @@
             "Lymphatic drainage",
             "Scars & fibrosis",
             "Skin firming"
-          ]
-        },
-        {
-          "name": "Huber 360® Evolution",
-          "tag": "Mobility & balance",
-          "body": "A motorised platform that engages the entire musculoskeletal system: balance, deep strengthening, mobility and coordination. Its built-in functional assessment tracks progress session after session.",
-          "points": [
-            "Neuromuscular rehabilitation",
-            "Balance & posture",
-            "Deep strengthening"
           ]
         }
       ]

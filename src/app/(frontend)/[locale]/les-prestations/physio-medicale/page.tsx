@@ -3,7 +3,12 @@ import { getTranslations, setRequestLocale } from 'next-intl/server';
 import type { Locale } from '@/i18n/routing';
 import { buildPageMetadata } from '@/lib/seo/metadata';
 import { PrestationDetail } from '@/components/sections/PrestationDetail';
+import { MachinesSection, type Machine } from '@/components/sections/MachinesSection';
 import { SITE } from '@/lib/site';
+
+const MACHINE_IMAGES = [
+  { main: '/images/huber-360.webp', detail: '/images/huber-360-detail.webp' },
+] as const;
 
 export async function generateMetadata({
   params,
@@ -29,6 +34,10 @@ export default async function PhysioMedicalePage({
   setRequestLocale(locale);
   const t = await getTranslations('Prestations');
   const tm = await getTranslations('Prestations.medical');
+  const machines = (tm.raw('machines') as Omit<Machine, 'images'>[]).map((m, i) => ({
+    ...m,
+    images: MACHINE_IMAGES[i],
+  }));
 
   return (
     <PrestationDetail
@@ -42,6 +51,13 @@ export default async function PhysioMedicalePage({
       expertiseLabel={t('expertiseLabel')}
       image="/images/medical.webp"
       alt={`${SITE.name} - ${tm('eyebrow')}`}
-    />
+    >
+      <MachinesSection
+        eyebrow={tm('machinesEyebrow')}
+        title={tm('machinesTitle')}
+        intro={tm('machinesIntro')}
+        machines={machines}
+      />
+    </PrestationDetail>
   );
 }

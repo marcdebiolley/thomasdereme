@@ -152,7 +152,22 @@
         "Massage",
         "Bilan & prévention"
       ],
-      "metaDescription": "Physiothérapie médicale et générale à Lausanne : orthopédie, traumatologie, rééducation, dry needling. Avec ou sans ordonnance, reconnu par les assurances de base."
+      "metaDescription": "Physiothérapie médicale et générale à Lausanne : orthopédie, traumatologie, rééducation, dry needling. Avec ou sans ordonnance, reconnu par les assurances de base.",
+      "machinesEyebrow": "Équipements",
+      "machinesTitle": "Une rééducation à 360°.",
+      "machinesIntro": "Le cabinet est équipé du Huber 360® Evolution de LPG Medical, utilisé en complément des techniques manuelles pour la rééducation fonctionnelle.",
+      "machines": [
+        {
+          "name": "Huber 360® Evolution",
+          "tag": "Mobilité & équilibre",
+          "body": "Une plateforme motorisée qui engage l’ensemble du système musculosquelettique : équilibre, renforcement profond, mobilité et coordination. Son bilan fonctionnel intégré permet de mesurer les progrès séance après séance.",
+          "points": [
+            "Rééducation neuromusculaire",
+            "Équilibre & posture",
+            "Renforcement profond"
+          ]
+        }
+      ]
     },
     "sport": {
       "eyebrow": "Sport",
@@ -195,8 +210,8 @@
       ],
       "metaDescription": "Traitements esthétiques à Lausanne : drainage lymphatique, endermologie LPG®, travail cicatriciel. Avec ou sans prescription.",
       "machinesEyebrow": "Équipements",
-      "machinesTitle": "Des technologies LPG® de pointe.",
-      "machinesIntro": "Le cabinet est équipé des dernières technologies LPG®, utilisées en complément des techniques manuelles pour des résultats visibles et durables.",
+      "machinesTitle": "L’endermologie, assistée par la technologie.",
+      "machinesIntro": "Le cabinet est équipé du Cellu M6 Infinity®, la dernière génération LPG®, utilisée en complément des techniques manuelles pour des résultats visibles et durables.",
       "machines": [
         {
           "name": "Cellu M6 Infinity®",
@@ -206,16 +221,6 @@
             "Drainage lymphatique",
             "Cicatrices & fibroses",
             "Raffermissement de la peau"
-          ]
-        },
-        {
-          "name": "Huber 360® Evolution",
-          "tag": "Mobilité & équilibre",
-          "body": "Une plateforme motorisée qui engage l’ensemble du système musculosquelettique : équilibre, renforcement profond, mobilité et coordination. Son bilan fonctionnel intégré permet de mesurer les progrès séance après séance.",
-          "points": [
-            "Rééducation neuromusculaire",
-            "Équilibre & posture",
-            "Renforcement profond"
           ]
         }
       ]
