@@ -100,34 +100,56 @@ export default async function PhysioPage({
 
       <section className="border-t border-line">
         <Container className="py-16 md:py-24">
-          <div data-reveal className="max-w-2xl">
-            <div className="eyebrow">{t('formationsEyebrow')}</div>
-            <h2 className="display font-normal text-[clamp(28px,3.4vw,44px)] leading-[1.12] tracking-[-0.01em] text-ink mt-5">
-              {t('formationsTitle')}
-            </h2>
-            <p className="mt-6 text-muted text-base leading-[1.8]">
-              {t('formationsIntro')}
-            </p>
-            <div className="mt-4 space-y-4 text-muted text-base leading-[1.8]">
-              {(t.raw('formations') as string[]).map((p) => (
-                <p key={p.slice(0, 24)}>{p}</p>
-              ))}
+          <div className="grid lg:grid-cols-[1fr_1.35fr] gap-10 lg:gap-20 items-start">
+            <div data-reveal className="lg:sticky lg:top-24">
+              <div className="eyebrow">{t('formationsEyebrow')}</div>
+              <h2 className="display font-normal text-[clamp(28px,3.4vw,44px)] leading-[1.12] tracking-[-0.01em] text-ink mt-5 max-w-[12ch]">
+                {t('formationsTitle')}
+              </h2>
+              <p className="mt-6 text-muted text-base leading-[1.8] max-w-[44ch]">
+                {t('formationsIntro')}
+              </p>
             </div>
 
-            <div className="mt-10">
-              <p className="ph mb-4">{t('orgsLabel')}</p>
-              <div className="flex flex-wrap gap-2.5">
-                {CERTIFICATIONS.map((c) => (
-                  <a
-                    key={c.name}
-                    href={c.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="btn font-sans text-sm text-muted border border-line rounded-full px-5 py-2.5 hover:text-ink hover:border-ink transition-colors"
-                  >
-                    {c.name}
-                  </a>
-                ))}
+            <div data-reveal>
+              <div>
+                {(t.raw('formationsList') as { n: string; org: string; body: string }[]).map(
+                  (f) => (
+                    <div key={f.n} className="flex gap-6 py-6 border-t border-line">
+                      <div className="display text-[15px] tracking-[0.06em] text-taupe w-[34px] shrink-0 pt-[3px]">
+                        {f.n}
+                      </div>
+                      <div>
+                        <h3 className="display font-normal text-[20px] leading-[1.3] text-ink mb-2">
+                          {f.org}
+                        </h3>
+                        <p className="text-[14.5px] leading-[1.7] text-muted max-w-[52ch]">
+                          {f.body}
+                        </p>
+                      </div>
+                    </div>
+                  ),
+                )}
+                <p className="mt-8 text-[14.5px] leading-[1.75] text-muted max-w-[56ch]">
+                  {t('formationsOutro')}
+                </p>
+              </div>
+
+              <div className="mt-11">
+                <p className="ph mb-4">{t('orgsLabel')}</p>
+                <div className="flex flex-wrap gap-2.5">
+                  {CERTIFICATIONS.map((c) => (
+                    <a
+                      key={c.name}
+                      href={c.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="btn font-sans text-sm text-muted border border-line rounded-full px-5 py-2.5 hover:text-ink hover:border-ink transition-colors"
+                    >
+                      {c.name}
+                    </a>
+                  ))}
+                </div>
               </div>
             </div>
           </div>

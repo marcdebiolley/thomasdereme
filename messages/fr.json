@@ -94,16 +94,36 @@
     "follow": "Suivre Thomas",
     "formationsEyebrow": "Mes formations",
     "formationsTitle": "Rester à la pointe.",
-    "formationsIntro": "Mon parcours de formation a été guidé par une volonté constante d’acquérir des compétences reconnues auprès d’organismes de référence, afin de proposer une prise en charge fondée sur les meilleures pratiques.",
-    "formations": [
-      "Après l’obtention de mon diplôme de physiothérapeute à Bruxelles, j’ai obtenu l’équivalence suisse de mon diplôme auprès de la Croix-Rouge suisse, me permettant d’exercer en Suisse.",
-      "J’ai ensuite suivi la formation en Drainage Lymphatique Manuel – Méthode Leduc, une méthode de référence enseignée par les formateurs officiels de l’École Leduc, reconnue internationalement.",
-      "Souhaitant intégrer des techniques modernes et validées scientifiquement, je me suis formé au Dry Needling auprès de la David G. Simons Academy, un organisme de renommée internationale spécialisé dans le traitement des douleurs myofasciales.",
-      "En parallèle, j’ai entrepris une formation longue en Thérapie Manuelle du Sport en Belgique, qui m’a permis d’approfondir mes connaissances en biomécanique, thérapie manuelle et prise en charge des sportifs, du sportif amateur au sportif de haut niveau.",
-      "Convaincu que la formation continue est indispensable pour offrir des soins de qualité, je poursuis régulièrement mon perfectionnement. Je participe notamment à des journées de formation au Centre Suisse LPG, afin de rester à jour sur les dernières évolutions des technologies LPG, leurs protocoles de traitement et les recommandations de prise en charge en endermologie, cicatricielle et drainage.",
-      "Aujourd’hui, je continue à enrichir mes compétences dans mes trois domaines d’expertise : la physio générale, la physio du sport et la physio dermato-fonctionnelle, en participant à différents séminaires ou en échangeant avec d’autres professionnels de la santé."
+    "formationsIntro": "Mon parcours a été guidé par une volonté constante d’acquérir des compétences reconnues auprès d’organismes de référence, afin de proposer une prise en charge fondée sur les meilleures pratiques.",
+    "orgsLabel": "Formations & organismes reconnus",
+    "formationsList": [
+      {
+        "n": "01",
+        "org": "Diplôme & équivalence · Croix-Rouge suisse",
+        "body": "Diplôme de physiothérapeute obtenu à Bruxelles, puis équivalence suisse validée par la Croix-Rouge suisse - l’autorisation d’exercer en Suisse."
+      },
+      {
+        "n": "02",
+        "org": "Drainage Lymphatique Manuel · Méthode Leduc",
+        "body": "Enseigné par les formateurs officiels de l’École Leduc, une méthode de référence reconnue internationalement."
+      },
+      {
+        "n": "03",
+        "org": "Dry Needling · David G. Simons Academy",
+        "body": "Auprès d’un organisme de renommée internationale spécialisé dans le traitement des douleurs myofasciales."
+      },
+      {
+        "n": "04",
+        "org": "Thérapie Manuelle du Sport · Belgique",
+        "body": "Formation longue en biomécanique, thérapie manuelle et prise en charge des sportifs, de l’amateur au haut niveau."
+      },
+      {
+        "n": "05",
+        "org": "Formation continue · Centre Suisse LPG",
+        "body": "Journées de perfectionnement sur les technologies LPG : endermologie, traitement cicatriciel et drainage."
+      }
     ],
-    "orgsLabel": "Formations & organismes reconnus"
+    "formationsOutro": "Aujourd’hui, je continue d’enrichir mes compétences dans mes trois domaines d’expertise - la physio générale, la physio du sport et la physio dermato-fonctionnelle - au fil de séminaires et d’échanges avec d’autres professionnels de la santé."
   },
   "Prestations": {
     "eyebrow": "Les prestations",
@@ -118,7 +138,10 @@
       "lead": "Toute atteinte ou pathologie de l’appareil musculosquelettique, reconnue par les assurances de base suisses.",
       "card": "Reconnu par toutes les assurances de base suisses. Toute atteinte ou pathologie liée au musculosquelettique.",
       "body": "Sur ordonnance ou en accès direct, une prise en charge précise des troubles de l’appareil musculosquelettique : orthopédie, traumatologie, rééducation fonctionnelle et douleurs aiguës ou chroniques.",
-      "durations": ["Sur ordonnance - 30 min", "Sans ordonnance - 30 min ou 1 h"],
+      "durations": [
+        "Sur ordonnance - 30 min",
+        "Sans ordonnance - 30 min ou 1 h"
+      ],
       "tech": [
         "Orthopédie",
         "Traumatologie",
@@ -137,7 +160,9 @@
       "lead": "Du sportif amateur à l’athlète de haut niveau : bilan, planification et récupération, par un physiothérapeute lui-même coureur de trail.",
       "card": "Suivi sportif personnalisé, bilan et planification d’objectifs. Pour tout niveau, de la remise en forme à la compétition.",
       "body": "Une première séance de 30 minutes pour évaluer vos besoins, puis un suivi personnalisé. Pour l’athlète comme le sportif amateur : planification d’objectifs, encadrement et récupération. Coureur de trail moi-même, je connais de l’intérieur les exigences de l’effort et de la récupération.",
-      "durations": ["1ʳᵉ séance 30 min, puis suivi personnalisé"],
+      "durations": [
+        "1ʳᵉ séance 30 min, puis suivi personnalisé"
+      ],
       "tech": [
         "Bilan",
         "Planification d’objectifs",
@@ -159,7 +184,9 @@
       "lead": "Drainage lymphatique, endermologie et travail cicatriciel - avec ou sans prescription. Formé et équipé LPG®.",
       "card": "Drainage lymphatique, endermologie et travail cicatriciel, avec ou sans prescription. Formé et équipé LPG®.",
       "body": "Drainage lymphatique, bandage multicouche, travail cicatriciel et séances LPG® - avec ou sans prescription, pour des résultats visibles et durables.",
-      "durations": ["30 min ou 1 h"],
+      "durations": [
+        "30 min ou 1 h"
+      ],
       "tech": [
         "Drainage lymphatique",
         "Bandage multicouche",

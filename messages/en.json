@@ -94,16 +94,36 @@
     "follow": "Follow Thomas",
     "formationsEyebrow": "Training",
     "formationsTitle": "Staying at the forefront.",
-    "formationsIntro": "My training has been guided by a constant drive to acquire skills recognised by leading bodies, so as to offer care grounded in best practice.",
-    "formations": [
-      "After earning my physiotherapy degree in Brussels, I obtained the Swiss equivalence of my diploma from the Swiss Red Cross, allowing me to practise in Switzerland.",
-      "I then completed training in Manual Lymphatic Drainage – Leduc Method, a reference method taught by the official trainers of the Leduc School, recognised internationally.",
-      "Wanting to integrate modern, scientifically validated techniques, I trained in Dry Needling at the David G. Simons Academy, an internationally renowned body specialising in the treatment of myofascial pain.",
-      "In parallel, I undertook a long course in Sports Manual Therapy in Belgium, deepening my knowledge of biomechanics, manual therapy and the care of athletes, from amateur to elite level.",
-      "Convinced that continuing education is essential to quality care, I regularly pursue further training. In particular, I attend training days at the Centre Suisse LPG to stay up to date on the latest LPG technologies, their treatment protocols and the recommendations for endermologie, scar and drainage care.",
-      "Today, I keep building my skills across my three areas of expertise: general physio, sports physio and dermato-functional physio, by attending various seminars and exchanging with other healthcare professionals."
+    "formationsIntro": "My path has been guided by a constant drive to gain recognised skills from leading institutions, so I can offer care grounded in best practice.",
+    "orgsLabel": "Recognised training & bodies",
+    "formationsList": [
+      {
+        "n": "01",
+        "org": "Degree & equivalence · Swiss Red Cross",
+        "body": "Physiotherapy degree obtained in Brussels, then Swiss equivalence validated by the Swiss Red Cross - the authorisation to practise in Switzerland."
+      },
+      {
+        "n": "02",
+        "org": "Manual Lymphatic Drainage · Leduc Method",
+        "body": "Taught by the official trainers of the Leduc School, an internationally recognised reference method."
+      },
+      {
+        "n": "03",
+        "org": "Dry Needling · David G. Simons Academy",
+        "body": "With an internationally renowned institution specialised in the treatment of myofascial pain."
+      },
+      {
+        "n": "04",
+        "org": "Sports Manual Therapy · Belgium",
+        "body": "A long-form training in biomechanics, manual therapy and athlete care, from amateur to elite level."
+      },
+      {
+        "n": "05",
+        "org": "Continuing education · Swiss LPG Centre",
+        "body": "Regular training days on LPG technologies: endermologie, scar treatment and drainage."
+      }
     ],
-    "orgsLabel": "Recognised training & bodies"
+    "formationsOutro": "Today I keep expanding my skills across my three areas of expertise - general physio, sports physio and dermato-functional physio - through seminars and exchanges with other health professionals."
   },
   "Prestations": {
     "eyebrow": "Services",
@@ -118,7 +138,10 @@
       "lead": "Any musculoskeletal condition or injury, recognised by Swiss basic insurance.",
       "card": "Recognised by all Swiss basic insurance. Any musculoskeletal condition or injury.",
       "body": "On prescription or direct access, precise care for musculoskeletal conditions: orthopaedics, traumatology, functional rehabilitation and acute or chronic pain.",
-      "durations": ["With prescription - 30 min", "Without prescription - 30 min or 1 h"],
+      "durations": [
+        "With prescription - 30 min",
+        "Without prescription - 30 min or 1 h"
+      ],
       "tech": [
         "Orthopaedics",
         "Traumatology",
@@ -137,7 +160,9 @@
       "lead": "From amateur to elite athlete: assessment, planning and recovery, from a physiotherapist who is himself a trail runner.",
       "card": "Personalised sports follow-up, assessment and goal planning. For every level, from getting back in shape to competition.",
       "body": "A first 30-minute session to assess your needs, then personalised follow-up. For athletes and amateurs alike: goal planning, coaching and recovery. A trail runner myself, I understand from the inside the demands of effort and recovery.",
-      "durations": ["1st session 30 min, then personalised follow-up"],
+      "durations": [
+        "1st session 30 min, then personalised follow-up"
+      ],
       "tech": [
         "Assessment",
         "Goal planning",
@@ -159,7 +184,9 @@
       "lead": "Lymphatic drainage, endermologie and scar work - with or without a prescription. LPG®-trained and equipped.",
       "card": "Lymphatic drainage, endermologie and scar work, with or without a prescription. LPG®-trained and equipped.",
       "body": "Lymphatic drainage, multilayer bandaging, scar work and LPG® sessions - with or without a prescription, for visible, lasting results.",
-      "durations": ["30 min or 1 h"],
+      "durations": [
+        "30 min or 1 h"
+      ],
       "tech": [
         "Lymphatic drainage",
         "Multilayer bandaging",
