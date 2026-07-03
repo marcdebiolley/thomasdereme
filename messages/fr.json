@@ -382,7 +382,7 @@
       },
       {
         "q": "Comment prendre rendez-vous ?",
-        "a": "En ligne via OneDoc, ou par téléphone au +41 76 688 72 81."
+        "a": "En ligne via <book>OneDoc</book>, ou par téléphone au <tel>+41 76 688 72 81</tel>."
       }
     ]
   },

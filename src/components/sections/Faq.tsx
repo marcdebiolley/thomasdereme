@@ -1,6 +1,10 @@
 import { getTranslations } from 'next-intl/server';
+import { Link } from '@/i18n/navigation';
 import { Container } from '@/components/ui/Container';
 import { JsonLd } from '@/components/seo/JsonLd';
+import { SITE } from '@/lib/site';
+
+const richLink = 'text-ink underline underline-offset-2 hover:text-taupe transition-colors';
 
 export async function Faq() {
   const t = await getTranslations('Faq');
@@ -12,7 +16,8 @@ export async function Faq() {
     mainEntity: items.map((it) => ({
       '@type': 'Question',
       name: it.q,
-      acceptedAnswer: { '@type': 'Answer', text: it.a },
+      // Les réponses peuvent contenir des balises rich text (<book>, <tel>).
+      acceptedAnswer: { '@type': 'Answer', text: it.a.replace(/<[^>]+>/g, '') },
     })),
   };
 
@@ -27,7 +32,7 @@ export async function Faq() {
           </h2>
         </div>
         <div data-reveal className="border-t border-line">
-          {items.map((it) => (
+          {items.map((it, i) => (
             <details key={it.q} className="group border-b border-line py-5">
               <summary className="flex justify-between items-center gap-4 cursor-pointer list-none font-sans font-medium text-ink text-lg">
                 {it.q}
@@ -35,7 +40,20 @@ export async function Faq() {
                   +
                 </span>
               </summary>
-              <p className="text-muted leading-[1.8] mt-3 max-w-2xl">{it.a}</p>
+              <p className="text-muted leading-[1.8] mt-3 max-w-2xl">
+                {t.rich(`items.${i}.a`, {
+                  book: (chunks) => (
+                    <Link href="/rendez-vous" className={richLink}>
+                      {chunks}
+                    </Link>
+                  ),
+                  tel: (chunks) => (
+                    <a href={SITE.phoneHref} className={richLink}>
+                      {chunks}
+                    </a>
+                  ),
+                })}
+              </p>
             </details>
           ))}
         </div>
