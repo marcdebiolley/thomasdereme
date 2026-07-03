@@ -56,19 +56,21 @@ export default async function PhysioMedicalePage({
       {/* Indications */}
       <section className="border-t border-line">
         <Container className="py-16 md:py-24">
-          <div data-reveal className="max-w-2xl">
+          <div data-reveal>
             <div className="eyebrow">{tm('indicationsTitle')}</div>
-            <p className="display font-normal text-[clamp(24px,2.6vw,34px)] leading-[1.2] text-ink mt-5">
+            <h2 className="display font-normal text-[clamp(28px,3.4vw,44px)] leading-[1.12] tracking-[-0.01em] text-ink mt-5">
               {tm('indicationsIntro')}
-            </p>
+            </h2>
           </div>
           <ul
             data-reveal
-            className="mt-10 grid md:grid-cols-2 gap-x-12 gap-y-3 text-muted text-[15px] leading-[1.7]"
+            className="mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-x-10 gap-y-0 text-muted text-[15px] leading-[1.7]"
           >
             {(tm.raw('indications') as string[]).map((item) => (
-              <li key={item} className="flex items-baseline gap-3">
-                <span className="text-taupe shrink-0">·</span>
+              <li key={item} className="flex items-baseline gap-4 border-t border-line py-5">
+                <span className="text-taupe shrink-0" aria-hidden>
+                  —
+                </span>
                 {item}
               </li>
             ))}
