@@ -46,6 +46,36 @@ export default async function PhysioSportPage({
       image="/images/sport.webp"
       alt={`${SITE.name} - ${ts('eyebrow')}`}
     >
+      {/* L'athlète */}
+      <section className="border-t border-line">
+        <Container className="py-16 md:py-24">
+          <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
+            <div data-reveal>
+              <div className="eyebrow">{ts('athlete.eyebrow')}</div>
+              <h2 className="display font-normal text-[clamp(28px,3.4vw,44px)] leading-[1.12] tracking-[-0.01em] text-ink mt-5">
+                {ts('athlete.title')}
+              </h2>
+              <p className="mt-6 text-muted text-base leading-[1.8] max-w-[520px]">
+                {ts('athlete.p1')}
+              </p>
+            </div>
+            <div
+              data-reveal
+              className="relative aspect-[4/5] rounded-[14px] overflow-hidden"
+            >
+              <Image
+                src="/images/trail-main.webp"
+                alt={`${SITE.name} - coureur de trail`}
+                fill
+                quality={95}
+                sizes="(max-width: 1024px) 100vw, 560px"
+                className="object-cover"
+              />
+            </div>
+          </div>
+        </Container>
+      </section>
+
       {/* Maximilien Drion */}
       <section className="border-t border-line">
         <Container className="py-16 md:py-24">

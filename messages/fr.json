@@ -96,7 +96,7 @@
     "parcoursP3": "Animé par l’envie sincère d’aider, je m’engage à accompagner mes patients vers leur meilleure version, que ce soit dans la récupération, la prévention ou la performance.",
     "trailEyebrow": "Mes valeurs",
     "trailTitle": "Sportif de haut niveau en trail.",
-    "trailP1": "En parallèle de mon activité de physiothérapeute, je pratique le trail à haut niveau. Cette expérience me permet de comprendre de l’intérieur les exigences physiques, techniques et mentales auxquelles sont confrontés les sportifs, mais aussi l’importance d’une récupération adaptée, de la prévention des blessures et d’un accompagnement individualisé.",
+    "trailP1": "La pratique du trail à haut niveau renforce les valeurs qui guident ma pratique au quotidien : l’écoute, la rigueur, la persévérance et une prise en charge centrée sur chaque patient. Mon objectif est d’accompagner chacun, sportif ou non, vers une récupération durable, en lui permettant de retrouver confiance en son corps, de reprendre ses activités dans les meilleures conditions et d’atteindre ses objectifs en toute sécurité.",
     "follow": "Suivre Thomas",
     "formationsEyebrow": "Mes formations",
     "formationsTitle": "Rester à la pointe.",
@@ -129,8 +129,7 @@
         "body": "Journées de perfectionnement sur les technologies LPG : endermologie, traitement cicatriciel et drainage."
       }
     ],
-    "formationsOutro": "Aujourd’hui, je continue d’enrichir mes compétences dans mes trois domaines d’expertise - la physio générale, la physio du sport et la physio dermato-fonctionnelle - au fil de séminaires et d’échanges avec d’autres professionnels de la santé.",
-    "trailP2": "Au-delà du sport, elle renforce les valeurs qui guident ma pratique au quotidien : l’écoute, la rigueur, la persévérance et une prise en charge centrée sur chaque patient. Mon objectif est d’accompagner chacun, sportif ou non, vers une récupération durable, en lui permettant de retrouver confiance en son corps, de reprendre ses activités dans les meilleures conditions et d’atteindre ses objectifs en toute sécurité."
+    "formationsOutro": "Aujourd’hui, je continue d’enrichir mes compétences dans mes trois domaines d’expertise - la physio générale, la physio du sport et la physio dermato-fonctionnelle - au fil de séminaires et d’échanges avec d’autres professionnels de la santé."
   },
   "Prestations": {
     "eyebrow": "Les prestations",
@@ -202,7 +201,7 @@
       "title": "Physio & sport.",
       "lead": "Du sportif amateur à l’athlète de haut niveau : bilan, planification et récupération, par un physiothérapeute lui-même coureur de trail.",
       "card": "Suivi sportif personnalisé, bilan et planification d’objectifs. Pour tout niveau, de la remise en forme à la compétition.",
-      "body": "Une première séance de 30 minutes pour évaluer vos besoins, puis un suivi personnalisé. Pour l’athlète comme le sportif amateur : planification d’objectifs, encadrement et récupération. Coureur de trail moi-même, je connais de l’intérieur les exigences de l’effort et de la récupération.",
+      "body": "Une première séance de 30 minutes pour évaluer vos besoins, puis un suivi personnalisé. Pour l’athlète comme le sportif amateur : planification d’objectifs, encadrement et récupération.",
       "durations": [
         "1ʳᵉ séance 30 min, puis suivi personnalisé"
       ],
@@ -219,6 +218,11 @@
         "title": "Aux côtés de Maximilien Drion.",
         "text": "J’accompagne <link>Maximilien Drion</link>, athlète de ski-alpinisme, comme physiothérapeute et ostéopathe dans la préparation de ses compétitions internationales et olympiques.",
         "text2": "Un suivi exigeant - prévention des blessures, récupération et planification - au plus près des contraintes du sport de haut niveau."
+      },
+      "athlete": {
+        "eyebrow": "L’athlète",
+        "title": "Le trail, vécu de l’intérieur.",
+        "p1": "En parallèle de mon activité de physiothérapeute, je pratique le trail à haut niveau. Cette expérience me permet de comprendre de l’intérieur les exigences physiques, techniques et mentales auxquelles sont confrontés les sportifs, mais aussi l’importance d’une récupération adaptée, de la prévention des blessures et d’un accompagnement individualisé."
       }
     },
     "esthetic": {

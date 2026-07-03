@@ -96,7 +96,7 @@
     "parcoursP3": "Driven by a sincere desire to help, I commit to guiding my patients towards their best version - in recovery, prevention or performance.",
     "trailEyebrow": "My values",
     "trailTitle": "A high-level trail athlete.",
-    "trailP1": "Alongside my work as a physiotherapist, I practise trail running at a high level. This experience lets me understand from the inside the physical, technical and mental demands athletes face - as well as the importance of proper recovery, injury prevention and individualised support.",
+    "trailP1": "Practising trail running at a high level reinforces the values that guide my practice every day: listening, rigour, perseverance and care centred on each patient. My goal is to guide everyone, athlete or not, towards lasting recovery - regaining confidence in their body, returning to their activities in the best conditions and reaching their goals safely.",
     "follow": "Follow Thomas",
     "formationsEyebrow": "Training",
     "formationsTitle": "Staying at the forefront.",
@@ -129,8 +129,7 @@
         "body": "Regular training days on LPG technologies: endermologie, scar treatment and drainage."
       }
     ],
-    "formationsOutro": "Today I keep expanding my skills across my three areas of expertise - general physio, sports physio and dermato-functional physio - through seminars and exchanges with other health professionals.",
-    "trailP2": "Beyond sport, it reinforces the values that guide my practice every day: listening, rigour, perseverance and care centred on each patient. My goal is to guide everyone, athlete or not, towards lasting recovery - helping them regain confidence in their body, return to their activities in the best conditions and reach their goals safely."
+    "formationsOutro": "Today I keep expanding my skills across my three areas of expertise - general physio, sports physio and dermato-functional physio - through seminars and exchanges with other health professionals."
   },
   "Prestations": {
     "eyebrow": "Services",
@@ -202,7 +201,7 @@
       "title": "Sports physio.",
       "lead": "From amateur to elite athlete: assessment, planning and recovery, from a physiotherapist who is himself a trail runner.",
       "card": "Personalised sports follow-up, assessment and goal planning. For every level, from getting back in shape to competition.",
-      "body": "A first 30-minute session to assess your needs, then personalised follow-up. For athletes and amateurs alike: goal planning, coaching and recovery. A trail runner myself, I understand from the inside the demands of effort and recovery.",
+      "body": "A first 30-minute session to assess your needs, then personalised follow-up. For athletes and amateurs alike: goal planning, coaching and recovery.",
       "durations": [
         "1st session 30 min, then personalised follow-up"
       ],
@@ -219,6 +218,11 @@
         "title": "Alongside Maximilien Drion.",
         "text": "I support <link>Maximilien Drion</link>, a ski-mountaineering athlete, as a physiotherapist and osteopath in his preparation for international and Olympic competitions.",
         "text2": "A demanding follow-up - injury prevention, recovery and planning - as close as possible to the constraints of elite sport."
+      },
+      "athlete": {
+        "eyebrow": "The athlete",
+        "title": "Trail running, lived from the inside.",
+        "p1": "Alongside my work as a physiotherapist, I practise trail running at a high level. This experience lets me understand from the inside the physical, technical and mental demands athletes face - as well as the importance of proper recovery, injury prevention and individualised support."
       }
     },
     "esthetic": {
