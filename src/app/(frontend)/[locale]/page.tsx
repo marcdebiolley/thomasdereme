@@ -5,6 +5,7 @@ import { buildPageMetadata } from '@/lib/seo/metadata';
 import { JsonLd } from '@/components/seo/JsonLd';
 import { physiotherapyJsonLd } from '@/lib/jsonld';
 import { Hero } from '@/components/sections/Hero';
+import { ApproachIntro } from '@/components/sections/ApproachIntro';
 import { Services } from '@/components/sections/Services';
 import { Quote } from '@/components/sections/Quote';
 import { CabinetSection } from '@/components/sections/CabinetSection';
@@ -38,6 +39,7 @@ export default async function HomePage({
     <>
       <JsonLd data={physiotherapyJsonLd()} />
       <Hero />
+      <ApproachIntro />
       <Services />
       <Quote />
       <CabinetSection />

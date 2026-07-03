@@ -25,20 +25,21 @@
       "items": [
         {
           "num": "I",
-          "title": "Medical physio",
-          "text": "Recognised by every Swiss basic insurance plan. Any musculoskeletal condition or injury."
+          "title": "General physiotherapy",
+          "text": "Musculoskeletal disorders, traumatology, rheumatology and chronic pain: restoring function, reducing pain and enabling a lasting return to everyday activities."
         },
         {
           "num": "II",
-          "title": "Sports care",
-          "text": "Personalised sports follow-up, assessment and goal planning. Every level, from getting back in shape to competition."
+          "title": "Sports physiotherapy",
+          "text": "From amateur athletes to elite competitors: injury prevention, rehabilitation, performance optimisation and recovery, for an effective and safe return to sport."
         },
         {
           "num": "III",
-          "title": "Aesthetic treatment",
-          "text": "Lymphatic drainage, endermologie and scar work, with or without a prescription. LPG®-trained and equipped."
+          "title": "Dermato-functional physiotherapy",
+          "text": "Scars, fibrosis, lymphoedema: manual lymphatic drainage, endermologie and specific techniques to improve tissue mobility, circulation and well-being."
         }
-      ]
+      ],
+      "outro": "Three specialities, one philosophy: individualised care, grounded in a global understanding of the body, to restore, optimise and preserve your functional capacity, health and quality of life."
     },
     "cabinet": {
       "eyebrow": "The practice",
@@ -56,7 +57,12 @@
       "call": "Call",
       "come": "Visit"
     },
-    "quote": "The body adapts to what you ask of it."
+    "quote": "The body adapts to what you ask of it.",
+    "intro": {
+      "eyebrow": "The approach",
+      "title": "A global approach to movement, health and function.",
+      "body": "Whether it’s relieving pain, regaining mobility, improving athletic performance or supporting tissue recovery, my approach rests on one principle: understanding how the body works in order to offer personalised care, grounded in current scientific evidence and tailored to each patient’s goals."
+    }
   },
   "Footer": {
     "tagline": "Physiotherapist - Medical · Sport · Aesthetic"
@@ -88,9 +94,9 @@
     "parcoursP1": "These experiences let me discover different approaches to physiotherapy and develop a rich, nuanced view of care. I learned there is no single way to treat - but a multitude of paths, to adapt to each patient.",
     "parcoursP2": "My practice draws on scientifically validated techniques while giving listening an essential place. Every person is unique, with their own story, goals and needs. My role is to understand that uniqueness and offer tailored support.",
     "parcoursP3": "Driven by a sincere desire to help, I commit to guiding my patients towards their best version - in recovery, prevention or performance.",
-    "trailEyebrow": "Sport & trail",
+    "trailEyebrow": "My values",
     "trailTitle": "A high-level trail athlete.",
-    "trailP1": "A trail runner myself, I know the demands of effort and recovery from the inside - an understanding of sport that informs every session.",
+    "trailP1": "Alongside my work as a physiotherapist, I practise trail running at a high level. This experience lets me understand from the inside the physical, technical and mental demands athletes face - as well as the importance of proper recovery, injury prevention and individualised support.",
     "follow": "Follow Thomas",
     "formationsEyebrow": "Training",
     "formationsTitle": "Staying at the forefront.",
@@ -123,7 +129,8 @@
         "body": "Regular training days on LPG technologies: endermologie, scar treatment and drainage."
       }
     ],
-    "formationsOutro": "Today I keep expanding my skills across my three areas of expertise - general physio, sports physio and dermato-functional physio - through seminars and exchanges with other health professionals."
+    "formationsOutro": "Today I keep expanding my skills across my three areas of expertise - general physio, sports physio and dermato-functional physio - through seminars and exchanges with other health professionals.",
+    "trailP2": "Beyond sport, it reinforces the values that guide my practice every day: listening, rigour, perseverance and care centred on each patient. My goal is to guide everyone, athlete or not, towards lasting recovery - helping them regain confidence in their body, return to their activities in the best conditions and reach their goals safely."
   },
   "Prestations": {
     "eyebrow": "Services",
@@ -134,23 +141,20 @@
     "expertiseLabel": "Fields & techniques",
     "medical": {
       "eyebrow": "Medical",
-      "title": "General & medical physio.",
-      "lead": "Any musculoskeletal condition or injury, recognised by Swiss basic insurance.",
+      "title": "Medical and general physiotherapy.",
+      "lead": "Every patient is unique: a thorough assessment, then personalised, effective and lasting care.",
       "card": "Recognised by all Swiss basic insurance. Any musculoskeletal condition or injury.",
-      "body": "On prescription or direct access, precise care for musculoskeletal conditions: orthopaedics, traumatology, functional rehabilitation and acute or chronic pain.",
       "durations": [
         "With prescription - 30 min",
         "Without prescription - 30 min or 1 h"
       ],
       "tech": [
-        "Orthopaedics",
-        "Traumatology",
-        "Functional rehabilitation",
-        "Pre-operative preparation",
-        "Geriatrics",
+        "Manual therapy",
         "Dry needling",
-        "Massage",
-        "Assessment & prevention"
+        "Fascia therapy",
+        "Therapeutic hooking",
+        "Therapeutic exercise",
+        "Targeted strengthening"
       ],
       "metaDescription": "Medical and general physiotherapy in Lausanne: orthopaedics, traumatology, rehabilitation, dry needling. With or without a prescription, recognised by basic insurance.",
       "machinesEyebrow": "Equipment",
@@ -167,7 +171,33 @@
             "Deep strengthening"
           ]
         }
-      ]
+      ],
+      "bodyParas": [
+        "Every patient is unique. That’s why my care always starts with a thorough assessment to understand the origin of your symptoms, your history, your lifestyle and your goals. Beyond treating pain, my approach is to identify the causes of your problem in order to offer personalised, effective and lasting care.",
+        "I treat musculoskeletal disorders, traumatology, rheumatological conditions and chronic pain - whether linked to an injury, surgery or a condition that has been evolving for months or years.",
+        "Every treatment is tailored to your needs and can combine complementary techniques, chosen according to your clinical assessment: manual therapy, dry needling, fascia therapy, therapeutic hooking (instrument-assisted fibrolysis), therapeutic exercise and targeted strengthening. This combination relieves pain, restores mobility, improves functional capacity and prevents recurrence.",
+        "My goal is to guide you towards lasting recovery, making you an actor in your own rehabilitation and giving you the tools to regain optimal quality of life."
+      ],
+      "indicationsTitle": "Indications",
+      "indicationsIntro": "Medical and general physiotherapy is particularly suited to people with:",
+      "indications": [
+        "Back pain: low back, neck and mid-back pain",
+        "Sciatica, cruralgia and other nerve-related pain",
+        "Tendinopathies and muscle pain",
+        "Sprains, dislocations and sports or everyday injuries",
+        "Rehabilitation after fracture or orthopaedic surgery",
+        "Osteoarthritis and rheumatological conditions",
+        "Painful shoulder, subacromial impingement, frozen shoulder, instability",
+        "Knee pain (patellofemoral syndrome, ligament or meniscus injuries)",
+        "Hip, ankle and foot pain",
+        "Tennis elbow, golfer’s elbow and other elbow pain",
+        "Headaches and migraines of musculoskeletal origin",
+        "Chronic pain and central sensitisation",
+        "Limited mobility and loss of strength",
+        "Preventing recurrence and returning to daily, professional or sporting activities"
+      ],
+      "coverageTitle": "Coverage",
+      "coverageText": "Medical and general physiotherapy sessions are covered by Swiss health insurance (LAMal) and accident insurance (LAA) with a valid medical prescription. You benefit from personalised treatment, based on current scientific recommendations, at no extra cost beyond the terms of your insurance."
     },
     "sport": {
       "eyebrow": "Sport",

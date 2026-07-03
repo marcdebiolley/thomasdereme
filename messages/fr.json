@@ -25,20 +25,21 @@
       "items": [
         {
           "num": "I",
-          "title": "Physio médical",
-          "text": "Reconnu par toutes les assurances de base suisses. Toute atteinte ou pathologie liée au musculosquelettique."
+          "title": "Physiothérapie générale",
+          "text": "Troubles musculo-squelettiques, traumatologie, rhumatologie et douleurs chroniques : restaurer la fonction, diminuer la douleur et permettre un retour durable aux activités du quotidien."
         },
         {
           "num": "II",
-          "title": "Prise en charge du sportif",
-          "text": "Suivi sportif personnalisé, bilan et planification d’objectifs. Pour tout niveau, de la remise en forme à la compétition."
+          "title": "Physiothérapie du sport",
+          "text": "Du sportif amateur à l’athlète de haut niveau : prévention des blessures, rééducation, optimisation des performances et récupération, pour un retour au sport efficace et sécurisé."
         },
         {
           "num": "III",
-          "title": "Traitement esthétique",
-          "text": "Drainage lymphatique, endermologie et travail cicatriciel, avec ou sans prescription. Formé et équipé LPG®."
+          "title": "Physiothérapie dermato-fonctionnelle",
+          "text": "Cicatrices, fibroses, lymphœdèmes : drainage lymphatique manuel, endermologie et techniques spécifiques pour améliorer la mobilité tissulaire, la circulation et le bien-être."
         }
-      ]
+      ],
+      "outro": "Trois spécialités, une même philosophie : une prise en charge individualisée, fondée sur une compréhension globale du corps, pour restaurer, optimiser et préserver vos capacités fonctionnelles, votre santé et votre qualité de vie."
     },
     "cabinet": {
       "eyebrow": "Le cabinet",
@@ -56,7 +57,12 @@
       "call": "Appeler",
       "come": "Venir"
     },
-    "quote": "Le corps s’adapte à ce que vous lui proposez."
+    "quote": "Le corps s’adapte à ce que vous lui proposez.",
+    "intro": {
+      "eyebrow": "L’approche",
+      "title": "Une approche globale du mouvement, de la santé et de la fonction.",
+      "body": "Qu’il s’agisse de soulager une douleur, de retrouver une mobilité, d’améliorer des performances sportives ou d’accompagner la récupération des tissus, mon approche repose sur un même principe : comprendre le fonctionnement du corps afin de proposer une prise en charge personnalisée, fondée sur les données scientifiques actuelles et adaptée aux objectifs de chaque patient."
+    }
   },
   "Footer": {
     "tagline": "Physiothérapeute - Médical · Sport · Esthétique"
@@ -88,9 +94,9 @@
     "parcoursP1": "Ces expériences m’ont permis de découvrir différentes approches de la physiothérapie et de développer une vision riche et nuancée de la prise en charge. J’ai appris qu’il n’existe pas une seule manière de soigner, mais une multitude de chemins, à adapter à chaque patient.",
     "parcoursP2": "Ma pratique s’appuie sur des techniques validées scientifiquement, tout en accordant une place essentielle à l’écoute. Chaque personne est unique, avec son histoire, ses objectifs et ses besoins. Mon rôle est de comprendre cette singularité pour proposer un accompagnement sur mesure.",
     "parcoursP3": "Animé par l’envie sincère d’aider, je m’engage à accompagner mes patients vers leur meilleure version, que ce soit dans la récupération, la prévention ou la performance.",
-    "trailEyebrow": "Sport & trail",
+    "trailEyebrow": "Mes valeurs",
     "trailTitle": "Sportif de haut niveau en trail.",
-    "trailP1": "Coureur de trail, je connais de l’intérieur les exigences de l’effort et de la récupération - une compréhension du sport qui nourrit chaque accompagnement.",
+    "trailP1": "En parallèle de mon activité de physiothérapeute, je pratique le trail à haut niveau. Cette expérience me permet de comprendre de l’intérieur les exigences physiques, techniques et mentales auxquelles sont confrontés les sportifs, mais aussi l’importance d’une récupération adaptée, de la prévention des blessures et d’un accompagnement individualisé.",
     "follow": "Suivre Thomas",
     "formationsEyebrow": "Mes formations",
     "formationsTitle": "Rester à la pointe.",
@@ -123,7 +129,8 @@
         "body": "Journées de perfectionnement sur les technologies LPG : endermologie, traitement cicatriciel et drainage."
       }
     ],
-    "formationsOutro": "Aujourd’hui, je continue d’enrichir mes compétences dans mes trois domaines d’expertise - la physio générale, la physio du sport et la physio dermato-fonctionnelle - au fil de séminaires et d’échanges avec d’autres professionnels de la santé."
+    "formationsOutro": "Aujourd’hui, je continue d’enrichir mes compétences dans mes trois domaines d’expertise - la physio générale, la physio du sport et la physio dermato-fonctionnelle - au fil de séminaires et d’échanges avec d’autres professionnels de la santé.",
+    "trailP2": "Au-delà du sport, elle renforce les valeurs qui guident ma pratique au quotidien : l’écoute, la rigueur, la persévérance et une prise en charge centrée sur chaque patient. Mon objectif est d’accompagner chacun, sportif ou non, vers une récupération durable, en lui permettant de retrouver confiance en son corps, de reprendre ses activités dans les meilleures conditions et d’atteindre ses objectifs en toute sécurité."
   },
   "Prestations": {
     "eyebrow": "Les prestations",
@@ -134,23 +141,20 @@
     "expertiseLabel": "Domaines & techniques",
     "medical": {
       "eyebrow": "Médical",
-      "title": "Physio générale & médicale.",
-      "lead": "Toute atteinte ou pathologie de l’appareil musculosquelettique, reconnue par les assurances de base suisses.",
+      "title": "Physiothérapie médicale et générale.",
+      "lead": "Chaque patient est unique : une évaluation approfondie, puis une prise en charge personnalisée, efficace et durable.",
       "card": "Reconnu par toutes les assurances de base suisses. Toute atteinte ou pathologie liée au musculosquelettique.",
-      "body": "Sur ordonnance ou en accès direct, une prise en charge précise des troubles de l’appareil musculosquelettique : orthopédie, traumatologie, rééducation fonctionnelle et douleurs aiguës ou chroniques.",
       "durations": [
         "Sur ordonnance - 30 min",
         "Sans ordonnance - 30 min ou 1 h"
       ],
       "tech": [
-        "Orthopédie",
-        "Traumatologie",
-        "Rééducation fonctionnelle",
-        "Préparation préopératoire",
-        "Gériatrie",
+        "Thérapie manuelle",
         "Dry needling",
-        "Massage",
-        "Bilan & prévention"
+        "Fasciathérapie",
+        "Crochetage thérapeutique",
+        "Exercices thérapeutiques",
+        "Renforcement musculaire ciblé"
       ],
       "metaDescription": "Physiothérapie médicale et générale à Lausanne : orthopédie, traumatologie, rééducation, dry needling. Avec ou sans ordonnance, reconnu par les assurances de base.",
       "machinesEyebrow": "Équipements",
@@ -167,7 +171,33 @@
             "Renforcement profond"
           ]
         }
-      ]
+      ],
+      "bodyParas": [
+        "Chaque patient est unique. C’est pourquoi ma prise en charge débute toujours par une évaluation approfondie visant à comprendre l’origine de vos symptômes, votre histoire, vos habitudes de vie et vos objectifs. Au-delà du traitement de la douleur, mon approche consiste à identifier les causes de votre problématique afin de vous proposer une prise en charge personnalisée, efficace et durable.",
+        "J’interviens dans le traitement des troubles musculo-squelettiques, de la traumatologie, des pathologies rhumatologiques et des douleurs chroniques, qu’elles soient liées à une blessure, à une intervention chirurgicale ou à une affection évoluant depuis plusieurs mois ou années.",
+        "Chaque traitement est adapté à vos besoins et peut associer différentes techniques complémentaires, choisies en fonction de votre bilan clinique : thérapie manuelle, dry needling, fasciathérapie, crochetage thérapeutique (fibrolyse instrumentale), exercices thérapeutiques et renforcement musculaire ciblé. Cette combinaison d’approches permet de soulager la douleur, restaurer la mobilité, améliorer les capacités fonctionnelles et prévenir les récidives.",
+        "Mon objectif est de vous accompagner vers une récupération durable, en vous rendant acteur de votre rééducation et en vous donnant les outils nécessaires pour retrouver une qualité de vie optimale."
+      ],
+      "indicationsTitle": "Indications",
+      "indicationsIntro": "La physiothérapie médicale et générale s’adresse notamment aux personnes présentant :",
+      "indications": [
+        "Douleurs du dos : lombalgies, cervicalgies, dorsalgies",
+        "Sciatiques, cruralgies et autres douleurs d’origine nerveuse",
+        "Tendinopathies et douleurs musculaires",
+        "Entorses, luxations et traumatismes sportifs ou du quotidien",
+        "Rééducation après fracture ou chirurgie orthopédique",
+        "Arthrose et pathologies rhumatologiques",
+        "Épaule douloureuse, conflits sous-acromiaux, capsulite, instabilité",
+        "Douleurs du genou (syndrome fémoro-patellaire, lésions ligamentaires ou méniscales)",
+        "Douleurs de la hanche, de la cheville et du pied",
+        "Épicondylite (« tennis elbow »), épitrochléite et autres douleurs du coude",
+        "Céphalées et migraines d’origine musculo-squelettique",
+        "Douleurs chroniques et sensibilisation centrale",
+        "Limitation de mobilité et perte de force",
+        "Prévention des récidives et reprise des activités quotidiennes, professionnelles ou sportives"
+      ],
+      "coverageTitle": "Prise en charge",
+      "coverageText": "Les séances de physiothérapie médicale et générale sont prises en charge par les assurances maladie (LAMal) et les assurances accidents (LAA), sur présentation d’une prescription médicale valable. Vous bénéficiez ainsi d’un traitement personnalisé, fondé sur les recommandations scientifiques actuelles, sans frais supplémentaires en dehors des modalités prévues par votre assurance."
     },
     "sport": {
       "eyebrow": "Sport",

@@ -8,7 +8,7 @@ type Props = {
   eyebrow: string;
   title: string;
   lead: string;
-  body: string;
+  body: string | string[];
   durations: string[];
   durationsLabel: string;
   tech: string[];
@@ -68,7 +68,11 @@ export function PrestationDetail({
           </div>
 
           <div data-reveal className="lg:order-1">
-            <p className="text-muted text-base leading-[1.8] max-w-[520px]">{body}</p>
+            <div className="space-y-4 text-muted text-base leading-[1.8] max-w-[520px]">
+              {(Array.isArray(body) ? body : [body]).map((p) => (
+                <p key={p.slice(0, 32)}>{p}</p>
+              ))}
+            </div>
 
             <div className="mt-10">
               <p className="ph mb-4">{durationsLabel}</p>

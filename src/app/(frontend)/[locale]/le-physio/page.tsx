@@ -59,9 +59,10 @@ export default async function PhysioPage({
               <h2 className="display font-normal text-[clamp(28px,3.8vw,48px)] leading-[1.1] tracking-[-0.01em] text-ink mt-5">
                 {t('trailTitle')}
               </h2>
-              <p className="mt-6 text-muted text-base leading-[1.8] max-w-[520px]">
-                {t('trailP1')}
-              </p>
+              <div className="mt-6 space-y-4 text-muted text-base leading-[1.8] max-w-[520px]">
+                <p>{t('trailP1')}</p>
+                <p>{t('trailP2')}</p>
+              </div>
               <div className="flex gap-5 pt-6">
                 <a
                   href={SITE.social.instagram}
