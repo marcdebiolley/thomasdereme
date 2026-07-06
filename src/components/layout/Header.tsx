@@ -13,10 +13,10 @@ export function Header() {
 
   return (
     <header className="sticky top-0 z-50 bg-sand/85 backdrop-blur-md border-b border-line/60">
-      <nav className="grid grid-cols-[1fr_auto_1fr] items-center gap-3 px-6 md:px-14 py-4 md:py-5">
+      <nav className="grid grid-cols-[1fr_auto_1fr] items-center gap-3 px-6 md:px-14 py-6 md:py-5">
         <Link
           href="/"
-          className="display text-[19px] md:text-[23px] font-medium tracking-[0.01em] text-ink justify-self-start whitespace-nowrap"
+          className="display text-[21px] md:text-[23px] font-medium tracking-[0.01em] text-ink justify-self-start whitespace-nowrap"
         >
           {SITE.name}
         </Link>
