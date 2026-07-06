@@ -49,7 +49,7 @@ export async function Hero() {
             src="/images/hero-b.webp"
             alt={`${SITE.name} - coureur de trail`}
             fill
-            quality={95}
+            quality={75}
             priority
             sizes="(max-width: 1024px) 60vw, 420px"
             className="object-cover"
@@ -57,10 +57,11 @@ export async function Hero() {
         </div>
         <div className="relative rounded-[14px] overflow-hidden self-start h-[78%]">
           <Image
-            src="/images/hero-a.webp"
+            src="/images/hero-soin.webp"
             alt={`${SITE.name} - physiothérapeute à Lausanne`}
             fill
-            quality={95}
+            quality={75}
+            priority
             sizes="(max-width: 1024px) 60vw, 420px"
             className="object-cover"
           />

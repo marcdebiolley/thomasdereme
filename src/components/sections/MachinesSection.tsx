@@ -44,7 +44,7 @@ export function MachinesSection({
                     src={m.images.main}
                     alt={`${m.name} - ${SITE.name}`}
                     fill
-                    quality={95}
+                    quality={75}
                     sizes="(max-width: 1024px) 55vw, 330px"
                     className="object-cover"
                   />
@@ -54,7 +54,7 @@ export function MachinesSection({
                     src={m.images.detail}
                     alt={`${m.name} (détail) - ${SITE.name}`}
                     fill
-                    quality={95}
+                    quality={75}
                     sizes="(max-width: 1024px) 40vw, 240px"
                     className="object-cover"
                   />

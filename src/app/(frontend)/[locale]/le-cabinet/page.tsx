@@ -29,7 +29,7 @@ function Figure({
           src={src}
           alt={caption}
           fill
-          quality={95}
+          quality={75}
           sizes={sizes}
           className="object-cover"
           priority={priority}

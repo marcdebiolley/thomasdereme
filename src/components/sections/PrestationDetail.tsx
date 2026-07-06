@@ -60,7 +60,7 @@ export function PrestationDetail({
               src={image}
               alt={alt}
               fill
-              quality={95}
+              quality={75}
               sizes="(max-width: 1024px) 100vw, 560px"
               className="object-cover"
               priority

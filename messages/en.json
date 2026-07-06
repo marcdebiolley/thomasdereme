@@ -74,7 +74,7 @@
   "Consent": {
     "title": "Cookies",
     "text": "This site uses audience-measurement cookies (Google Analytics) and the Google Maps embed. You can accept or decline.",
-    "learn": "Learn more",
+    "learn": "Privacy policy",
     "accept": "Accept",
     "refuse": "Decline",
     "mapBlocked": "The Google Maps embed is disabled until cookies are accepted.",

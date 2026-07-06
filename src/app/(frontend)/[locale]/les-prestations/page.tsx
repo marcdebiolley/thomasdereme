@@ -56,7 +56,7 @@ export default async function PrestationsPage({
                   src={c.image}
                   alt={t(`${c.key}.title`)}
                   fill
-                  quality={95}
+                  quality={75}
                   sizes="(max-width: 768px) 100vw, 400px"
                   className="object-cover transition-transform duration-500 group-hover:scale-[1.03]"
                   priority={i === 0}

@@ -11,8 +11,8 @@
   --color-body: #26251f; /* body text */
   --color-muted: #56544c; /* secondary text */
   --color-muted2: #54524a; /* nav links */
-  --color-taupe: #7c7468; /* accent - italics, numerals */
-  --color-taupe-soft: #8a8478; /* eyebrows */
+  --color-taupe: #6d6659; /* accent - italics, numerals (AA 5.2:1 sur sand) */
+  --color-taupe-soft: #736d5f; /* eyebrows (AA 4.7:1 sur sand) */
   --color-line: #cfcbc0; /* hairlines */
   --color-cream: #eceae2; /* text / pills on dark */
 
@@ -46,13 +46,17 @@ body {
   text-transform: uppercase;
   color: var(--color-taupe-soft);
 }
+/* Sur fond sombre, l'eyebrow doit s'éclaircir pour rester lisible (AA) */
+.bg-dark .eyebrow {
+  color: #9a948a;
+}
 
 /* Placeholder labels + striped fills (image stand-ins) */
 .ph {
   font-family: var(--font-sans);
   font-size: 11px;
   letter-spacing: 0.14em;
-  color: rgba(0, 0, 0, 0.32);
+  color: var(--color-taupe); /* AA ≥4.5:1 y compris sur les fonds crème */
   text-transform: uppercase;
 }
 .ph-stripe {

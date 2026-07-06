@@ -30,7 +30,9 @@ export function OneDocWidget({ locale = 'fr' }: { locale?: string }) {
       if (!data || data['od-widget-id'] !== id || !iframe) return;
 
       const height = data['od-widget-height'];
-      if (height) iframe.style.height = `${height}px`;
+      // Le widget émet une hauteur transitoire (~18px) pendant son chargement :
+      // l'appliquer écraserait l'iframe et ferait sauter la page (CLS).
+      if (height && height > 200) iframe.style.height = `${height}px`;
       if (data['od-widget-ios'] === true) {
         iframe.style.width = '100px';
         iframe.style.minWidth = '100%';
@@ -55,8 +57,10 @@ export function OneDocWidget({ locale = 'fr' }: { locale?: string }) {
       id={`od-widget-${id}`}
       title="Réservation en ligne - OneDoc"
       src="about:blank"
-      className="od-widget w-full rounded-2xl border border-line"
-      style={{ maxWidth: 1024, height: 400 }}
+      // 480 ≈ hauteur finale du widget (mobile et desktop) : le resize
+      // postMessage ne fait plus qu'un micro-ajustement (CLS ~0)
+      className="od-widget w-full rounded-2xl border border-line h-[480px]"
+      style={{ maxWidth: 1024 }}
     />
   );
 }

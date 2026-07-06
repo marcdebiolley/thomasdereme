@@ -90,7 +90,7 @@ export default async function PhysioSportPage({
                     src={`/images/${img}.webp`}
                     alt={`${SITE.name} - Maximilien Drion, ski-alpinisme`}
                     fill
-                    quality={95}
+                    quality={75}
                     sizes="(max-width: 1024px) 33vw, 190px"
                     className="object-cover"
                   />
