@@ -1,24 +1,14 @@
 import Image from 'next/image';
 import { Link } from '@/i18n/navigation';
-import { urlFor } from '@/lib/sanity/image';
-import type { ArticleCard as ArticleCardType } from '@/lib/sanity/types';
+import type { BlogMeta } from '@/lib/blog';
 
-export function ArticleCard({
-  article,
-  locale,
-}: {
-  article: ArticleCardType;
-  locale: string;
-}) {
-  const cover = article.coverImage
-    ? urlFor(article.coverImage).width(800).height(560).fit('crop').auto('format').url()
-    : null;
-  const date = article.publishedAt
+export function ArticleCard({ article, locale }: { article: BlogMeta; locale: string }) {
+  const date = article.date
     ? new Intl.DateTimeFormat(locale === 'fr' ? 'fr-CH' : 'en-GB', {
         day: 'numeric',
         month: 'long',
         year: 'numeric',
-      }).format(new Date(article.publishedAt))
+      }).format(new Date(article.date))
     : null;
 
   return (
@@ -27,9 +17,9 @@ export function ArticleCard({
       className="svc group block"
     >
       <div className="relative aspect-[5/4] rounded-[14px] overflow-hidden bg-[#e4e3dd] mb-4">
-        {cover && (
+        {article.image && (
           <Image
-            src={cover}
+            src={article.image}
             alt={article.title}
             fill
             quality={75}
@@ -38,12 +28,12 @@ export function ArticleCard({
           />
         )}
       </div>
-      {article.category && (
-        <div className="eyebrow mb-2">{article.category.title}</div>
-      )}
+      {article.category && <div className="eyebrow mb-2">{article.category}</div>}
       <h3 className="display font-medium text-xl text-ink leading-snug">{article.title}</h3>
-      {article.excerpt && (
-        <p className="text-muted text-sm leading-[1.7] mt-2 line-clamp-2">{article.excerpt}</p>
+      {article.description && (
+        <p className="text-muted text-sm leading-[1.7] mt-2 line-clamp-2">
+          {article.description}
+        </p>
       )}
       {date && <p className="ph mt-3">{date}</p>}
     </Link>

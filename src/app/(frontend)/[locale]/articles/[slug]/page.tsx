@@ -5,29 +5,18 @@ import { getTranslations, setRequestLocale } from 'next-intl/server';
 import type { Locale } from '@/i18n/routing';
 import { buildPageMetadata } from '@/lib/seo/metadata';
 import { Container } from '@/components/ui/Container';
-import { PortableTextRenderer } from '@/components/portable-text/PortableTextRenderer';
+import { MdxContent } from '@/components/blog/MdxContent';
 import { ArticleCard } from '@/components/sections/ArticleCard';
 import { CtaBand } from '@/components/sections/CtaBand';
 import { JsonLd } from '@/components/seo/JsonLd';
-import { Link } from '@/i18n/navigation';
-import { getPathname } from '@/i18n/navigation';
+import { Link, getPathname } from '@/i18n/navigation';
 import { SITE } from '@/lib/site';
-import { urlFor } from '@/lib/sanity/image';
-import { sanityFetch } from '@/lib/sanity/fetch';
-import {
-  articleBySlugQuery,
-  articleSlugsQuery,
-  relatedArticlesQuery,
-} from '@/lib/sanity/queries';
-import type { Article, ArticleCard as ArticleCardType, ArticleSlug } from '@/lib/sanity/types';
+import { getArticle, listSlugs, relatedArticles } from '@/lib/blog';
 
-export async function generateStaticParams({
-  params,
-}: {
-  params: { locale: string };
-}) {
-  const slugs = await sanityFetch<ArticleSlug[]>(articleSlugsQuery, {}, []);
-  return slugs.filter((s) => s.language === params.locale).map((s) => ({ slug: s.slug }));
+export function generateStaticParams({ params }: { params: { locale: string } }) {
+  return listSlugs()
+    .filter((s) => s.locale === params.locale)
+    .map((s) => ({ slug: s.slug }));
 }
 
 export async function generateMetadata({
@@ -36,17 +25,13 @@ export async function generateMetadata({
   params: Promise<{ locale: Locale; slug: string }>;
 }): Promise<Metadata> {
   const { locale, slug } = await params;
-  const article = await sanityFetch<Article | null>(
-    articleBySlugQuery,
-    { slug, locale },
-    null,
-  );
+  const article = getArticle(locale, slug);
   if (!article) return {};
   return buildPageMetadata({
     locale,
     href: { pathname: '/articles/[slug]', params: { slug } },
-    title: article.seo?.metaTitle ?? article.title,
-    description: article.seo?.metaDescription ?? article.excerpt,
+    title: article.title,
+    description: article.description,
   });
 }
 
@@ -59,30 +44,16 @@ export default async function ArticlePage({
   setRequestLocale(locale);
   const t = await getTranslations('Blog');
 
-  const article = await sanityFetch<Article | null>(
-    articleBySlugQuery,
-    { slug, locale },
-    null,
-  );
+  const article = getArticle(locale, slug);
   if (!article) notFound();
 
-  const related = article.category?.slug
-    ? await sanityFetch<ArticleCardType[]>(
-        relatedArticlesQuery,
-        { locale, id: article._id, categorySlug: article.category.slug },
-        [],
-      )
-    : [];
-
-  const cover = article.coverImage
-    ? urlFor(article.coverImage).width(1400).height(875).fit('crop').auto('format').url()
-    : null;
-  const date = article.publishedAt
+  const related = relatedArticles(locale, slug);
+  const date = article.date
     ? new Intl.DateTimeFormat(locale === 'fr' ? 'fr-CH' : 'en-GB', {
         day: 'numeric',
         month: 'long',
         year: 'numeric',
-      }).format(new Date(article.publishedAt))
+      }).format(new Date(article.date))
     : null;
 
   const url = `${SITE.url}${getPathname({ locale, href: { pathname: '/articles/[slug]', params: { slug } } })}`;
@@ -90,11 +61,11 @@ export default async function ArticlePage({
     '@context': 'https://schema.org',
     '@type': 'Article',
     headline: article.title,
-    description: article.excerpt,
-    datePublished: article.publishedAt,
-    author: { '@type': 'Person', name: article.author?.name ?? SITE.name },
+    description: article.description,
+    datePublished: article.date,
+    author: { '@type': 'Person', name: SITE.name },
     publisher: { '@type': 'Organization', name: SITE.name },
-    ...(cover ? { image: cover } : {}),
+    ...(article.image ? { image: `${SITE.url}${article.image}` } : {}),
     mainEntityOfPage: url,
     inLanguage: locale,
   };
@@ -102,7 +73,12 @@ export default async function ArticlePage({
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Articles', item: `${SITE.url}${getPathname({ locale, href: '/articles' })}` },
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: 'Articles',
+        item: `${SITE.url}${getPathname({ locale, href: '/articles' })}`,
+      },
       { '@type': 'ListItem', position: 2, name: article.title, item: url },
     ],
   };
@@ -119,26 +95,26 @@ export default async function ArticlePage({
         >
           ← {t('back')}
         </Link>
-        {article.category && <div className="eyebrow mb-4">{article.category.title}</div>}
+        {article.category && <div className="eyebrow mb-4">{article.category}</div>}
         <h1 className="display font-normal text-[clamp(32px,4.5vw,56px)] leading-[1.08] tracking-[-0.01em] text-ink">
           {article.title}
         </h1>
         {date && (
           <p className="ph mt-5">
             {t('published')} {date}
-            {article.author?.name ? ` · ${article.author.name}` : ''}
           </p>
         )}
       </Container>
 
-      {cover && (
+      {article.image && (
         <Container className="pb-12 max-w-[1000px]">
           <div className="relative aspect-[16/10] rounded-[14px] overflow-hidden">
             <Image
-              src={cover}
+              src={article.image}
               alt={article.title}
               fill
               priority
+              quality={75}
               sizes="(max-width: 1024px) 100vw, 1000px"
               className="object-cover"
             />
@@ -147,8 +123,8 @@ export default async function ArticlePage({
       )}
 
       <Container className="pb-16 md:pb-24">
-        <div className="mx-auto">
-          {article.body && <PortableTextRenderer value={article.body} />}
+        <div className="mx-auto max-w-[680px]">
+          <MdxContent source={article.content} />
         </div>
       </Container>
 
@@ -160,7 +136,7 @@ export default async function ArticlePage({
             </h2>
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-12">
               {related.map((a) => (
-                <ArticleCard key={a._id} article={a} locale={locale} />
+                <ArticleCard key={a.slug} article={a} locale={locale} />
               ))}
             </div>
           </Container>
@@ -171,5 +147,3 @@ export default async function ArticlePage({
     </article>
   );
 }
-
-export const dynamicParams = true;

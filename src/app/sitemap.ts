@@ -2,9 +2,7 @@ import type { MetadataRoute } from 'next';
 import { getPathname } from '@/i18n/navigation';
 import { routing } from '@/i18n/routing';
 import { SITE } from '@/lib/site';
-import { sanityFetch } from '@/lib/sanity/fetch';
-import { articleSlugsQuery } from '@/lib/sanity/queries';
-import type { ArticleSlug } from '@/lib/sanity/types';
+import { listSlugs } from '@/lib/blog';
 
 const routes = [
   '/',
@@ -31,10 +29,9 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     };
   });
 
-  const slugs = await sanityFetch<ArticleSlug[]>(articleSlugsQuery, {}, []);
-  const articleEntries = slugs.map((s) => ({
+  const articleEntries = listSlugs().map((s) => ({
     url: `${SITE.url}${getPathname({
-      locale: (s.language as (typeof routing.locales)[number]) ?? routing.defaultLocale,
+      locale: (s.locale as (typeof routing.locales)[number]) ?? routing.defaultLocale,
       href: { pathname: '/articles/[slug]', params: { slug: s.slug } },
     })}`,
   }));

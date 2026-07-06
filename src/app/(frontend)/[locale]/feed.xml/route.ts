@@ -1,6 +1,4 @@
-import { sanityFetch } from '@/lib/sanity/fetch';
-import { articlesListQuery } from '@/lib/sanity/queries';
-import type { ArticleCard } from '@/lib/sanity/types';
+import { listArticles } from '@/lib/blog';
 import { getPathname } from '@/i18n/navigation';
 import { routing } from '@/i18n/routing';
 import { SITE } from '@/lib/site';
@@ -22,7 +20,7 @@ export async function GET(
 ) {
   const { locale } = await params;
   const isFr = locale === 'fr';
-  const articles = await sanityFetch<ArticleCard[]>(articlesListQuery, { locale }, []);
+  const articles = listArticles(locale);
 
   const listUrl = `${SITE.url}${getPathname({ locale, href: '/articles' })}`;
   const selfUrl = `${SITE.url}/${locale}/feed.xml`;
@@ -37,14 +35,14 @@ export async function GET(
         locale,
         href: { pathname: '/articles/[slug]', params: { slug: a.slug } },
       })}`;
-      const pubDate = a.publishedAt ? new Date(a.publishedAt).toUTCString() : '';
+      const pubDate = a.date ? new Date(a.date).toUTCString() : '';
       return `    <item>
       <title>${esc(a.title)}</title>
       <link>${url}</link>
       <guid isPermaLink="true">${url}</guid>
       ${pubDate ? `<pubDate>${pubDate}</pubDate>` : ''}
-      ${a.category ? `<category>${esc(a.category.title)}</category>` : ''}
-      ${a.excerpt ? `<description>${esc(a.excerpt)}</description>` : ''}
+      ${a.category ? `<category>${esc(a.category)}</category>` : ''}
+      ${a.description ? `<description>${esc(a.description)}</description>` : ''}
     </item>`;
     })
     .join('\n');

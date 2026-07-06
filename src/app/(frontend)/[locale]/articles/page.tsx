@@ -6,9 +6,7 @@ import { PageHeader } from '@/components/sections/PageHeader';
 import { Container } from '@/components/ui/Container';
 import { ArticleCard } from '@/components/sections/ArticleCard';
 import { Link } from '@/i18n/navigation';
-import { sanityFetch } from '@/lib/sanity/fetch';
-import { articlesListQuery, categoriesQuery } from '@/lib/sanity/queries';
-import type { ArticleCard as ArticleCardType, Category } from '@/lib/sanity/types';
+import { listArticles, listCategories } from '@/lib/blog';
 import { SITE } from '@/lib/site';
 import { cn } from '@/lib/cn';
 
@@ -48,11 +46,9 @@ export default async function ArticlesPage({
   const { cat, page: pageParam } = await searchParams;
   const t = await getTranslations('Pages.articles');
 
-  const [articles, categories] = await Promise.all([
-    sanityFetch<ArticleCardType[]>(articlesListQuery, { locale }, []),
-    sanityFetch<Category[]>(categoriesQuery, {}, []),
-  ]);
-  const filtered = cat ? articles.filter((a) => a.category?.slug === cat) : articles;
+  const articles = listArticles(locale);
+  const categories = listCategories(locale);
+  const filtered = cat ? articles.filter((a) => a.categorySlug === cat) : articles;
 
   const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
   const page = Math.min(totalPages, Math.max(1, Number(pageParam) || 1));
@@ -105,7 +101,7 @@ export default async function ArticlesPage({
         ) : (
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-12">
             {pageItems.map((article) => (
-              <ArticleCard key={article._id} article={article} locale={locale} />
+              <ArticleCard key={article.slug} article={article} locale={locale} />
             ))}
           </div>
         )}
