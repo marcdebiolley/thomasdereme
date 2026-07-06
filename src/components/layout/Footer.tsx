@@ -9,11 +9,11 @@ export function Footer() {
 
   return (
     <footer className="border-t border-line">
-      <div className="max-w-[1300px] mx-auto px-6 md:px-14 py-12 flex flex-col md:flex-row justify-between gap-8">
+      <div className="max-w-[1300px] mx-auto px-6 md:px-14 py-12 flex flex-col md:flex-row justify-between gap-8 text-center md:text-left">
         <div>
           <p className="display text-[20px] font-medium text-ink">{SITE.name}</p>
           <p className="text-sm text-muted mt-1">{t('tagline')}</p>
-          <div className="flex gap-4 mt-4 text-sm text-muted">
+          <div className="flex gap-4 mt-4 text-sm text-muted justify-center md:justify-start">
             <Link href="/mentions-legales" className="hover:text-ink transition-colors">
               {tp('legalNotice.title')}
             </Link>
