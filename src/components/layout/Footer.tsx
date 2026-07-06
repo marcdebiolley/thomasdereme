@@ -47,6 +47,29 @@ export function Footer() {
           </p>
         </div>
       </div>
+
+      <div className="border-t border-line/60">
+        <p className="max-w-[1300px] mx-auto px-6 md:px-14 py-5 text-center text-xs text-muted">
+          {t('credit')}{' '}
+          <a
+            href="https://marcodb.be"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-ink transition-colors"
+          >
+            Marc De Biolley
+          </a>{' '}
+          ·{' '}
+          <a
+            href="https://marcodb.be"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-ink transition-colors"
+          >
+            marcodb.be
+          </a>
+        </p>
+      </div>
     </footer>
   );
 }

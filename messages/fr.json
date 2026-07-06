@@ -65,7 +65,8 @@
     }
   },
   "Footer": {
-    "tagline": "Physiothérapeute - Médical · Sport · Esthétique"
+    "tagline": "Physiothérapeute - Médical · Sport · Esthétique",
+    "credit": "Site by"
   },
   "Common": {
     "name": "Thomas Derême",

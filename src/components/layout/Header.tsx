@@ -12,11 +12,11 @@ export function Header() {
     'block px-5 py-2.5 whitespace-nowrap hover:text-ink hover:bg-[#eceae2] transition-colors';
 
   return (
-    <header className="relative">
-      <nav className="grid grid-cols-[1fr_auto_1fr] items-center px-6 md:px-14 py-6 md:py-[34px]">
+    <header className="sticky top-0 z-50 bg-sand/85 backdrop-blur-md border-b border-line/60">
+      <nav className="grid grid-cols-[1fr_auto_1fr] items-center gap-3 px-6 md:px-14 py-4 md:py-5">
         <Link
           href="/"
-          className="display text-[23px] font-medium tracking-[0.01em] text-ink justify-self-start"
+          className="display text-[19px] md:text-[23px] font-medium tracking-[0.01em] text-ink justify-self-start whitespace-nowrap"
         >
           {SITE.name}
         </Link>
@@ -60,7 +60,7 @@ export function Header() {
 
         <div className="flex items-center gap-3 sm:gap-5 justify-self-end">
           <LanguageSwitcher />
-          <Link href="/rendez-vous" className={`${btnDarkSm} hidden sm:inline-flex`}>
+          <Link href="/rendez-vous" className={`${btnDarkSm} max-sm:hidden whitespace-nowrap`}>
             {t('book')}
           </Link>
           <MobileNav />
