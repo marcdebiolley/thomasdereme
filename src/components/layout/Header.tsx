@@ -35,7 +35,7 @@ export function Header() {
               {t('prestations')}
               <span className="text-[9px] mt-0.5">▾</span>
             </Link>
-            <div className="absolute left-1/2 -translate-x-1/2 top-full pt-3 opacity-0 invisible translate-y-1 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-200">
+            <div className="absolute right-0 top-full pt-3 opacity-0 invisible translate-y-1 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-200">
               <div className="bg-sand border border-line rounded-2xl shadow-xl py-2 min-w-[240px]">
                 <Link href="/les-prestations/physio-medicale" className={dropdownItem}>
                   {t('presMedical')}
