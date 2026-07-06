@@ -58,7 +58,10 @@ export function Header() {
           </Link>
         </div>
 
-        <div className="flex items-center gap-3 sm:gap-5 justify-self-end">
+        {/* col-start-3 : la nav du milieu est en display:none sur mobile et
+            sort de la grille ; sans ancrage explicite ce groupe glisserait
+            dans la colonne centrale au lieu de rester à droite */}
+        <div className="col-start-3 flex items-center gap-3 sm:gap-5 justify-self-end">
           <LanguageSwitcher />
           <Link href="/rendez-vous" className={`${btnDarkSm} max-sm:hidden whitespace-nowrap`}>
             {t('book')}
