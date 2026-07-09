@@ -5,6 +5,7 @@ import { btnLight } from '@/components/ui/button';
 
 export async function CabinetSection() {
   const t = await getTranslations('Home.cabinet');
+  const ta = await getTranslations('Alt');
 
   return (
     <section className="bg-dark text-cream px-6 md:px-14 py-24 md:py-[130px]">
@@ -37,8 +38,8 @@ export async function CabinetSection() {
           className="relative h-[320px] md:h-[440px] rounded-[14px] overflow-hidden"
         >
           <Image
-            src="/images/cabinet-soin.webp"
-            alt={t('title')}
+            src="/images/soin-physiotherapie-thomas-dereme.webp"
+            alt={ta('cabinetSoin')}
             fill
             quality={75}
             sizes="(max-width: 1024px) 100vw, 600px"

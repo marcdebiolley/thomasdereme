@@ -5,10 +5,9 @@ import { buildPageMetadata } from '@/lib/seo/metadata';
 import { PrestationDetail } from '@/components/sections/PrestationDetail';
 import { MachinesSection, type Machine } from '@/components/sections/MachinesSection';
 import { Container } from '@/components/ui/Container';
-import { SITE } from '@/lib/site';
 
 const MACHINE_IMAGES = [
-  { main: '/images/huber-360.webp', detail: '/images/huber-360-detail.webp' },
+  { main: '/images/lpg-huber-360-evolution-plateforme.webp', detail: '/images/lpg-huber-360-evolution-detail.webp' },
 ] as const;
 
 export async function generateMetadata({
@@ -35,6 +34,7 @@ export default async function PhysioMedicalePage({
   setRequestLocale(locale);
   const t = await getTranslations('Prestations');
   const tm = await getTranslations('Prestations.medical');
+  const ta = await getTranslations('Alt');
   const machines = (tm.raw('machines') as Omit<Machine, 'images'>[]).map((m, i) => ({
     ...m,
     images: MACHINE_IMAGES[i],
@@ -50,8 +50,8 @@ export default async function PhysioMedicalePage({
       durationsLabel={t('durationsLabel')}
       tech={tm.raw('tech') as string[]}
       expertiseLabel={t('expertiseLabel')}
-      image="/images/medical.webp"
-      alt={`${SITE.name} - ${tm('eyebrow')}`}
+      image="/images/physiotherapie-medicale-mobilisation-genou.webp"
+      alt={ta('medical')}
     >
       {/* Indications */}
       <section className="border-t border-line">

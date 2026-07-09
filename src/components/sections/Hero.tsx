@@ -1,11 +1,11 @@
 import Image from 'next/image';
 import { getTranslations } from 'next-intl/server';
 import { Link } from '@/i18n/navigation';
-import { SITE } from '@/lib/site';
 import { btnDark, linkUnderline } from '@/components/ui/button';
 
 export async function Hero() {
   const t = await getTranslations('Home.hero');
+  const ta = await getTranslations('Alt');
 
   return (
     <section className="grid lg:grid-cols-[1.05fr_1fr] gap-12 lg:gap-12 items-center max-w-[1400px] mx-auto px-6 md:px-14 pt-12 md:pt-20 pb-16 md:pb-[90px]">
@@ -46,8 +46,8 @@ export async function Hero() {
       >
         <div className="relative rounded-[14px] overflow-hidden self-end h-[90%]">
           <Image
-            src="/images/hero-trail.webp"
-            alt={`${SITE.name} - coureur de trail`}
+            src="/images/thomas-dereme-trail-running-batons.webp"
+            alt={ta('heroTrail')}
             fill
             quality={75}
             priority
@@ -57,8 +57,8 @@ export async function Hero() {
         </div>
         <div className="relative rounded-[14px] overflow-hidden self-start h-[78%]">
           <Image
-            src="/images/hero-soin.webp"
-            alt={`${SITE.name} - physiothérapeute à Lausanne`}
+            src="/images/seance-physiotherapie-cabinet-lausanne.webp"
+            alt={ta('heroSoin')}
             fill
             quality={75}
             priority

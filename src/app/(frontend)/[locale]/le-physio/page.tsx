@@ -33,6 +33,7 @@ export default async function PhysioPage({
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations('PhysioPage');
+  const ta = await getTranslations('Alt');
 
   return (
     <>
@@ -41,8 +42,8 @@ export default async function PhysioPage({
       <SplitSection
         eyebrow={t('parcoursEyebrow')}
         title={t('parcoursTitle')}
-        image="/images/physio-parcours.webp"
-        alt={`${SITE.name} - physiothérapeute à Lausanne`}
+        image="/images/thomas-dereme-physiotherapeute-lausanne.webp"
+        alt={ta('parcours')}
         priority
       >
         <p>{t('parcoursP1')}</p>
@@ -86,8 +87,8 @@ export default async function PhysioPage({
               className="relative aspect-[4/5] rounded-[14px] overflow-hidden"
             >
               <Image
-                src="/images/trail-athlete.webp"
-                alt={`${SITE.name} - coureur de trail`}
+                src="/images/thomas-dereme-coureur-trail-foret.webp"
+                alt={ta('trailForet')}
                 fill
                 quality={75}
                 sizes="(max-width: 1024px) 100vw, 560px"

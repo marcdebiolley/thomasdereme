@@ -73,7 +73,7 @@ export default async function CabinetPage({
       {/* Gallery */}
       <Container className="py-14 md:py-20">
         <Figure
-          src="/images/entree.webp"
+          src="/images/cabinet-physiotherapie-lausanne-entree-maison-b.webp"
           caption={t('galleryEntree')}
           className="h-[260px] md:h-[440px] mb-6"
           sizes="(min-width: 1200px) 1120px, 100vw"
@@ -81,19 +81,19 @@ export default async function CabinetPage({
         />
         <div className="grid sm:grid-cols-3 gap-6">
           <Figure
-            src="/images/salle.webp"
+            src="/images/cabinet-physiotherapie-salle-active.webp"
             caption={t('gallerySalle')}
             className="h-[280px] md:h-[360px]"
             sizes="(max-width: 640px) 100vw, 33vw"
           />
           <Figure
-            src="/images/sanitaires.webp"
+            src="/images/cabinet-physiotherapie-douche-sanitaires.webp"
             caption={t('gallerySanitaires')}
             className="h-[280px] md:h-[360px]"
             sizes="(max-width: 640px) 100vw, 33vw"
           />
           <Figure
-            src="/images/equipement.webp"
+            src="/images/cabinet-equipements-recuperation-lpg.webp"
             caption={t('galleryEquipement')}
             className="h-[280px] md:h-[360px]"
             sizes="(max-width: 640px) 100vw, 33vw"

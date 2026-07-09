@@ -5,7 +5,6 @@ import type { Locale } from '@/i18n/routing';
 import { buildPageMetadata } from '@/lib/seo/metadata';
 import { PrestationDetail } from '@/components/sections/PrestationDetail';
 import { Container } from '@/components/ui/Container';
-import { SITE } from '@/lib/site';
 
 export async function generateMetadata({
   params,
@@ -32,6 +31,7 @@ export default async function PhysioSportPage({
   const t = await getTranslations('Prestations');
   const ts = await getTranslations('Prestations.sport');
   const tm = await getTranslations('Prestations.sport.max');
+  const ta = await getTranslations('Alt');
 
   return (
     <PrestationDetail
@@ -43,8 +43,8 @@ export default async function PhysioSportPage({
       durationsLabel={t('durationsLabel')}
       tech={ts.raw('tech') as string[]}
       expertiseLabel={t('expertiseLabel')}
-      image="/images/sport.webp"
-      alt={`${SITE.name} - ${ts('eyebrow')}`}
+      image="/images/physiotherapie-sport-reeducation-espalier.webp"
+      alt={ta('sport')}
     >
       {/* L'athlète */}
       <section className="border-t border-line">
@@ -64,8 +64,8 @@ export default async function PhysioSportPage({
               className="relative aspect-[4/5] rounded-[14px] overflow-hidden"
             >
               <Image
-                src="/images/trail-athlete.webp"
-                alt={`${SITE.name} - coureur de trail`}
+                src="/images/thomas-dereme-coureur-trail-foret.webp"
+                alt={ta('trailForet')}
                 fill
                 quality={75}
                 sizes="(max-width: 1024px) 100vw, 560px"
@@ -81,14 +81,18 @@ export default async function PhysioSportPage({
         <Container className="py-16 md:py-24">
           <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
             <div data-reveal className="grid grid-cols-3 gap-3 md:gap-4">
-              {['skimo-1', 'skimo-2', 'skimo-3'].map((img) => (
+              {[
+                'maximilien-drion-ski-alpinisme-1',
+                'maximilien-drion-ski-alpinisme-2',
+                'maximilien-drion-ski-alpinisme-3',
+              ].map((img) => (
                 <div
                   key={img}
                   className="relative aspect-[3/4] rounded-[12px] overflow-hidden bg-[#e4e3dd]"
                 >
                   <Image
                     src={`/images/${img}.webp`}
-                    alt={`${SITE.name} - Maximilien Drion, ski-alpinisme`}
+                    alt={ta('skimo')}
                     fill
                     quality={75}
                     sizes="(max-width: 1024px) 33vw, 190px"

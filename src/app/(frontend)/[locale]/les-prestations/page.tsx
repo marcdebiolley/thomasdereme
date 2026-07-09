@@ -24,9 +24,9 @@ export async function generateMetadata({
 }
 
 const CARDS = [
-  { key: 'medical', href: '/les-prestations/physio-medicale', image: '/images/medical.webp' },
-  { key: 'sport', href: '/les-prestations/physio-sport', image: '/images/sport.webp' },
-  { key: 'esthetic', href: '/les-prestations/esthetique', image: '/images/esthetique.webp' },
+  { key: 'medical', alt: 'medical', href: '/les-prestations/physio-medicale', image: '/images/physiotherapie-medicale-mobilisation-genou.webp' },
+  { key: 'sport', alt: 'sport', href: '/les-prestations/physio-sport', image: '/images/physiotherapie-sport-reeducation-espalier.webp' },
+  { key: 'esthetic', alt: 'esthetique', href: '/les-prestations/esthetique', image: '/images/machine-lpg-endermologie-salle-soin.webp' },
 ] as const;
 
 export default async function PrestationsPage({
@@ -37,6 +37,7 @@ export default async function PrestationsPage({
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations('Prestations');
+  const ta = await getTranslations('Alt');
 
   return (
     <>
@@ -54,7 +55,7 @@ export default async function PrestationsPage({
               <div className="relative aspect-[4/3] overflow-hidden">
                 <Image
                   src={c.image}
-                  alt={t(`${c.key}.title`)}
+                  alt={ta(c.alt)}
                   fill
                   quality={75}
                   sizes="(max-width: 768px) 100vw, 400px"

@@ -410,5 +410,16 @@
       "rééducation",
       "physiothérapeute proche gare Lausanne"
     ]
+  },
+  "Alt": {
+    "heroTrail": "Thomas Derême, physiothérapeute du sport, en tenue de trail avec ses bâtons",
+    "heroSoin": "Thomas Derême massant la cheville d’une patiente dans son cabinet de Lausanne",
+    "parcours": "Portrait de Thomas Derême, physiothérapeute, à la table de soin de son cabinet",
+    "trailForet": "Thomas Derême en pleine course de trail sur un sentier de montagne",
+    "skimo": "Maximilien Drion et Thomas Derême lors d’une course de ski-alpinisme",
+    "medical": "Séance de physiothérapie médicale : mobilisation du genou d’un patient",
+    "sport": "Exercice de rééducation du sportif à l’espalier au cabinet",
+    "esthetique": "Machine LPG Cellu M6 pour l’endermologie dans la salle de soin",
+    "cabinetSoin": "Soin de physiothérapie dans le cabinet lumineux de la Maison-B à Lausanne"
   }
 }

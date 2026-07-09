@@ -12,7 +12,7 @@ export function physiotherapyJsonLd() {
     url: SITE.url,
     telephone: SITE.phone,
     email: SITE.email,
-    image: `${SITE.url}/images/hero-portrait.webp`,
+    image: `${SITE.url}/images/thomas-dereme-physiotherapeute-portrait.webp`,
     priceRange: '$$',
     address: {
       '@type': 'PostalAddress',
