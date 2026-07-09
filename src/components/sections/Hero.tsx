@@ -46,7 +46,7 @@ export async function Hero() {
       >
         <div className="relative rounded-[14px] overflow-hidden self-end h-[90%]">
           <Image
-            src="/images/hero-b.webp"
+            src="/images/hero-trail.webp"
             alt={`${SITE.name} - coureur de trail`}
             fill
             quality={75}
