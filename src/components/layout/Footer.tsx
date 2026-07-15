@@ -1,6 +1,7 @@
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
 import { SITE, emailHref } from '@/lib/site';
+import { LogoMark } from './LogoMark';
 
 export function Footer() {
   const t = useTranslations('Footer');
@@ -11,7 +12,10 @@ export function Footer() {
     <footer className="border-t border-line">
       <div className="max-w-[1300px] mx-auto px-6 md:px-14 py-12 flex flex-col md:flex-row justify-between gap-8 text-center md:text-left">
         <div>
-          <p className="display text-[20px] font-medium text-ink">{SITE.name}</p>
+          <div className="flex items-center gap-2.5 justify-center md:justify-start text-ink">
+            <LogoMark className="h-[22px] w-auto -mt-0.5" />
+            <p className="display text-[20px] font-medium">{SITE.name}</p>
+          </div>
           <p className="text-sm text-muted mt-1">{t('tagline')}</p>
           <div className="flex gap-4 mt-4 text-sm text-muted justify-center md:justify-start">
             <Link href="/mentions-legales" className="hover:text-ink transition-colors">

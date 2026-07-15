@@ -3,6 +3,7 @@ import { Link } from '@/i18n/navigation';
 import { SITE } from '@/lib/site';
 import { btnDarkSm } from '@/components/ui/button';
 import { LanguageSwitcher } from './LanguageSwitcher';
+import { LogoMark } from './LogoMark';
 import { MobileNav } from './MobileNav';
 
 export function Header() {
@@ -16,9 +17,12 @@ export function Header() {
       <nav className="grid grid-cols-[1fr_auto_1fr] items-center gap-3 px-6 md:px-14 py-6 md:py-5">
         <Link
           href="/"
-          className="display text-[21px] md:text-[23px] font-medium tracking-[0.01em] text-ink justify-self-start whitespace-nowrap"
+          className="flex items-center gap-2.5 md:gap-3 text-ink justify-self-start whitespace-nowrap"
         >
-          {SITE.name}
+          <LogoMark className="h-[26px] md:h-[29px] w-auto shrink-0 -mt-0.5" />
+          <span className="display text-[21px] md:text-[23px] font-medium tracking-[0.01em]">
+            {SITE.name}
+          </span>
         </Link>
 
         <div className="hidden md:flex items-center justify-center gap-[38px] font-sans text-sm font-medium text-muted2">

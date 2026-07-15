@@ -23,7 +23,7 @@ export async function Services() {
       {items.map((item, i) => (
         <div key={item.num}>
           <Link href={hrefs[i]} data-reveal className={rowClass}>
-            <div className="svcnum display font-light text-[40px] md:text-[56px] text-taupe leading-none">
+            <div className="svcnum display font-light text-[40px] md:text-[56px] text-brun leading-none">
               {item.num}
             </div>
             <div className="display font-medium text-[24px] md:text-[30px] text-ink">

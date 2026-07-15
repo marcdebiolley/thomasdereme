@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { NextIntlClientProvider, hasLocale } from 'next-intl';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
-import { Hanken_Grotesk, Spectral } from 'next/font/google';
+import { Cormorant_Garamond, Hanken_Grotesk, Spectral } from 'next/font/google';
 import { routing } from '@/i18n/routing';
 import { SITE } from '@/lib/site';
 import { Header } from '@/components/layout/Header';
@@ -24,6 +24,14 @@ const serif = Spectral({
   weight: ['300', '400', '500', '600'],
   style: ['normal', 'italic'],
   variable: '--font-spectral',
+  display: 'swap',
+});
+/* Police du monogramme « td » uniquement (charte TD8b) */
+const logo = Cormorant_Garamond({
+  subsets: ['latin'],
+  weight: ['500'],
+  style: ['italic'],
+  variable: '--font-logo',
   display: 'swap',
 });
 
@@ -58,7 +66,7 @@ export default async function LocaleLayout({
   setRequestLocale(locale);
 
   return (
-    <html lang={locale} className={`${sans.variable} ${serif.variable}`}>
+    <html lang={locale} className={`${sans.variable} ${serif.variable} ${logo.variable}`}>
       <body>
         <NextIntlClientProvider>
           <ConsentProvider>

@@ -21,7 +21,7 @@ export async function Hero() {
           <br />
           {t('titleLine2')}
           <br />
-          <span className="italic text-taupe">{t('titleItalic')}</span>
+          <span className="italic text-brun">{t('titleItalic')}</span>
         </h1>
         <p
           data-reveal

@@ -17,7 +17,7 @@ export async function Contact() {
       >
         {t('titleLine')}
         <br />
-        <span className="italic text-taupe">{t('titleItalic')}</span>
+        <span className="italic text-brun">{t('titleItalic')}</span>
       </h2>
       <div data-reveal>
         <Link href="/rendez-vous" className={btnDarkLg}>

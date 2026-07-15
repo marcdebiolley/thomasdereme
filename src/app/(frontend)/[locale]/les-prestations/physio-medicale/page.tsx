@@ -68,7 +68,7 @@ export default async function PhysioMedicalePage({
           >
             {(tm.raw('indications') as string[]).map((item) => (
               <li key={item} className="flex items-baseline gap-4 border-t border-line py-5">
-                <span className="text-taupe shrink-0" aria-hidden>
+                <span className="text-brun shrink-0" aria-hidden>
                   —
                 </span>
                 {item}

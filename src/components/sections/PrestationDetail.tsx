@@ -79,7 +79,7 @@ export function PrestationDetail({
               <ul className="space-y-2 text-ink text-base">
                 {durations.map((d) => (
                   <li key={d} className="flex items-baseline gap-3">
-                    <span className="text-taupe">·</span>
+                    <span className="text-brun">·</span>
                     {d}
                   </li>
                 ))}

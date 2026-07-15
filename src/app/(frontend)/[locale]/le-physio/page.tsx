@@ -117,7 +117,7 @@ export default async function PhysioPage({
                 {(t.raw('formationsList') as { n: string; org: string; body: string }[]).map(
                   (f) => (
                     <div key={f.n} className="flex gap-6 py-6 border-t border-line">
-                      <div className="display text-[15px] tracking-[0.06em] text-taupe w-[34px] shrink-0 pt-[3px]">
+                      <div className="display text-[15px] tracking-[0.06em] text-brun w-[34px] shrink-0 pt-[3px]">
                         {f.n}
                       </div>
                       <div>

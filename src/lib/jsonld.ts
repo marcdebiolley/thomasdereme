@@ -13,6 +13,7 @@ export function physiotherapyJsonLd() {
     telephone: SITE.phone,
     email: SITE.email,
     image: `${SITE.url}/images/thomas-dereme-physiotherapeute-portrait.webp`,
+    logo: `${SITE.url}/brand/td-logo-512.png`,
     priceRange: '$$',
     address: {
       '@type': 'PostalAddress',
