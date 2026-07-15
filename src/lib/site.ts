@@ -7,6 +7,7 @@ export const SITE = {
   email: 'thomas.dereme@hotmail.com',
   phone: '+41 76 688 72 81',
   phoneHref: 'tel:+41766887281',
+  whatsappHref: 'https://wa.me/41766887281',
   address: {
     street: '12 Rue du Midi',
     postalCode: '1003',

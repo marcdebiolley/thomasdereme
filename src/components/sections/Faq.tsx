@@ -48,7 +48,12 @@ export async function Faq() {
                     </Link>
                   ),
                   tel: (chunks) => (
-                    <a href={SITE.phoneHref} className={richLink}>
+                    <a
+                      href={SITE.whatsappHref}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className={richLink}
+                    >
                       {chunks}
                     </a>
                   ),
