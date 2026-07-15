@@ -57,7 +57,7 @@ export async function Hero() {
         </div>
         <div className="relative rounded-[14px] overflow-hidden self-start h-[78%]">
           <Image
-            src="/images/seance-physiotherapie-cabinet-lausanne.webp"
+            src="/images/physiotherapie-mobilisation-cheville-lausanne.webp"
             alt={ta('heroSoin')}
             fill
             quality={75}
