@@ -36,12 +36,6 @@ export async function Services() {
           <div className="h-px bg-line" />
         </div>
       ))}
-      <p
-        data-reveal
-        className="mt-10 md:mt-14 max-w-3xl font-sans text-[15px] md:text-base leading-[1.8] text-muted"
-      >
-        {t('outro')}
-      </p>
     </section>
   );
 }
