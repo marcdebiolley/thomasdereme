@@ -38,12 +38,12 @@ export async function CabinetSection() {
           className="relative h-[320px] md:h-[440px] rounded-[14px] overflow-hidden"
         >
           <Image
-            src="/images/soin-physiotherapie-thomas-dereme.webp"
+            src="/images/soin-physiotherapie-cabinet-lausanne.webp"
             alt={ta('cabinetSoin')}
             fill
             quality={75}
             sizes="(max-width: 1024px) 100vw, 600px"
-            className="object-cover object-[50%_28%]"
+            className="object-cover"
           />
         </div>
       </div>
