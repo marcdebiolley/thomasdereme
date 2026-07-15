@@ -25,7 +25,7 @@ export function Header() {
           </span>
         </Link>
 
-        <div className="hidden md:flex items-center justify-center gap-[38px] font-sans text-sm font-medium text-muted2">
+        <div className="hidden lg:flex items-center justify-center gap-6 xl:gap-[38px] font-sans text-sm font-medium text-muted2">
           <Link href="/le-physio" className="hover:text-ink transition-colors">
             {t('physio')}
           </Link>

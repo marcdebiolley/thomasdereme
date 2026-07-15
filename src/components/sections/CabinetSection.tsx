@@ -8,10 +8,10 @@ export async function CabinetSection() {
   const ta = await getTranslations('Alt');
 
   return (
-    <section className="bg-dark text-cream px-6 md:px-14 py-24 md:py-[130px]">
+    <section className="bg-brun-fonce text-cream px-6 md:px-14 py-24 md:py-[130px]">
       <div className="max-w-[1300px] mx-auto grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
         <div>
-          <div data-reveal className="eyebrow mb-7 text-[#9a9488]">
+          <div data-reveal className="eyebrow mb-7 text-[#a5937f]">
             {t('eyebrow')}
           </div>
           <h2
