@@ -13,6 +13,7 @@ function Figure({
   src,
   caption,
   className,
+  imgH,
   sizes,
   priority,
   imgPos = '',
@@ -20,6 +21,8 @@ function Figure({
   src: string;
   caption: string;
   className?: string;
+  /** hauteur de la photo (la légende s'ajoute en dessous, dans le flux) */
+  imgH: string;
   sizes: string;
   priority?: boolean;
   /** object-position Tailwind (classe littérale) pour recadrer le sujet */
@@ -27,7 +30,7 @@ function Figure({
 }) {
   return (
     <figure data-reveal className={className}>
-      <div className="relative h-full w-full rounded-[14px] overflow-hidden">
+      <div className={`relative w-full rounded-[14px] overflow-hidden ${imgH}`}>
         <Image
           src={src}
           alt={caption}
@@ -78,28 +81,29 @@ export default async function CabinetPage({
         <Figure
           src="/images/cabinet-physiotherapie-lausanne-entree-maison-b.webp"
           caption={t('galleryEntree')}
-          className="h-[260px] md:h-[440px] mb-6"
+          className="mb-10"
+          imgH="h-[260px] md:h-[440px]"
           sizes="(min-width: 1200px) 1120px, 100vw"
           priority
           imgPos="object-[50%_60%]"
         />
-        <div className="grid sm:grid-cols-3 gap-6">
+        <div className="grid sm:grid-cols-3 gap-x-6 gap-y-10">
           <Figure
             src="/images/cabinet-physiotherapie-salle-active.webp"
             caption={t('gallerySalle')}
-            className="h-[280px] md:h-[360px]"
+            imgH="h-[280px] md:h-[360px]"
             sizes="(max-width: 640px) 100vw, 33vw"
           />
           <Figure
             src="/images/cabinet-physiotherapie-douche-sanitaires.webp"
             caption={t('gallerySanitaires')}
-            className="h-[280px] md:h-[360px]"
+            imgH="h-[280px] md:h-[360px]"
             sizes="(max-width: 640px) 100vw, 33vw"
           />
           <Figure
             src="/images/cabinet-equipements-recuperation-lpg.webp"
             caption={t('galleryEquipement')}
-            className="h-[280px] md:h-[360px]"
+            imgH="h-[280px] md:h-[360px]"
             sizes="(max-width: 640px) 100vw, 33vw"
           />
         </div>
