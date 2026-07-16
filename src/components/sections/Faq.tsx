@@ -47,6 +47,11 @@ export async function Faq() {
                       {chunks}
                     </Link>
                   ),
+                  lpg: (chunks) => (
+                    <Link href="/les-prestations/esthetique" className={richLink}>
+                      {chunks}
+                    </Link>
+                  ),
                   tel: (chunks) => (
                     <a
                       href={SITE.whatsappHref}
