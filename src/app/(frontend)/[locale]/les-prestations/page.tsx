@@ -23,10 +23,30 @@ export async function generateMetadata({
   });
 }
 
+// Images portrait dans des cartes 4/3 : object-position réglé par photo pour
+// garder les visages / le sujet dans le cadre, quel que soit l'écran.
 const CARDS = [
-  { key: 'medical', alt: 'medical', href: '/les-prestations/physio-medicale', image: '/images/physiotherapie-medicale-mobilisation-genou.webp' },
-  { key: 'sport', alt: 'sport', href: '/les-prestations/physio-sport', image: '/images/physiotherapie-sport-reeducation-espalier.webp' },
-  { key: 'esthetic', alt: 'esthetique', href: '/les-prestations/esthetique', image: '/images/machine-lpg-endermologie-salle-soin.webp' },
+  {
+    key: 'medical',
+    alt: 'medical',
+    href: '/les-prestations/physio-medicale',
+    image: '/images/physiotherapie-medicale-mobilisation-genou.webp',
+    imgPos: 'object-[50%_24%]',
+  },
+  {
+    key: 'sport',
+    alt: 'sport',
+    href: '/les-prestations/physio-sport',
+    image: '/images/physiotherapie-sport-reeducation-espalier.webp',
+    imgPos: 'object-[50%_30%]',
+  },
+  {
+    key: 'esthetic',
+    alt: 'esthetique',
+    href: '/les-prestations/esthetique',
+    image: '/images/machine-lpg-endermologie-salle-soin.webp',
+    imgPos: 'object-[50%_42%]',
+  },
 ] as const;
 
 export default async function PrestationsPage({
@@ -59,7 +79,7 @@ export default async function PrestationsPage({
                   fill
                   quality={75}
                   sizes="(max-width: 768px) 100vw, 400px"
-                  className="object-cover transition-transform duration-500 group-hover:scale-[1.03]"
+                  className={`object-cover ${c.imgPos} transition-transform duration-500 group-hover:scale-[1.03]`}
                   priority={i === 0}
                 />
               </div>
