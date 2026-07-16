@@ -381,7 +381,11 @@
       "metaDescription": "Prendre rendez-vous avec votre physiothérapeute à Lausanne, proche de la gare. Réservation en ligne via OneDoc."
     },
     "legalNotice": {
-      "title": "Mentions légales"
+      "title": "Mentions légales",
+      "status": "Entreprise individuelle inscrite au registre suisse des entreprises.",
+      "ide": "IDE : CHE-469.425.446",
+      "vat": "Activité de physiothérapie non assujettie à la TVA.",
+      "hosting": "Hébergement : Vercel Inc., 340 S Lemon Ave #4133, Walnut, CA 91789, États-Unis."
     },
     "privacy": {
       "title": "Politique de confidentialité",

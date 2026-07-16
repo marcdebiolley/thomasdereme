@@ -49,10 +49,12 @@ export default async function LegalNoticePage({
               {SITE.phone} (WhatsApp)
             </a>
           </p>
-          <p className="pt-4 italic">
-            {/* TODO: statut (indépendant), N° IDE/TVA, hébergeur - à compléter. */}
-            Informations légales complètes à compléter (statut, N° IDE/TVA, hébergeur).
-          </p>
+          <div className="pt-4 space-y-2">
+            <p>{t('status')}</p>
+            <p>{t('ide')}</p>
+            <p>{t('vat')}</p>
+            <p>{t('hosting')}</p>
+          </div>
         </div>
       </Container>
     </>

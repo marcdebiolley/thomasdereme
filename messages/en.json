@@ -381,7 +381,11 @@
       "metaDescription": "Book your physiotherapist in Lausanne, near the station. Online booking via OneDoc."
     },
     "legalNotice": {
-      "title": "Legal notice"
+      "title": "Legal notice",
+      "status": "Sole proprietorship registered in the Swiss business register.",
+      "ide": "UID: CHE-469.425.446",
+      "vat": "Physiotherapy activity not subject to VAT.",
+      "hosting": "Hosting: Vercel Inc., 340 S Lemon Ave #4133, Walnut, CA 91789, USA."
     },
     "privacy": {
       "title": "Privacy policy",
