@@ -199,9 +199,8 @@
     "sport": {
       "eyebrow": "Sport",
       "title": "Sports physio.",
-      "lead": "From amateur to elite athlete: assessment, planning and recovery, from a physiotherapist who is himself a trail runner.",
+      "lead": "Every athlete is unique and deserves tailored attention, adapted to their level. From amateur athletes to elite competitors: assessment, planning, coaching, recovery and treatment of sport-related pain, by a qualified sports physiotherapist who is himself a high-level trail runner.",
       "card": "Personalised sports follow-up, assessment and goal planning. For every level, from getting back in shape to competition.",
-      "body": "A first 30-minute session to assess your needs, then personalised follow-up. For athletes and amateurs alike: goal planning, coaching and recovery.",
       "durations": [
         "1st session 30 min, then personalised follow-up"
       ],
@@ -216,14 +215,52 @@
       "max": {
         "eyebrow": "Elite level",
         "title": "Alongside Maximilien Drion.",
-        "text": "I support <link>Maximilien Drion</link>, a ski-mountaineering athlete, as a physiotherapist and osteopath in his preparation for international and Olympic competitions.",
-        "text2": "A demanding follow-up - injury prevention, recovery and planning - as close as possible to the constraints of elite sport."
+        "text": "I also support <link>Maximilien Drion</link>, an international ski-mountaineering athlete and winner of several World Cup races.",
+        "text2": "Every winter I follow him on part of the international circuit, travelling with him to various World Cup stages to ensure his follow-up, his recovery and the management of performance-related demands."
       },
       "athlete": {
         "eyebrow": "The athlete",
         "title": "Trail running, lived from the inside.",
-        "p1": "Alongside my work as a physiotherapist, I practise trail running at a high level. This experience lets me understand from the inside the physical, technical and mental demands athletes face - as well as the importance of proper recovery, injury prevention and individualised support."
-      }
+        "p1": "Alongside my work as a physiotherapist, I am myself a high-level trail runner. This dual experience gives me a precise understanding of the demands of performance sport: training load, preparation periods, the constraints of the competition calendar, recovery and athletes’ expectations.",
+        "p2": "Elite sport is an integral part of my daily life and feeds my clinical practice. This immersion helps me understand the needs of every athlete - and those of amateur athletes too. Because I know the realities of the field, I can offer pragmatic care, grounded in current scientific evidence and tailored to each person’s goals. My ambition is to help you practise your sport sustainably, with confidence, and regain the best level of performance you are capable of."
+      },
+      "bodyParas": [
+        "I support athletes of all levels, from recreational practitioners to elite competitors, in prevention, injury treatment and performance optimisation. Whether your goal is to return to physical activity, prepare for a race, reach a personal goal or perform in competition, every treatment plan is individualised according to your discipline, your level and your constraints.",
+        "I regularly work with runners, trail runners, cyclists, skiers and footballers. Beyond treating pain, my approach aims to identify the factors behind the injury, optimise training-load management and help you return to your best level of practice in lasting conditions."
+      ],
+      "intl": {
+        "eyebrow": "International experience",
+        "title": "At the highest level of international sport.",
+        "paras": [
+          "My work also takes me to the highest level of international sport. I served as a physiotherapist for a Belgian First Division football club, where I gained solid experience in the day-to-day care of professional athletes.",
+          "In skiing, I work at the Xtreme de Verbier final, the iconic stage of the Freeride World Tour, where I look after the athletes throughout this major event.",
+          "In trail running, I join the Scott Running International medical staff at leading competitions such as UTMB®, following athletes before and after their races. I also support professional cyclists in managing pain linked to heavy training loads and the demands of their discipline."
+        ]
+      },
+      "offers": {
+        "eyebrow": "What I offer",
+        "title": "The care I provide.",
+        "items": [
+          {
+            "t": "Athlete injuries and conditions",
+            "d": "Functional diagnosis, treatment, rehabilitation and support for the return to sport, whatever your discipline or level of practice."
+          },
+          {
+            "t": "Recovery sessions",
+            "d": "Recovery techniques adapted to periods of intensive training, competition or return to sport, to optimise performance and limit the risk of injury."
+          },
+          {
+            "t": "Competitions and training camps",
+            "d": "Physiotherapy follow-up in Lausanne or on the road (competitions, training camps, sporting events), with care adapted to the demands of the field."
+          },
+          {
+            "t": "Planning and sporting goals",
+            "d": "Advice on organising your preparation, training-load management, injury prevention and personalised support to reach your goals - a first race, a marathon, an ultra-trail, a sportive or an elite competition."
+          }
+        ]
+      },
+      "coverageTitle": "Health insurance coverage",
+      "coverageText": "Sports physiotherapy sessions can be covered by LAMal basic insurance, on presentation of a physiotherapy prescription issued by your doctor."
     },
     "esthetic": {
       "eyebrow": "Aesthetic",

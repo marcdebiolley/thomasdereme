@@ -199,9 +199,8 @@
     "sport": {
       "eyebrow": "Sport",
       "title": "Physio & sport.",
-      "lead": "Du sportif amateur à l’athlète de haut niveau : bilan, planification et récupération, par un physiothérapeute lui-même coureur de trail.",
+      "lead": "Chaque sportif est unique et demande une attention sur mesure, adaptée à son niveau. Du sportif amateur à l’athlète de haut niveau : bilan, planification, encadrement, récupération et traitement des douleurs liées au sport, par un physiothérapeute du sport qualifié, lui-même coureur de trail à haut niveau.",
       "card": "Suivi sportif personnalisé, bilan et planification d’objectifs. Pour tout niveau, de la remise en forme à la compétition.",
-      "body": "Une première séance de 30 minutes pour évaluer vos besoins, puis un suivi personnalisé. Pour l’athlète comme le sportif amateur : planification d’objectifs, encadrement et récupération.",
       "durations": [
         "1ʳᵉ séance 30 min, puis suivi personnalisé"
       ],
@@ -216,14 +215,52 @@
       "max": {
         "eyebrow": "Haut niveau",
         "title": "Aux côtés de Maximilien Drion.",
-        "text": "J’accompagne <link>Maximilien Drion</link>, athlète de ski-alpinisme, comme physiothérapeute et ostéopathe dans la préparation de ses compétitions internationales et olympiques.",
-        "text2": "Un suivi exigeant - prévention des blessures, récupération et planification - au plus près des contraintes du sport de haut niveau."
+        "text": "J’accompagne également <link>Maximilien Drion</link>, athlète international de ski-alpinisme et vainqueur de plusieurs épreuves de Coupe du monde.",
+        "text2": "Chaque hiver, je le suis sur une partie du circuit international, en voyageant avec lui sur différentes étapes des Coupes du monde afin d’assurer son suivi, sa récupération et la prise en charge des contraintes liées à la performance."
       },
       "athlete": {
         "eyebrow": "L’athlète",
         "title": "Le trail, vécu de l’intérieur.",
-        "p1": "En parallèle de mon activité de physiothérapeute, je pratique le trail à haut niveau. Cette expérience me permet de comprendre de l’intérieur les exigences physiques, techniques et mentales auxquelles sont confrontés les sportifs, mais aussi l’importance d’une récupération adaptée, de la prévention des blessures et d’un accompagnement individualisé."
-      }
+        "p1": "En parallèle de mon activité de physiothérapeute, je suis moi-même traileur de haut niveau. Cette double expérience me permet de comprendre avec précision les exigences du sport de performance : la charge d’entraînement, les périodes de préparation, les contraintes du calendrier de compétition, la récupération et les attentes des sportifs.",
+        "p2": "Le sport de haut niveau fait partie intégrante de mon quotidien et nourrit ma pratique clinique. Cette immersion me permet de comprendre les besoins de chaque athlète, mais aussi ceux des sportifs amateurs. Parce que je connais les réalités du terrain, je suis en mesure de proposer une prise en charge pragmatique, fondée sur les données scientifiques actuelles et adaptée aux objectifs de chacun. Mon ambition est de vous permettre de pratiquer votre sport durablement, avec confiance, en retrouvant le meilleur niveau de performance dont vous êtes capable."
+      },
+      "bodyParas": [
+        "J’accompagne des sportifs de tous niveaux, du pratiquant loisir à l’athlète de haut niveau, dans la prévention, le traitement des blessures et l’optimisation de la performance. Que votre objectif soit de reprendre une activité physique, préparer une course, atteindre un objectif personnel ou performer en compétition, chaque prise en charge est individualisée en fonction de votre discipline, de votre niveau et de vos contraintes.",
+        "J’interviens régulièrement auprès de coureurs à pied, traileurs, cyclistes, skieurs et footballeurs. Au-delà du traitement de la douleur, mon approche vise à identifier les facteurs responsables de la blessure, à optimiser la gestion des charges d’entraînement et à vous permettre de retrouver votre meilleur niveau de pratique dans des conditions durables."
+      ],
+      "intl": {
+        "eyebrow": "Terrain international",
+        "title": "Au plus haut niveau du sport international.",
+        "paras": [
+          "Mon activité m’amène également à évoluer au plus haut niveau du sport international. J’ai notamment exercé comme physiothérapeute au sein d’un club de Division 1 belge de football, où j’ai acquis une solide expérience dans la prise en charge quotidienne d’athlètes professionnels.",
+          "En ski, j’interviens lors de la finale de l’Xtreme de Verbier, étape emblématique du Freeride World Tour, où j’assure la prise en charge des athlètes durant cet événement majeur.",
+          "En trail, j’intègre le staff médical de Scott Running International lors de compétitions de référence telles que l’UTMB®, où j’assure le suivi des athlètes avant et après leurs épreuves. J’accompagne également des cyclistes professionnels dans la gestion des douleurs liées aux fortes charges d’entraînement et aux exigences de leur discipline."
+        ]
+      },
+      "offers": {
+        "eyebrow": "Prises en charge",
+        "title": "Les prises en charge proposées.",
+        "items": [
+          {
+            "t": "Pathologies et blessures du sportif",
+            "d": "Diagnostic fonctionnel, traitement, rééducation et accompagnement du retour au sport, quelle que soit votre discipline ou votre niveau de pratique."
+          },
+          {
+            "t": "Séances de récupération",
+            "d": "Techniques de récupération adaptées aux périodes d’entraînement intensif, de compétition ou de reprise, afin d’optimiser les performances et de limiter le risque de blessure."
+          },
+          {
+            "t": "Compétitions et stages",
+            "d": "Suivi physiothérapeutique à Lausanne ou lors de déplacements (compétitions, stages d’entraînement, événements sportifs), avec une prise en charge adaptée aux exigences du terrain."
+          },
+          {
+            "t": "Planification et objectifs sportifs",
+            "d": "Conseils dans l’organisation de votre préparation, gestion de la charge d’entraînement, prévention des blessures et accompagnement personnalisé pour atteindre vos objectifs - première course, marathon, ultra-trail, cyclosportive ou compétition de haut niveau."
+          }
+        ]
+      },
+      "coverageTitle": "Prise en charge par l’assurance maladie",
+      "coverageText": "Les séances de physiothérapie du sport peuvent être prises en charge par l’assurance de base LAMal, sur présentation d’une ordonnance de physiothérapie établie par votre médecin."
     },
     "esthetic": {
       "eyebrow": "Esthétique",
