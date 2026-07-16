@@ -15,12 +15,15 @@ function Figure({
   className,
   sizes,
   priority,
+  imgPos = '',
 }: {
   src: string;
   caption: string;
   className?: string;
   sizes: string;
   priority?: boolean;
+  /** object-position Tailwind (classe littérale) pour recadrer le sujet */
+  imgPos?: string;
 }) {
   return (
     <figure data-reveal className={className}>
@@ -31,7 +34,7 @@ function Figure({
           fill
           quality={75}
           sizes={sizes}
-          className="object-cover"
+          className={`object-cover ${imgPos}`}
           priority={priority}
         />
       </div>
@@ -78,6 +81,7 @@ export default async function CabinetPage({
           className="h-[260px] md:h-[440px] mb-6"
           sizes="(min-width: 1200px) 1120px, 100vw"
           priority
+          imgPos="object-[50%_60%]"
         />
         <div className="grid sm:grid-cols-3 gap-6">
           <Figure
