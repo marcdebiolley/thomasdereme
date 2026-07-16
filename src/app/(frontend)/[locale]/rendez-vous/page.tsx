@@ -46,8 +46,13 @@ export default async function BookingPage({
             <p>Maison-B (cabinet Dr Burgener)</p>
           </div>
           <p>
-            <a href={SITE.phoneHref} className="hover:text-ink transition-colors">
-              {SITE.phone}
+            <a
+              href={SITE.whatsappHref}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-ink transition-colors"
+            >
+              {SITE.phone} (WhatsApp)
             </a>
           </p>
           <p>

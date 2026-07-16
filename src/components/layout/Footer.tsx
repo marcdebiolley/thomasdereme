@@ -40,8 +40,13 @@ export function Footer() {
             </a>
           </p>
           <p>
-            <a href={SITE.phoneHref} className="hover:text-ink transition-colors">
-              {SITE.phone}
+            <a
+              href={SITE.whatsappHref}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-ink transition-colors"
+            >
+              {SITE.phone} (WhatsApp)
             </a>
           </p>
           <p className="pt-2">

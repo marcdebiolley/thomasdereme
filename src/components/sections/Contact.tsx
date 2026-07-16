@@ -37,8 +37,13 @@ export async function Contact() {
         </div>
         <div>
           <div className="text-ink font-semibold mb-1.5">{t('call')}</div>
-          <a href={SITE.phoneHref} className="hover:text-ink transition-colors">
-            {SITE.phone}
+          <a
+            href={SITE.whatsappHref}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-ink transition-colors"
+          >
+            {SITE.phone} (WhatsApp)
           </a>
         </div>
         <div>
