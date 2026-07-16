@@ -18,8 +18,9 @@ export const SITE = {
   /** Approx. coordinates of 12 Rue du Midi, Lausanne - refine before go-live. */
   geo: { lat: 46.5167, lng: 6.6296 },
   social: {
-    instagram: 'https://www.instagram.com/',
-    linkedin: 'https://www.linkedin.com/',
+    instagram: 'https://www.instagram.com/thomasdereme/',
+    /** Pas encore de profil fourni - laisser vide (filtré du JSON-LD). */
+    linkedin: '',
   },
   /** OneDoc booking page URL (link-out fallback). */
   onedocUrl: process.env.NEXT_PUBLIC_ONEDOC_URL ?? '',

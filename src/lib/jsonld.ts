@@ -55,6 +55,6 @@ export function physiotherapyJsonLd() {
       'Massage thérapeutique',
       'Rééducation',
     ].map((name) => ({ '@type': 'MedicalTherapy', name })),
-    sameAs: [SITE.social.instagram, SITE.social.linkedin],
+    sameAs: [SITE.social.instagram, SITE.social.linkedin].filter(Boolean),
   };
 }
