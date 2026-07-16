@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import type { ReactNode } from 'react';
 import Image from 'next/image';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import type { Locale } from '@/i18n/routing';
@@ -33,6 +34,20 @@ export default async function PhysioSportPage({
   const tm = await getTranslations('Prestations.sport.max');
   const ta = await getTranslations('Alt');
 
+  const extLink = (href: string) =>
+    function ExtLink(chunks: ReactNode) {
+      return (
+        <a
+          href={href}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-ink underline hover:text-taupe"
+        >
+          {chunks}
+        </a>
+      );
+    };
+
   return (
     <PrestationDetail
       eyebrow={ts('eyebrow')}
@@ -57,8 +72,14 @@ export default async function PhysioSportPage({
               </h2>
             </div>
             <div data-reveal className="space-y-4 text-muted text-base leading-[1.8]">
-              {(ts.raw('intl.paras') as string[]).map((p) => (
-                <p key={p.slice(0, 32)}>{p}</p>
+              {(ts.raw('intl.paras') as string[]).map((p, i) => (
+                <p key={p.slice(0, 32)}>
+                  {ts.rich(`intl.paras.${i}`, {
+                    fwt: extLink('https://www.freerideworldtour.com/'),
+                    scott: extLink('https://www.scott-sports.com/'),
+                    utmb: extLink('https://utmb.world/'),
+                  })}
+                </p>
               ))}
             </div>
           </div>
