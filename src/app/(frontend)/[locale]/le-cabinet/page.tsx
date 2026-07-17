@@ -158,8 +158,10 @@ export default async function CabinetPage({
           <p className="text-muted leading-[1.8] mt-3 max-w-md">{t('accessText')}</p>
         </div>
         <div className="h-[280px] md:h-[340px]">
+          {/* « Maison-B » en tête de requête : Google matche l'établissement
+              et affiche son nom sur l'épingle au lieu du simple numéro. */}
           <ConsentMap
-            query={`${SITE.address.street}, ${SITE.address.postalCode} ${SITE.address.locality}`}
+            query={`Maison-B, ${SITE.address.street}, ${SITE.address.postalCode} ${SITE.address.locality}`}
           />
         </div>
       </Container>
