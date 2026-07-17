@@ -92,9 +92,9 @@ export default async function PhysioSportPage({
           <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
             <div data-reveal className="grid grid-cols-3 gap-3 md:gap-4">
               {[
-                'maximilien-drion-ski-alpinisme-1',
-                'maximilien-drion-ski-alpinisme-2',
-                'maximilien-drion-ski-alpinisme-3',
+                'thomas-dereme-maximilien-drion-ski-alpinisme-1',
+                'thomas-dereme-maximilien-drion-ski-alpinisme-2',
+                'thomas-dereme-maximilien-drion-ski-alpinisme-3',
               ].map((img) => (
                 <div
                   key={img}
