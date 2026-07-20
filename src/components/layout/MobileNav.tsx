@@ -17,7 +17,7 @@ export function MobileNav() {
         aria-label={open ? 'Close menu' : 'Open menu'}
         aria-expanded={open}
         onClick={() => setOpen((v) => !v)}
-        className="flex flex-col gap-[5px] p-2"
+        className="flex flex-col justify-center items-center gap-[5px] p-3 min-w-[44px] min-h-[44px]"
       >
         <span className="block w-5 h-[2px] bg-ink" />
         <span className="block w-5 h-[2px] bg-ink" />

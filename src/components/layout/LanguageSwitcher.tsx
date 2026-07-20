@@ -35,7 +35,7 @@ export function LanguageSwitcher() {
             })
           }
           className={cn(
-            'display text-[11px] font-semibold tracking-wide px-2.5 py-1 rounded-full transition-colors',
+            'display text-[11px] font-semibold tracking-wide px-2 sm:px-3 py-2 min-h-[36px] rounded-full transition-colors',
             locale === current
               ? 'bg-cream text-ink'
               : 'text-muted hover:text-ink cursor-pointer',

@@ -14,13 +14,13 @@ export function Header() {
 
   return (
     <header className="sticky top-0 z-50 bg-sand/85 backdrop-blur-md border-b border-line/60">
-      <nav className="grid grid-cols-[1fr_auto_1fr] items-center gap-3 px-6 md:px-14 py-6 md:py-5">
+      <nav className="grid grid-cols-[1fr_auto_1fr] items-center gap-3 px-4 sm:px-6 md:px-14 py-6 md:py-5">
         <Link
           href="/"
-          className="flex items-center gap-2.5 md:gap-3 text-ink justify-self-start whitespace-nowrap"
+          className="flex items-center gap-2 sm:gap-2.5 md:gap-3 text-ink justify-self-start whitespace-nowrap"
         >
-          <LogoMark className="h-[26px] md:h-[29px] w-auto shrink-0 -mt-[5px]" />
-          <span className="display text-[21px] md:text-[23px] font-medium tracking-[0.01em]">
+          <LogoMark className="h-[24px] sm:h-[26px] md:h-[29px] w-auto shrink-0 -mt-[5px]" />
+          <span className="display text-[19px] sm:text-[21px] md:text-[23px] font-medium tracking-[0.01em]">
             {SITE.name}
           </span>
         </Link>
@@ -65,7 +65,7 @@ export function Header() {
         {/* col-start-3 : la nav du milieu est en display:none sur mobile et
             sort de la grille ; sans ancrage explicite ce groupe glisserait
             dans la colonne centrale au lieu de rester à droite */}
-        <div className="col-start-3 flex items-center gap-3 sm:gap-5 justify-self-end">
+        <div className="col-start-3 flex items-center gap-2 sm:gap-5 justify-self-end">
           <LanguageSwitcher />
           <Link href="/rendez-vous" className={`${btnDarkSm} max-sm:hidden whitespace-nowrap`}>
             {t('book')}
