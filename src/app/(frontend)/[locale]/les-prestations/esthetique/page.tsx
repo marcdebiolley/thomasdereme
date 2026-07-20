@@ -98,21 +98,15 @@ export default async function EsthetiquePage({
               <p className="mt-4 text-muted text-base leading-[1.8]">
                 {te('surgery.rehabIntro')}
               </p>
-              <ul className="mt-6 text-muted text-[15px] leading-[1.7]">
-                {(te.raw('surgery.rehabItems') as string[]).map((item) => (
-                  <li key={item} className="flex items-baseline gap-4 border-t border-line py-3">
-                    <span className="text-brun shrink-0" aria-hidden>
-                      —
-                    </span>
-                    {item}
-                  </li>
-                ))}
-              </ul>
-              <p className="mt-6 text-muted text-base leading-[1.8]">
-                {te('surgery.rehabOutro')}
-              </p>
             </div>
           </div>
+          {/* La liste s'étale sur toute la largeur : pas de vide sous la colonne courte */}
+          <div data-reveal>
+            <DashList items={te.raw('surgery.rehabItems') as string[]} cols={2} />
+          </div>
+          <p data-reveal className="mt-8 text-muted text-base leading-[1.8] max-w-3xl">
+            {te('surgery.rehabOutro')}
+          </p>
         </Container>
       </section>
 
