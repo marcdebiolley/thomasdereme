@@ -46,7 +46,7 @@ export async function Hero() {
       >
         <div className="relative rounded-[14px] overflow-hidden self-end h-[90%]">
           <Image
-            src="/images/thomas-dereme-trail-running-batons.webp"
+            src="/images/thomas-dereme-course-trail-montagne.webp"
             alt={ta('heroTrail')}
             fill
             quality={75}
@@ -57,7 +57,7 @@ export async function Hero() {
         </div>
         <div className="relative rounded-[14px] overflow-hidden self-start h-[78%]">
           <Image
-            src="/images/physiotherapie-mobilisation-cheville-lausanne.webp"
+            src="/images/seance-physiotherapie-cabinet-lausanne.webp"
             alt={ta('heroSoin')}
             fill
             quality={75}
