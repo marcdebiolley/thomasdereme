@@ -75,38 +75,45 @@ export default async function EsthetiquePage({
       image="/images/physiotherapie-dermato-fonctionnelle-soin.webp"
       alt={ta('dermatoSoin')}
     >
-      {/* Avant, pendant et après la chirurgie */}
+      {/* Avant, pendant et après la chirurgie - même motif que « Mes formations » */}
       <section className="border-t border-line">
         <Container className="py-16 md:py-24">
-          <div data-reveal className="max-w-3xl">
-            <div className="eyebrow">{te('surgery.eyebrow')}</div>
-            <h2 className={h2}>{te('surgery.title')}</h2>
-          </div>
-          <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 mt-12 items-start">
-            <div data-reveal>
-              <h3 className="display font-medium text-[22px] leading-[1.3] text-ink">
+          <div className="grid lg:grid-cols-[1fr_1.35fr] gap-10 lg:gap-20 items-start">
+            <div data-reveal className="lg:sticky lg:top-24">
+              <div className="eyebrow">{te('surgery.eyebrow')}</div>
+              <h2 className={h2}>{te('surgery.title')}</h2>
+              <h3 className="display font-medium text-[20px] leading-[1.3] text-ink mt-8">
                 {te('surgery.prehabTitle')}
               </h3>
-              <p className="mt-4 text-muted text-base leading-[1.8]">
+              <p className="mt-4 text-muted text-base leading-[1.8] max-w-[44ch]">
                 {te('surgery.prehabText')}
               </p>
             </div>
+
             <div data-reveal>
-              <h3 className="display font-medium text-[22px] leading-[1.3] text-ink">
+              <h3 className="display font-medium text-[20px] leading-[1.3] text-ink mb-2">
                 {te('surgery.rehabTitle')}
               </h3>
-              <p className="mt-4 text-muted text-base leading-[1.8]">
+              <p className="text-muted text-base leading-[1.8] mb-6">
                 {te('surgery.rehabIntro')}
+              </p>
+              <div>
+                {(te.raw('surgery.rehabItems') as string[]).map((item, i) => (
+                  <div key={item} className="flex gap-6 py-4 border-t border-line">
+                    <div className="display text-[15px] tracking-[0.06em] text-brun w-[34px] shrink-0 pt-[2px]">
+                      {String(i + 1).padStart(2, '0')}
+                    </div>
+                    <p className="display font-normal text-[18px] leading-[1.4] text-ink">
+                      {item}
+                    </p>
+                  </div>
+                ))}
+              </div>
+              <p className="mt-8 text-[14.5px] leading-[1.75] text-muted max-w-[56ch]">
+                {te('surgery.rehabOutro')}
               </p>
             </div>
           </div>
-          {/* La liste s'étale sur toute la largeur : pas de vide sous la colonne courte */}
-          <div data-reveal>
-            <DashList items={te.raw('surgery.rehabItems') as string[]} cols={2} />
-          </div>
-          <p data-reveal className="mt-8 text-muted text-base leading-[1.8] max-w-3xl">
-            {te('surgery.rehabOutro')}
-          </p>
         </Container>
       </section>
 
