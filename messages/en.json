@@ -198,7 +198,7 @@
       "dry": {
         "eyebrow": "Dry needling",
         "title": "Targeted treatment of myofascial pain.",
-        "text": "Trained with the David G. Simons Academy, an internationally renowned institution, Thomas uses dry needling to treat myofascial pain and muscle trigger points."
+        "text": "Trained with the David G. Simons Academy, an internationally renowned institution, I use dry needling to treat myofascial pain and muscle trigger points."
       }
     },
     "sport": {
@@ -273,7 +273,7 @@
       "lead": "Plastic surgery • Lipoedema • Lymphoedema • Lymphatic drainage • Scars • LPG® • Post-operative rehabilitation",
       "bodyParas": [
         "Dermato-functional physiotherapy is a speciality dedicated to the care of skin, subcutaneous and lymphatic tissue conditions. It combines clinical expertise, manual therapy and advanced technologies to optimise patients’ functional and aesthetic recovery.",
-        "Our care is designed for patients undergoing plastic, reconstructive or aesthetic surgery, as well as for people with lipoedema, lymphoedema or any other condition requiring specific care of the lymphatic system and tissues.",
+        "My care is designed for patients undergoing plastic, reconstructive or aesthetic surgery, as well as for people with lipoedema, lymphoedema or any other condition requiring specific care of the lymphatic system and tissues.",
         "Each treatment protocol is designed individually to respect the physiology of healing, promote tissue remodelling and enable optimal recovery, both functionally and aesthetically."
       ],
       "tech": [
@@ -293,7 +293,7 @@
         "prehabTitle": "Prehabilitation",
         "prehabText": "The quality of recovery is prepared before the operation itself. A pre-operative consultation assesses the tissues, optimises lymphatic circulation, prepares the patient for the stages of recovery and puts in place the first measures for quality healing.",
         "rehabTitle": "Post-surgical rehabilitation",
-        "rehabIntro": "We support patients after many plastic and reconstructive surgery procedures, including:",
+        "rehabIntro": "I support patients after many plastic and reconstructive surgery procedures, including:",
         "rehabItems": [
           "Liposuction and high-definition (HD) liposculpture",
           "Lipoedema surgery",
@@ -332,7 +332,7 @@
       "scars": {
         "eyebrow": "Scars & fibrosis",
         "title": "Treating scars and fibrosis.",
-        "intro": "The quality of a scar does not depend on the surgery alone, but also on how it is supported through the phases of healing. Using specific manual therapy techniques, we work on:",
+        "intro": "The quality of a scar does not depend on the surgery alone, but also on how it is supported through the phases of healing. Using specific manual therapy techniques, I work on:",
         "items": [
           "Scar adhesions",
           "Post-liposuction fibrosis",
@@ -345,7 +345,7 @@
       "complications": {
         "eyebrow": "Post-operative complications",
         "title": "Specialised care for difficult recoveries.",
-        "intro": "Some post-operative situations require specialised care to speed up recovery and prevent functional sequelae. We treat in particular:",
+        "intro": "Some post-operative situations require specialised care to speed up recovery and prevent functional sequelae. I treat in particular:",
         "items": [
           "Persistent oedema",
           "Fibrosis",
@@ -360,7 +360,7 @@
       "lipo": {
         "eyebrow": "Lipoedema & lymphoedema",
         "title": "Specialised, lasting support.",
-        "intro": "We offer specialised care for patients with lipoedema or lymphoedema, whether conservative or as part of a surgical pathway. Treatment may combine:",
+        "intro": "I offer specialised care for patients with lipoedema or lymphoedema, whether conservative or as part of a surgical pathway. Treatment may combine:",
         "items": [
           "Manual lymphatic drainage",
           "Fibrosis and tissue treatment",
@@ -386,15 +386,15 @@
         "title": "Functional rehabilitation and return to sport.",
         "paras": [
           "Regaining optimal function is an essential stage of recovery.",
-          "We design an individualised programme to progressively restore mobility, strength and physical capacity while respecting the biological timelines of healing. The goal is a return to sport and daily activities in the safest conditions."
+          "I design an individualised programme to progressively restore mobility, strength and physical capacity while respecting the biological timelines of healing. The goal is a return to sport and daily activities in the safest conditions."
         ]
       },
       "expertise": {
-        "eyebrow": "Our commitment",
+        "eyebrow": "My commitment",
         "title": "Care built on expertise.",
         "paras": [
-          "Every patient receives a full clinical assessment to build a personalised care protocol. Our approach draws on current knowledge in physiotherapy, plastic surgery and lymphology, while taking into account your surgeon’s recommendations and your goals.",
-          "Because the quality of the result does not depend on the surgical act alone, but also on the quality of the rehabilitation that accompanies it, we put our expertise at the service of an optimal, lasting recovery that respects tissue physiology."
+          "Every patient receives a full clinical assessment to build a personalised care protocol. My approach draws on current knowledge in physiotherapy, plastic surgery and lymphology, while taking into account your surgeon’s recommendations and your goals.",
+          "Because the quality of the result does not depend on the surgical act alone, but also on the quality of the rehabilitation that accompanies it, I put my expertise at the service of an optimal, lasting recovery that respects tissue physiology."
         ]
       },
       "metaDescription": "Dermato-functional physiotherapy in Lausanne: rehabilitation after plastic surgery, lipoedema, lymphoedema, manual lymphatic drainage, scars, LPG® endermologie.",
@@ -531,7 +531,7 @@
     "items": [
       {
         "q": "Do I need a prescription?",
-        "a": "No. Thomas sees patients with or without a prescription. With a prescription, physiotherapy is recognised by Swiss basic insurance; without one, sessions last 30 or 60 minutes."
+        "a": "No. I see patients with or without a prescription. With a prescription, physiotherapy is recognised by Swiss basic insurance; without one, sessions last 30 or 60 minutes."
       },
       {
         "q": "Are sessions recognised by insurance?",
@@ -543,7 +543,7 @@
       },
       {
         "q": "Do you offer dry needling and lymphatic drainage?",
-        "a": "Yes. Thomas offers dry needling, lymphatic drainage, LPG® endermologie and scar work, among others."
+        "a": "Yes. I offer dry needling, lymphatic drainage, LPG® endermologie and scar work, among others."
       },
       {
         "q": "What is the LPG® machine?",
