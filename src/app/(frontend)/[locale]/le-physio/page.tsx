@@ -87,8 +87,8 @@ export default async function PhysioPage({
               className="relative aspect-[4/5] rounded-[14px] overflow-hidden"
             >
               <Image
-                src="/images/thomas-dereme-coureur-trail-foret.webp"
-                alt={ta('trailForet')}
+                src="/images/thomas-dereme-trail-assis-montagne.webp"
+                alt={ta('trailAssis')}
                 fill
                 quality={75}
                 sizes="(max-width: 1024px) 100vw, 560px"

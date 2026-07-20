@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Image from 'next/image';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import type { Locale } from '@/i18n/routing';
 import { buildPageMetadata } from '@/lib/seo/metadata';
@@ -50,8 +51,8 @@ export default async function PhysioMedicalePage({
       durationsLabel={t('durationsLabel')}
       tech={tm.raw('tech') as string[]}
       expertiseLabel={t('expertiseLabel')}
-      image="/images/physiotherapie-medicale-mobilisation-genou.webp"
-      alt={ta('medical')}
+      image="/images/physiotherapie-massage-jambe-cabinet.webp"
+      alt={ta('medicalMassage')}
     >
       {/* Indications */}
       <section className="border-t border-line">
@@ -75,6 +76,36 @@ export default async function PhysioMedicalePage({
               </li>
             ))}
           </ul>
+        </Container>
+      </section>
+
+      {/* Dry needling - mis en avant (très recherché à Lausanne) */}
+      <section className="border-t border-line">
+        <Container className="py-16 md:py-24">
+          <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
+            <div data-reveal>
+              <div className="eyebrow">{tm('dry.eyebrow')}</div>
+              <h2 className="display font-normal text-[clamp(28px,3.4vw,44px)] leading-[1.12] tracking-[-0.01em] text-ink mt-5">
+                {tm('dry.title')}
+              </h2>
+              <p className="mt-6 text-muted text-base leading-[1.8] max-w-[520px]">
+                {tm('dry.text')}
+              </p>
+            </div>
+            <div
+              data-reveal
+              className="relative aspect-[3/2] rounded-[14px] overflow-hidden"
+            >
+              <Image
+                src="/images/dry-needling-gros-plan-aiguille.webp"
+                alt={ta('dryNeedling')}
+                fill
+                quality={75}
+                sizes="(max-width: 1024px) 100vw, 560px"
+                className="object-cover"
+              />
+            </div>
+          </div>
         </Container>
       </section>
 

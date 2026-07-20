@@ -1,13 +1,13 @@
 {
   "Nav": {
-    "physio": "The physio",
-    "cabinet": "The practice",
+    "physio": "The Physio",
+    "cabinet": "The Practice",
     "articles": "Articles",
     "book": "Book an appointment",
     "prestations": "Services",
-    "presMedical": "General & medical physio",
-    "presSport": "Sports physio",
-    "presEsthetic": "Aesthetic treatments"
+    "presMedical": "General & Medical Physio",
+    "presSport": "Sports Physio",
+    "presEsthetic": "Aesthetic Treatments"
   },
   "Home": {
     "hero": {
@@ -41,7 +41,7 @@
       ]
     },
     "cabinet": {
-      "eyebrow": "The practice",
+      "eyebrow": "The Practice",
       "title": "A physio space in the heart of your city.",
       "text": "The practice is inside Dr Burgener’s Maison-B - a comfortable, considered space, 400 m from Lausanne station and 350 m from Place Saint-François.",
       "cta": "Discover the practice",
@@ -86,7 +86,7 @@
     "book": "Book an appointment"
   },
   "PhysioPage": {
-    "eyebrow": "The physio",
+    "eyebrow": "The Physio",
     "title": "Scientific rigour, human attention.",
     "lead": "I’m a physiotherapist, trained in Belgium, with a passion for movement, health and performance. My path has taken me through varied settings: from professional sport to general private practice, and specialised fields such as senology and geriatrics.",
     "parcoursEyebrow": "Background",
@@ -140,7 +140,7 @@
     "expertiseLabel": "Fields & techniques",
     "medical": {
       "eyebrow": "Medical",
-      "title": "Medical and general physiotherapy.",
+      "title": "General and Medical Physiotherapy.",
       "lead": "Every patient is unique: a thorough assessment, then personalised, effective and lasting care.",
       "card": "Recognised by all Swiss basic insurance. Any musculoskeletal condition or injury.",
       "durations": [
@@ -194,11 +194,16 @@
         "Preventing recurrence and returning to activity"
       ],
       "coverageTitle": "Coverage",
-      "coverageText": "Medical and general physiotherapy sessions are covered by Swiss health insurance (LAMal) and accident insurance (LAA) with a valid medical prescription. You benefit from personalised treatment, based on current scientific recommendations, at no extra cost beyond the terms of your insurance."
+      "coverageText": "Medical and general physiotherapy sessions are covered by Swiss health insurance (LAMal) and accident insurance (LAA) with a valid medical prescription. You benefit from personalised treatment, based on current scientific recommendations, at no extra cost beyond the terms of your insurance.",
+      "dry": {
+        "eyebrow": "Dry needling",
+        "title": "Targeted treatment of myofascial pain.",
+        "text": "Trained with the David G. Simons Academy, an internationally renowned institution, Thomas uses dry needling to treat myofascial pain and muscle trigger points."
+      }
     },
     "sport": {
       "eyebrow": "Sport",
-      "title": "Sports physio.",
+      "title": "Physiotherapy & Sport.",
       "lead": "Every athlete is unique and deserves tailored attention, adapted to their level. From amateur athletes to elite competitors: assessment, planning, coaching, recovery and treatment of sport-related pain, by a qualified sports physiotherapist who is himself a high-level trail runner.",
       "card": "Personalised sports follow-up, assessment and goal planning. For every level, from getting back in shape to competition.",
       "durations": [
@@ -263,21 +268,140 @@
       "coverageText": "Sports physiotherapy sessions can be covered by LAMal basic insurance, on presentation of a physiotherapy prescription issued by your doctor."
     },
     "esthetic": {
-      "eyebrow": "Aesthetic",
-      "title": "Aesthetic treatments.",
-      "lead": "Lymphatic drainage, endermologie and scar work - with or without a prescription. LPG®-trained and equipped.",
+      "eyebrow": "Aesthetic Treatments",
+      "title": "Dermato-functional physiotherapy.",
+      "lead": "Plastic surgery • Lipoedema • Lymphoedema • Lymphatic drainage • Scars • LPG® • Post-operative rehabilitation",
+      "bodyParas": [
+        "Dermato-functional physiotherapy is a speciality dedicated to the care of skin, subcutaneous and lymphatic tissue conditions. It combines clinical expertise, manual therapy and advanced technologies to optimise patients’ functional and aesthetic recovery.",
+        "Our care is designed for patients undergoing plastic, reconstructive or aesthetic surgery, as well as for people with lipoedema, lymphoedema or any other condition requiring specific care of the lymphatic system and tissues.",
+        "Each treatment protocol is designed individually to respect the physiology of healing, promote tissue remodelling and enable optimal recovery, both functionally and aesthetically."
+      ],
+      "tech": [
+        "Plastic surgery",
+        "Lipoedema",
+        "Lymphoedema",
+        "Manual lymphatic drainage",
+        "Scars & fibrosis",
+        "LPG® endermologie",
+        "Post-operative rehabilitation",
+        "Prehabilitation",
+        "Therapeutic compression"
+      ],
+      "surgery": {
+        "eyebrow": "Before, during and after",
+        "title": "Expertise before, during and after surgery.",
+        "prehabTitle": "Prehabilitation",
+        "prehabText": "The quality of recovery is prepared before the operation itself. A pre-operative consultation assesses the tissues, optimises lymphatic circulation, prepares the patient for the stages of recovery and puts in place the first measures for quality healing.",
+        "rehabTitle": "Post-surgical rehabilitation",
+        "rehabIntro": "We support patients after many plastic and reconstructive surgery procedures, including:",
+        "rehabItems": [
+          "Liposuction and high-definition (HD) liposculpture",
+          "Lipoedema surgery",
+          "Abdominoplasty",
+          "Lipofilling",
+          "Breast augmentation, reduction or lift",
+          "Body lift",
+          "Brachioplasty",
+          "Thigh lift (cruroplasty)",
+          "Face and neck lift",
+          "Reconstructive surgery"
+        ],
+        "rehabOutro": "The goal is a fast, safe recovery - limiting pain, oedema and tissue tension while preserving the quality of the surgical result."
+      },
+      "drainage": {
+        "eyebrow": "Manual lymphatic drainage",
+        "title": "A fundamental therapeutic act.",
+        "intro": "Manual lymphatic drainage is a specific therapeutic technique designed to stimulate lymphatic circulation, reduce oedema and support the tissues’ natural repair mechanisms. It is a cornerstone of dermato-functional physiotherapy.",
+        "listIntro": "Depending on your situation, it may be indicated for:",
+        "items": [
+          "After plastic, reconstructive or aesthetic surgery",
+          "Liposuction and lipoedema surgery",
+          "Lipoedema",
+          "Primary or secondary lymphoedema",
+          "Post-operative or post-traumatic oedema",
+          "After oncology treatment (notably breast surgery or lymph-node dissection)",
+          "Fibrosis and tissue induration",
+          "Haematomas and bruising",
+          "Inflammatory or adherent scars",
+          "Burns and skin sequelae",
+          "Lymphatic circulation disorders",
+          "Heavy-legs sensation linked to lymphatic insufficiency"
+        ],
+        "outro": "The lymphatic drainage practised at the clinic is a therapeutic act. It is based on a precise clinical assessment and forms part of comprehensive care tailored to each patient."
+      },
+      "scars": {
+        "eyebrow": "Scars & fibrosis",
+        "title": "Treating scars and fibrosis.",
+        "intro": "The quality of a scar does not depend on the surgery alone, but also on how it is supported through the phases of healing. Using specific manual therapy techniques, we work on:",
+        "items": [
+          "Scar adhesions",
+          "Post-liposuction fibrosis",
+          "Tissue tension",
+          "Limited mobility",
+          "Sensory disturbances"
+        ],
+        "outro": "The goal is to restore tissue suppleness, improve mobility and durably optimise the aesthetic result."
+      },
+      "complications": {
+        "eyebrow": "Post-operative complications",
+        "title": "Specialised care for difficult recoveries.",
+        "intro": "Some post-operative situations require specialised care to speed up recovery and prevent functional sequelae. We treat in particular:",
+        "items": [
+          "Persistent oedema",
+          "Fibrosis",
+          "Tissue induration",
+          "Adhesions",
+          "Persistent pain",
+          "Hypersensitivity or sensory disorders",
+          "Limited mobility"
+        ],
+        "outro": "Every treatment respects the biological stage of healing and the surgeon’s recommendations."
+      },
+      "lipo": {
+        "eyebrow": "Lipoedema & lymphoedema",
+        "title": "Specialised, lasting support.",
+        "intro": "We offer specialised care for patients with lipoedema or lymphoedema, whether conservative or as part of a surgical pathway. Treatment may combine:",
+        "items": [
+          "Manual lymphatic drainage",
+          "Fibrosis and tissue treatment",
+          "Advice on therapeutic compression",
+          "Specific exercises",
+          "Therapeutic education",
+          "Functional rehabilitation",
+          "Support for the return to physical activity"
+        ],
+        "outro": "The goal is to reduce pain, improve mobility, control the oedema and durably preserve quality of life."
+      },
+      "endermo": {
+        "eyebrow": "LPG® medical endermologie",
+        "title": "Technology in the service of care.",
+        "paras": [
+          "LPG® medical endermologie effectively complements care when indicated.",
+          "This technology stimulates microcirculation, promotes drainage, softens tissues, limits fibrotic phenomena and supports tissue remodelling after surgery or in certain lymphatic conditions.",
+          "It forms part of a comprehensive therapeutic strategy, adapted to the stage of recovery and each patient’s needs."
+        ]
+      },
+      "reeduc": {
+        "eyebrow": "Return to sport",
+        "title": "Functional rehabilitation and return to sport.",
+        "paras": [
+          "Regaining optimal function is an essential stage of recovery.",
+          "We design an individualised programme to progressively restore mobility, strength and physical capacity while respecting the biological timelines of healing. The goal is a return to sport and daily activities in the safest conditions."
+        ]
+      },
+      "expertise": {
+        "eyebrow": "Our commitment",
+        "title": "Care built on expertise.",
+        "paras": [
+          "Every patient receives a full clinical assessment to build a personalised care protocol. Our approach draws on current knowledge in physiotherapy, plastic surgery and lymphology, while taking into account your surgeon’s recommendations and your goals.",
+          "Because the quality of the result does not depend on the surgical act alone, but also on the quality of the rehabilitation that accompanies it, we put our expertise at the service of an optimal, lasting recovery that respects tissue physiology."
+        ]
+      },
+      "metaDescription": "Dermato-functional physiotherapy in Lausanne: rehabilitation after plastic surgery, lipoedema, lymphoedema, manual lymphatic drainage, scars, LPG® endermologie.",
       "card": "Lymphatic drainage, endermologie and scar work, with or without a prescription. LPG®-trained and equipped.",
-      "body": "Lymphatic drainage, multilayer bandaging, scar work and LPG® sessions - with or without a prescription, for visible, lasting results.",
       "durations": [
         "30 min or 1 h"
       ],
-      "tech": [
-        "Lymphatic drainage",
-        "Multilayer bandaging",
-        "Scar work",
-        "LPG® session"
-      ],
-      "metaDescription": "Aesthetic treatments in Lausanne: lymphatic drainage, LPG® endermologie, scar work. With or without a prescription.",
       "machinesEyebrow": "Equipment",
       "machinesTitle": "Endermologie, technology-assisted.",
       "machinesIntro": "The practice is equipped with the Cellu M6 Infinity®, the latest LPG® generation, used alongside manual techniques for visible, lasting results.",
@@ -296,7 +420,7 @@
     }
   },
   "CabinetPage": {
-    "eyebrow": "The practice",
+    "eyebrow": "The Practice",
     "title": "A comfortable, considered space.",
     "lead": "A space designed to make you feel cared for, inside Maison-B, within Dr Burgener’s practice.",
     "galleryEntree": "The entrance - Maison.b",
@@ -459,11 +583,17 @@
     "heroTrail": "Thomas Derême, sports physiotherapist, in trail running gear with his poles",
     "heroSoin": "Thomas Derême massaging a patient’s ankle in his Lausanne practice",
     "parcours": "Portrait of Thomas Derême, physiotherapist, at the treatment table of his practice",
-    "trailForet": "Thomas Derême trail running on a mountain path",
     "skimo": "Maximilien Drion and Thomas Derême during a ski-mountaineering race",
     "medical": "Medical physiotherapy session: knee mobilisation on a patient",
     "sport": "Athlete rehabilitation exercise at the wall bars in the practice",
     "esthetique": "LPG Cellu M6 endermologie machine in the treatment room",
-    "cabinetSoin": "Physiotherapy treatment in the bright Maison-B practice in Lausanne"
+    "cabinetSoin": "Physiotherapy treatment in the bright Maison-B practice in Lausanne",
+    "trailAssis": "Thomas Derême sitting on a rock facing the mountains",
+    "traileurMontagne": "Thomas Derême in the mountains among the rocks",
+    "medicalMassage": "Thomas Derême massaging a patient’s leg on the treatment table",
+    "sportEtirement": "Thomas Derême stretching a patient’s leg in the active room",
+    "dryNeedling": "Close-up of a dry needling needle applied by Thomas Derême",
+    "dermatoSoin": "Dermato-functional physiotherapy treatment at the practice",
+    "salleLpg": "Treatment room with the LPG endermologie machine"
   }
 }

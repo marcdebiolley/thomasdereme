@@ -58,8 +58,8 @@ export default async function PhysioSportPage({
       durationsLabel={t('durationsLabel')}
       tech={ts.raw('tech') as string[]}
       expertiseLabel={t('expertiseLabel')}
-      image="/images/physiotherapie-sport-reeducation-espalier.webp"
-      alt={ta('sport')}
+      image="/images/physiotherapie-sport-etirement-jambe.webp"
+      alt={ta('sportEtirement')}
     >
       {/* Terrain international */}
       <section className="border-t border-line">
@@ -158,8 +158,8 @@ export default async function PhysioSportPage({
               className="relative aspect-[4/5] rounded-[14px] overflow-hidden"
             >
               <Image
-                src="/images/thomas-dereme-coureur-trail-foret.webp"
-                alt={ta('trailForet')}
+                src="/images/thomas-dereme-traileur-montagne.webp"
+                alt={ta('traileurMontagne')}
                 fill
                 quality={75}
                 sizes="(max-width: 1024px) 100vw, 560px"

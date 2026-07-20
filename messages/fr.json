@@ -1,13 +1,13 @@
 {
   "Nav": {
-    "physio": "Le physio",
-    "cabinet": "Le cabinet",
+    "physio": "Le Physio",
+    "cabinet": "Le Cabinet",
     "articles": "Articles",
     "book": "Prendre rendez-vous",
-    "prestations": "Les prestations",
-    "presMedical": "Physio générale & médicale",
-    "presSport": "Physio & sport",
-    "presEsthetic": "Traitements esthétiques"
+    "prestations": "Les Prestations",
+    "presMedical": "Physio Générale & Médicale",
+    "presSport": "Physio & Sport",
+    "presEsthetic": "Traitements Esthétiques"
   },
   "Home": {
     "hero": {
@@ -41,7 +41,7 @@
       ]
     },
     "cabinet": {
-      "eyebrow": "Le cabinet",
+      "eyebrow": "Le Cabinet",
       "title": "Un espace physio au cœur de votre ville.",
       "text": "Le cabinet se situe dans la Maison-B du Dr Burgener - un lieu confortable et soigné, à 400 m de la gare de Lausanne et à 350 m de la place Saint-François.",
       "cta": "Découvrir le cabinet",
@@ -86,7 +86,7 @@
     "book": "Prendre rendez-vous"
   },
   "PhysioPage": {
-    "eyebrow": "Le physio",
+    "eyebrow": "Le Physio",
     "title": "Rigueur scientifique, écoute humaine.",
     "lead": "Je suis physiothérapeute, formé en Belgique, et passionné par le mouvement, la santé et la performance. Mon parcours m’a amené à évoluer dans des environnements variés : du sport professionnel au cabinet privé général, en passant par des domaines spécialisés comme la sénologie et la gériatrie.",
     "parcoursEyebrow": "Parcours",
@@ -132,7 +132,7 @@
     "formationsOutro": "Aujourd’hui, je continue d’enrichir mes compétences dans mes trois domaines d’expertise - la physio générale, la physio du sport et la physio dermato-fonctionnelle - au fil de séminaires et d’échanges avec d’autres professionnels de la santé."
   },
   "Prestations": {
-    "eyebrow": "Les prestations",
+    "eyebrow": "Les Prestations",
     "title": "Trois expertises, un même soin sur mesure.",
     "lead": "Médical (avec ou sans ordonnance), sport et esthétique - individualisés et reconnus par les assurances de base suisses.",
     "learnMore": "Découvrir",
@@ -140,7 +140,7 @@
     "expertiseLabel": "Domaines & techniques",
     "medical": {
       "eyebrow": "Médical",
-      "title": "Physiothérapie médicale et générale.",
+      "title": "Physiothérapie Générale et Médicale.",
       "lead": "Chaque patient est unique : une évaluation approfondie, puis une prise en charge personnalisée, efficace et durable.",
       "card": "Reconnu par toutes les assurances de base suisses. Toute atteinte ou pathologie liée au musculosquelettique.",
       "durations": [
@@ -194,11 +194,16 @@
         "Prévention des récidives et reprise des activités"
       ],
       "coverageTitle": "Prise en charge",
-      "coverageText": "Les séances de physiothérapie médicale et générale sont prises en charge par les assurances maladie (LAMal) et les assurances accidents (LAA), sur présentation d’une prescription médicale valable. Vous bénéficiez ainsi d’un traitement personnalisé, fondé sur les recommandations scientifiques actuelles, sans frais supplémentaires en dehors des modalités prévues par votre assurance."
+      "coverageText": "Les séances de physiothérapie médicale et générale sont prises en charge par les assurances maladie (LAMal) et les assurances accidents (LAA), sur présentation d’une prescription médicale valable. Vous bénéficiez ainsi d’un traitement personnalisé, fondé sur les recommandations scientifiques actuelles, sans frais supplémentaires en dehors des modalités prévues par votre assurance.",
+      "dry": {
+        "eyebrow": "Dry needling",
+        "title": "Le traitement ciblé des douleurs myofasciales.",
+        "text": "Formé auprès de la David G. Simons Academy, organisme de renommée internationale, Thomas pratique le dry needling pour le traitement des douleurs myofasciales et des points gâchettes musculaires."
+      }
     },
     "sport": {
       "eyebrow": "Sport",
-      "title": "Physio & sport.",
+      "title": "Physiothérapie et Sport.",
       "lead": "Chaque sportif est unique et demande une attention sur mesure, adaptée à son niveau. Du sportif amateur à l’athlète de haut niveau : bilan, planification, encadrement, récupération et traitement des douleurs liées au sport, par un physiothérapeute du sport qualifié, lui-même coureur de trail à haut niveau.",
       "card": "Suivi sportif personnalisé, bilan et planification d’objectifs. Pour tout niveau, de la remise en forme à la compétition.",
       "durations": [
@@ -263,21 +268,140 @@
       "coverageText": "Les séances de physiothérapie du sport peuvent être prises en charge par l’assurance de base LAMal, sur présentation d’une ordonnance de physiothérapie établie par votre médecin."
     },
     "esthetic": {
-      "eyebrow": "Esthétique",
-      "title": "Traitements esthétiques.",
-      "lead": "Drainage lymphatique, endermologie et travail cicatriciel - avec ou sans prescription. Formé et équipé LPG®.",
+      "eyebrow": "Traitements Esthétiques",
+      "title": "Physiothérapie dermato-fonctionnelle.",
+      "lead": "Chirurgie plastique • Lipœdème • Lymphœdème • Drainage lymphatique • Cicatrices • LPG® • Rééducation post-opératoire",
+      "bodyParas": [
+        "La physiothérapie dermato-fonctionnelle est une spécialité de la physiothérapie dédiée à la prise en charge des affections des tissus cutanés, sous-cutanés et lymphatiques. Elle associe expertise clinique, thérapie manuelle et technologies de pointe afin d’optimiser la récupération fonctionnelle et esthétique des patients.",
+        "Notre prise en charge s’adresse aux patients bénéficiant d’une chirurgie plastique, reconstructrice ou esthétique, mais également aux personnes présentant un lipœdème, un lymphœdème ou toute autre pathologie nécessitant une prise en charge spécifique du système lymphatique et des tissus.",
+        "Chaque protocole thérapeutique est élaboré de manière individualisée afin de respecter la physiologie de la cicatrisation, favoriser le remodelage tissulaire et permettre une récupération optimale, tant sur le plan fonctionnel qu’esthétique."
+      ],
+      "tech": [
+        "Chirurgie plastique",
+        "Lipœdème",
+        "Lymphœdème",
+        "Drainage lymphatique manuel",
+        "Cicatrices & fibroses",
+        "Endermologie LPG®",
+        "Rééducation post-opératoire",
+        "Préhabilitation",
+        "Compression thérapeutique"
+      ],
+      "surgery": {
+        "eyebrow": "Avant, pendant et après",
+        "title": "Une expertise avant, pendant et après la chirurgie.",
+        "prehabTitle": "Préhabilitation",
+        "prehabText": "La qualité de la récupération se prépare avant même l’intervention. Une consultation préopératoire permet d’évaluer les tissus, d’optimiser la circulation lymphatique, de préparer le patient aux différentes étapes de sa récupération et de mettre en place les premières mesures favorisant une cicatrisation de qualité.",
+        "rehabTitle": "Rééducation post-chirurgicale",
+        "rehabIntro": "Nous accompagnons les patients après de nombreuses interventions de chirurgie plastique et reconstructrice, notamment :",
+        "rehabItems": [
+          "Liposuccion et lipoaspiration haute définition (HD)",
+          "Chirurgie du lipœdème",
+          "Abdominoplastie",
+          "Lipofilling",
+          "Augmentation, réduction ou lifting mammaire",
+          "Body lift",
+          "Brachioplastie",
+          "Cruroplastie",
+          "Lifting du visage et du cou",
+          "Chirurgies reconstructrices"
+        ],
+        "rehabOutro": "L’objectif est de favoriser une récupération rapide et sécurisée, de limiter les douleurs, les œdèmes, les tensions tissulaires et de préserver la qualité du résultat chirurgical."
+      },
+      "drainage": {
+        "eyebrow": "Drainage lymphatique manuel",
+        "title": "Un acte thérapeutique fondamental.",
+        "intro": "Le drainage lymphatique manuel est une technique thérapeutique spécifique destinée à stimuler la circulation lymphatique, réduire les œdèmes et favoriser les mécanismes naturels de réparation des tissus. Il constitue un élément fondamental de la physiothérapie dermato-fonctionnelle.",
+        "listIntro": "Selon votre situation, il peut être indiqué dans la prise en charge de :",
+        "items": [
+          "Suites de chirurgie plastique, reconstructrice ou esthétique",
+          "Liposuccion et chirurgie du lipœdème",
+          "Lipœdème",
+          "Lymphœdème primaire ou secondaire",
+          "Œdèmes post-opératoires ou post-traumatiques",
+          "Suites de traitements oncologiques (notamment après chirurgie mammaire ou curage ganglionnaire)",
+          "Fibroses et indurations tissulaires",
+          "Hématomes et ecchymoses",
+          "Cicatrices inflammatoires ou adhérentes",
+          "Brûlures et séquelles cutanées",
+          "Troubles de la circulation lymphatique",
+          "Sensation de jambes lourdes en lien avec une insuffisance lymphatique"
+        ],
+        "outro": "Le drainage lymphatique pratiqué au cabinet est un acte thérapeutique. Il repose sur une évaluation clinique précise et s’intègre dans une prise en charge globale, adaptée à chaque patient."
+      },
+      "scars": {
+        "eyebrow": "Cicatrices & fibroses",
+        "title": "Traitement des cicatrices et des fibroses.",
+        "intro": "La qualité d’une cicatrice ne dépend pas uniquement de la chirurgie, mais également de son accompagnement durant les différentes phases de la cicatrisation. Grâce à des techniques spécifiques de thérapie manuelle, nous travaillons sur :",
+        "items": [
+          "Adhérences cicatricielles",
+          "Fibroses post-liposuccion",
+          "Tensions tissulaires",
+          "Limitations de mobilité",
+          "Troubles de la sensibilité"
+        ],
+        "outro": "L’objectif est de restaurer la souplesse des tissus, améliorer leur mobilité et optimiser durablement le résultat esthétique."
+      },
+      "complications": {
+        "eyebrow": "Complications post-opératoires",
+        "title": "Une prise en charge spécialisée des suites difficiles.",
+        "intro": "Certaines suites opératoires nécessitent une prise en charge spécialisée afin d’accélérer la récupération et de prévenir les séquelles fonctionnelles. Nous intervenons notamment dans le traitement de :",
+        "items": [
+          "Œdèmes persistants",
+          "Fibroses",
+          "Indurations tissulaires",
+          "Adhérences",
+          "Douleurs persistantes",
+          "Hypersensibilités ou troubles sensitifs",
+          "Limitations de mobilité"
+        ],
+        "outro": "Chaque traitement respecte le stade biologique de la cicatrisation ainsi que les recommandations du chirurgien."
+      },
+      "lipo": {
+        "eyebrow": "Lipœdème & lymphœdème",
+        "title": "Un accompagnement spécialisé et durable.",
+        "intro": "Nous proposons une prise en charge spécialisée des patients atteints de lipœdème ou de lymphœdème, qu’elle soit conservatrice ou intégrée à un parcours chirurgical. Le traitement peut associer :",
+        "items": [
+          "Drainage lymphatique manuel",
+          "Traitement des fibroses et des tissus",
+          "Conseils en compression thérapeutique",
+          "Exercices spécifiques",
+          "Éducation thérapeutique",
+          "Rééducation fonctionnelle",
+          "Accompagnement du retour aux activités physiques"
+        ],
+        "outro": "L’objectif est de diminuer les douleurs, améliorer la mobilité, contrôler l’œdème et préserver durablement la qualité de vie."
+      },
+      "endermo": {
+        "eyebrow": "Endermologie médicale LPG®",
+        "title": "Une technologie au service du soin.",
+        "paras": [
+          "L’endermologie médicale LPG® complète efficacement la prise en charge lorsqu’elle est indiquée.",
+          "Cette technologie permet de stimuler la microcirculation, favoriser le drainage, assouplir les tissus, limiter les phénomènes fibreux et accompagner le remodelage tissulaire après chirurgie ou dans certaines pathologies lymphatiques.",
+          "Elle s’intègre dans une stratégie thérapeutique globale, adaptée au stade de récupération et aux besoins de chaque patient."
+        ]
+      },
+      "reeduc": {
+        "eyebrow": "Retour au sport",
+        "title": "Rééducation fonctionnelle et retour au sport.",
+        "paras": [
+          "Retrouver une fonction optimale constitue une étape essentielle de la récupération.",
+          "Nous élaborons un programme individualisé permettant de restaurer progressivement la mobilité, la force et les capacités physiques tout en respectant les délais biologiques de cicatrisation. L’objectif est d’assurer un retour au sport et aux activités quotidiennes dans les meilleures conditions de sécurité."
+        ]
+      },
+      "expertise": {
+        "eyebrow": "Notre engagement",
+        "title": "Une prise en charge fondée sur l’expertise.",
+        "paras": [
+          "Chaque patient bénéficie d’une évaluation clinique complète afin de construire un protocole de soins personnalisé. Notre approche s’appuie sur les connaissances actuelles en physiothérapie, chirurgie plastique et lymphologie, tout en tenant compte des recommandations de votre chirurgien et de vos objectifs.",
+          "Parce que la qualité du résultat ne dépend pas uniquement du geste chirurgical, mais également de la qualité de la rééducation qui l’accompagne, nous mettons notre expertise au service d’une récupération optimale, durable et respectueuse de la physiologie des tissus."
+        ]
+      },
+      "metaDescription": "Physiothérapie dermato-fonctionnelle à Lausanne : rééducation post-chirurgie plastique, lipœdème, lymphœdème, drainage lymphatique manuel, cicatrices, endermologie LPG®.",
       "card": "Drainage lymphatique, endermologie et travail cicatriciel, avec ou sans prescription. Formé et équipé LPG®.",
-      "body": "Drainage lymphatique, bandage multicouche, travail cicatriciel et séances LPG® - avec ou sans prescription, pour des résultats visibles et durables.",
       "durations": [
         "30 min ou 1 h"
       ],
-      "tech": [
-        "Drainage lymphatique",
-        "Bandage multicouche",
-        "Travail cicatriciel",
-        "Séance LPG®"
-      ],
-      "metaDescription": "Traitements esthétiques à Lausanne : drainage lymphatique, endermologie LPG®, travail cicatriciel. Avec ou sans prescription.",
       "machinesEyebrow": "Équipements",
       "machinesTitle": "L’endermologie, assistée par la technologie.",
       "machinesIntro": "Le cabinet est équipé du Cellu M6 Infinity®, la dernière génération LPG®, utilisée en complément des techniques manuelles pour des résultats visibles et durables.",
@@ -296,7 +420,7 @@
     }
   },
   "CabinetPage": {
-    "eyebrow": "Le cabinet",
+    "eyebrow": "Le Cabinet",
     "title": "Un espace confortable et soigné.",
     "lead": "Un espace pensé pour se sentir accompagné, au sein de la Maison-B, dans l’enceinte du cabinet du Dr Burgener.",
     "galleryEntree": "L’entrée - Maison.b",
@@ -459,11 +583,17 @@
     "heroTrail": "Thomas Derême, physiothérapeute du sport, en tenue de trail avec ses bâtons",
     "heroSoin": "Thomas Derême massant la cheville d’une patiente dans son cabinet de Lausanne",
     "parcours": "Portrait de Thomas Derême, physiothérapeute, à la table de soin de son cabinet",
-    "trailForet": "Thomas Derême en pleine course de trail sur un sentier de montagne",
     "skimo": "Maximilien Drion et Thomas Derême lors d’une course de ski-alpinisme",
     "medical": "Séance de physiothérapie médicale : mobilisation du genou d’un patient",
     "sport": "Exercice de rééducation du sportif à l’espalier au cabinet",
     "esthetique": "Machine LPG Cellu M6 pour l’endermologie dans la salle de soin",
-    "cabinetSoin": "Soin de physiothérapie dans le cabinet lumineux de la Maison-B à Lausanne"
+    "cabinetSoin": "Soin de physiothérapie dans le cabinet lumineux de la Maison-B à Lausanne",
+    "trailAssis": "Thomas Derême assis sur un rocher face aux montagnes",
+    "traileurMontagne": "Thomas Derême en montagne parmi les rochers",
+    "medicalMassage": "Thomas Derême masse la jambe d’une patiente sur la table de soin",
+    "sportEtirement": "Thomas Derême étire la jambe d’une patiente dans la salle active",
+    "dryNeedling": "Gros plan d’une aiguille de dry needling appliquée par Thomas Derême",
+    "dermatoSoin": "Soin de physiothérapie dermato-fonctionnelle au cabinet",
+    "salleLpg": "Salle de soin avec la machine d’endermologie LPG"
   }
 }

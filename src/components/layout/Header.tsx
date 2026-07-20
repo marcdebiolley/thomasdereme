@@ -19,7 +19,7 @@ export function Header() {
           href="/"
           className="flex items-center gap-2.5 md:gap-3 text-ink justify-self-start whitespace-nowrap"
         >
-          <LogoMark className="h-[26px] md:h-[29px] w-auto shrink-0 -mt-0.5" />
+          <LogoMark className="h-[26px] md:h-[29px] w-auto shrink-0 -mt-[5px]" />
           <span className="display text-[21px] md:text-[23px] font-medium tracking-[0.01em]">
             {SITE.name}
           </span>
