@@ -98,11 +98,11 @@ export default async function EsthetiquePage({
                 {te('surgery.rehabIntro')}
               </p>
               <div>
-                {(te.raw('surgery.rehabItems') as string[]).map((item, i) => (
+                {(te.raw('surgery.rehabItems') as string[]).map((item) => (
                   <div key={item} className="flex gap-6 py-4 border-t border-line">
-                    <div className="display text-[15px] tracking-[0.06em] text-brun w-[34px] shrink-0 pt-[2px]">
-                      {String(i + 1).padStart(2, '0')}
-                    </div>
+                    <span className="text-brun shrink-0" aria-hidden>
+                      —
+                    </span>
                     <p className="display font-normal text-[18px] leading-[1.4] text-ink">
                       {item}
                     </p>
