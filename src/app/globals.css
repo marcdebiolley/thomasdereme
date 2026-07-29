@@ -39,6 +39,17 @@ body {
   font-family: var(--font-serif);
 }
 
+/* Italique serif : seule la graisse 400 existe en vrai italique
+   (loader dédié --font-spectral-italic), le reste est synthétisé. */
+.display .italic,
+.display.italic,
+.display em,
+.font-serif .italic,
+.font-serif.italic,
+.font-serif em {
+  font-family: var(--font-spectral-italic), Georgia, 'Times New Roman', serif;
+}
+
 /* Eyebrow - uppercase, wide tracking, taupe */
 .eyebrow {
   font-family: var(--font-sans);

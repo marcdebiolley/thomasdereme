@@ -22,8 +22,17 @@ const sans = Hanken_Grotesk({
 const serif = Spectral({
   subsets: ['latin'],
   weight: ['300', '400', '500', '600'],
-  style: ['normal', 'italic'],
+  style: ['normal'],
   variable: '--font-spectral',
+  display: 'swap',
+});
+/* L'italique serif n'est utilisé qu'en 400 : loader séparé pour ne pas
+   charger les italiques 300/500/600 (perf LCP mobile). */
+const serifItalic = Spectral({
+  subsets: ['latin'],
+  weight: ['400'],
+  style: ['italic'],
+  variable: '--font-spectral-italic',
   display: 'swap',
 });
 /* Police du monogramme « td » uniquement (charte TD8b) */
@@ -68,7 +77,10 @@ export default async function LocaleLayout({
   setRequestLocale(locale);
 
   return (
-    <html lang={locale} className={`${sans.variable} ${serif.variable} ${logo.variable}`}>
+    <html
+      lang={locale}
+      className={`${sans.variable} ${serif.variable} ${serifItalic.variable} ${logo.variable}`}
+    >
       <body>
         <NextIntlClientProvider>
           <ConsentProvider>
