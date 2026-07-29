@@ -19,12 +19,24 @@ const sans = Hanken_Grotesk({
   variable: '--font-hanken',
   display: 'swap',
 });
+/* Seule la 400 (titres, dont le H1 = élément LCP) est préchargée ; les
+   graisses secondaires se chargent dès que le CSS s'applique, sans
+   concurrencer le chemin critique. Même famille « Spectral » : les
+   @font-face des trois loaders fusionnent. */
 const serif = Spectral({
   subsets: ['latin'],
-  weight: ['300', '400', '500', '600'],
+  weight: ['400'],
   style: ['normal'],
   variable: '--font-spectral',
   display: 'swap',
+});
+const serifSecondary = Spectral({
+  subsets: ['latin'],
+  weight: ['300', '500', '600'],
+  style: ['normal'],
+  variable: '--font-spectral-secondary',
+  display: 'swap',
+  preload: false,
 });
 /* L'italique serif n'est utilisé qu'en 400 : loader séparé pour ne pas
    charger les italiques 300/500/600 (perf LCP mobile). */
@@ -79,7 +91,7 @@ export default async function LocaleLayout({
   return (
     <html
       lang={locale}
-      className={`${sans.variable} ${serif.variable} ${serifItalic.variable} ${logo.variable}`}
+      className={`${sans.variable} ${serif.variable} ${serifSecondary.variable} ${serifItalic.variable} ${logo.variable}`}
     >
       <body>
         <NextIntlClientProvider>
