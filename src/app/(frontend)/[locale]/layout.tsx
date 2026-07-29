@@ -33,6 +33,8 @@ const logo = Cormorant_Garamond({
   style: ['italic'],
   variable: '--font-logo',
   display: 'swap',
+  /* Utilisée seulement pour le « td » du logo : pas besoin de la précharger. */
+  preload: false,
 });
 
 export function generateStaticParams() {

@@ -32,11 +32,13 @@ export function GoogleAnalytics({ gaId }: { gaId?: string }) {
           } catch (e) {}
         `}
       </Script>
+      {/* lazyOnload : gtag (~100 KB) sort du chemin critique ; le consent
+          default ci-dessus reste en afterInteractive et est donc traité avant. */}
       <Script
         src={`https://www.googletagmanager.com/gtag/js?id=${gaId}`}
-        strategy="afterInteractive"
+        strategy="lazyOnload"
       />
-      <Script id="ga-init" strategy="afterInteractive">
+      <Script id="ga-init" strategy="lazyOnload">
         {`
           gtag('js', new Date());
           gtag('config', '${gaId}', { anonymize_ip: true });

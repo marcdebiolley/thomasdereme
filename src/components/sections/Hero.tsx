@@ -51,7 +51,7 @@ export async function Hero() {
             fill
             quality={75}
             priority
-            sizes="(max-width: 1024px) 60vw, 420px"
+            sizes="(max-width: 1024px) 45vw, 420px"
             className="object-cover"
           />
         </div>
@@ -62,7 +62,7 @@ export async function Hero() {
             fill
             quality={75}
             priority
-            sizes="(max-width: 1024px) 60vw, 420px"
+            sizes="(max-width: 1024px) 45vw, 420px"
             className="object-cover"
           />
         </div>
