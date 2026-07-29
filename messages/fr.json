@@ -513,16 +513,244 @@
     },
     "privacy": {
       "title": "Politique de confidentialité",
-      "intro": "Cette politique décrit le traitement des données sur ce site, dans le respect de la loi fédérale sur la protection des données (nLPD).",
-      "dataTitle": "Données collectées",
-      "dataText": "Aucune donnée de santé n’est collectée via ce site. Les coordonnées que vous transmettez (e-mail, téléphone) servent uniquement à répondre à votre demande.",
-      "cookiesTitle": "Cookies & mesure d’audience",
-      "cookiesText": "Avec votre consentement, Google Analytics 4 mesure l’audience du site (Consent Mode v2, adresse IP anonymisée). Vous pouvez refuser ou retirer votre consentement à tout moment via le bandeau de cookies.",
-      "mapsTitle": "Carte Google Maps",
-      "mapsText": "La carte du cabinet (Google Maps) n’est chargée qu’après votre acceptation des cookies.",
-      "rightsTitle": "Vos droits",
-      "rightsText": "Vous disposez d’un droit d’accès, de rectification et de suppression de vos données. Pour toute demande, contactez Thomas Derême.",
-      "note": "Document à faire valider par un professionnel avant la mise en ligne."
+      "lastUpdated": "Dernière mise à jour : 28 juillet 2026",
+      "intro": "La présente politique de confidentialité décrit la manière dont Thomas Derême, physiothérapeute indépendant, traite les données personnelles des utilisateurs du site www.thomasdereme.ch, dans le respect de la loi fédérale suisse sur la protection des données (nLPD) et, le cas échéant, du Règlement général sur la protection des données (RGPD) pour les visiteurs situés dans l'Union européenne.",
+      "sections": [
+        {
+          "title": "1. Responsable du traitement",
+          "blocks": [
+            {
+              "type": "lines",
+              "lines": [
+                "Thomas Derême",
+                "Physiothérapeute indépendant",
+                "12 Rue du Midi, 1003 Lausanne, Suisse",
+                "E-mail : thomas.dereme@hotmail.com",
+                "Téléphone / WhatsApp : +41 76 688 72 81"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Pour toute question relative à la présente politique ou à l'exercice de vos droits, vous pouvez contacter Thomas Derême directement aux coordonnées ci-dessus."
+            }
+          ]
+        },
+        {
+          "title": "2. Données collectées",
+          "blocks": []
+        },
+        {
+          "title": "2.1 Données transmises volontairement",
+          "sub": true,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Lorsque vous nous contactez par e-mail, téléphone ou WhatsApp, ou que vous prenez rendez-vous, vous nous communiquez certaines données personnelles, notamment :"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "Nom, prénom",
+                "Adresse e-mail",
+                "Numéro de téléphone",
+                "Le contenu de votre message ou de votre demande"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Ces données sont utilisées uniquement pour répondre à votre demande, organiser votre rendez-vous ou assurer le suivi administratif de votre dossier."
+            },
+            {
+              "type": "p",
+              "text": "Aucune donnée de santé n'est collectée directement via le site. Les informations médicales sont recueillies exclusivement dans le cadre du suivi thérapeutique en cabinet, et sont soumises au secret professionnel ainsi qu'aux règles applicables aux dossiers médicaux (conservation, confidentialité, accès restreint)."
+            }
+          ]
+        },
+        {
+          "title": "2.2 Prise de rendez-vous en ligne (OneDoc)",
+          "sub": true,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "La prise de rendez-vous en ligne s'effectue via la plateforme tierce OneDoc. Lorsque vous utilisez ce service, vos données (nom, coordonnées, créneau choisi) sont traitées directement par OneDoc, conformément à sa propre politique de confidentialité. Nous vous invitons à la consulter sur le site de OneDoc avant d'utiliser ce service."
+            }
+          ]
+        },
+        {
+          "title": "2.3 Données de navigation (cookies et mesure d'audience)",
+          "sub": true,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Sous réserve de votre consentement, le site utilise :"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "Google Analytics 4 (Google Ireland Ltd.), avec Consent Mode v2 et anonymisation de l'adresse IP, pour établir des statistiques de fréquentation anonymisées (pages consultées, durée de visite, provenance du trafic). Ces données ne permettent pas de vous identifier personnellement.",
+                "Google Maps, pour afficher la localisation du cabinet. La carte n'est chargée, et ne transmet des données à Google, qu'après acceptation des cookies via le bandeau prévu à cet effet."
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Vous pouvez à tout moment accepter, refuser ou retirer votre consentement à ces cookies via le bandeau affiché sur le site."
+            }
+          ]
+        },
+        {
+          "title": "3. Finalités du traitement",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Vos données sont traitées pour les finalités suivantes :"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "Répondre à vos demandes de contact ou d'information",
+                "Gérer la prise et le suivi de vos rendez-vous",
+                "Assurer le suivi administratif et thérapeutique des patients du cabinet",
+                "Mesurer l'audience du site et améliorer son contenu (avec votre consentement)",
+                "Afficher la localisation du cabinet (avec votre consentement)",
+                "Respecter nos obligations légales, notamment en matière de tenue de dossiers médicaux"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "4. Base légale",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Selon la nLPD et, le cas échéant, le RGPD, les traitements décrits ci-dessus reposent sur :"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "Votre consentement, pour les cookies de mesure d'audience et la carte Google Maps",
+                "L'exécution d'une relation contractuelle ou précontractuelle, pour la gestion des rendez-vous et le suivi thérapeutique",
+                "Nos obligations légales, notamment en matière de conservation des dossiers médicaux",
+                "Notre intérêt légitime, pour répondre à vos demandes de contact"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "5. Destinataires des données",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Vos données peuvent être transmises aux prestataires suivants, dans la stricte mesure nécessaire à l'exécution des finalités décrites :"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "OneDoc (plateforme de prise de rendez-vous)",
+                "Google Ireland Ltd. (Google Analytics, Google Maps)",
+                "L'hébergeur du site (Vercel Inc.)"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Vos données ne sont ni vendues, ni louées, ni communiquées à des tiers à des fins commerciales."
+            }
+          ]
+        },
+        {
+          "title": "6. Transfert de données à l'étranger",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Certains prestataires (notamment Google) peuvent traiter des données en dehors de la Suisse, y compris aux États-Unis. Ces transferts sont encadrés par des garanties appropriées (clauses contractuelles types ou mécanismes équivalents reconnus par le Préposé fédéral à la protection des données et à la transparence)."
+            }
+          ]
+        },
+        {
+          "title": "7. Durée de conservation",
+          "blocks": [
+            {
+              "type": "ul",
+              "items": [
+                "Les données transmises par e-mail, téléphone ou WhatsApp sont conservées le temps nécessaire au traitement de votre demande.",
+                "Les dossiers de patients sont conservés conformément aux obligations légales applicables aux professionnels de la santé en Suisse (en principe 10 ans après la fin du traitement, sauf disposition contraire).",
+                "Les données de mesure d'audience (Google Analytics) sont conservées selon les paramètres définis dans notre compte Google Analytics, généralement 14 mois."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "8. Sécurité des données",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Des mesures techniques et organisationnelles appropriées sont mises en œuvre pour protéger vos données contre tout accès non autorisé, perte, divulgation ou altération."
+            }
+          ]
+        },
+        {
+          "title": "9. Vos droits",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Conformément à la nLPD (et au RGPD si applicable), vous disposez des droits suivants concernant vos données personnelles :"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "Droit d'accès : obtenir la confirmation que des données vous concernant sont traitées, ainsi qu'une copie de ces données",
+                "Droit de rectification : faire corriger des données inexactes ou incomplètes",
+                "Droit à l'effacement : demander la suppression de vos données, dans les limites prévues par la loi (notamment les obligations de conservation des dossiers médicaux)",
+                "Droit d'opposition : vous opposer à certains traitements, notamment ceux fondés sur votre consentement",
+                "Droit de retirer votre consentement à tout moment, pour les traitements qui en dépendent (cookies, Google Maps), sans que cela affecte la licéité des traitements effectués avant le retrait"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Pour exercer ces droits, contactez Thomas Derême aux coordonnées indiquées à l'article 1."
+            },
+            {
+              "type": "p",
+              "text": "Vous disposez également du droit de déposer une réclamation auprès du Préposé fédéral à la protection des données et à la transparence (PFPDT) : www.edoeb.admin.ch."
+            }
+          ]
+        },
+        {
+          "title": "10. Cookies",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Le site utilise des cookies uniquement pour la mesure d'audience (Google Analytics) et l'affichage de la carte Google Maps. Aucun cookie publicitaire n'est utilisé. Vous pouvez gérer vos préférences via le bandeau de cookies affiché lors de votre première visite, et les modifier à tout moment."
+            }
+          ]
+        },
+        {
+          "title": "11. Modification de la présente politique",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Cette politique de confidentialité peut être mise à jour à tout moment, notamment pour se conformer à l'évolution de la législation ou des services utilisés sur le site. La date de dernière mise à jour figure en haut de ce document."
+            }
+          ]
+        },
+        {
+          "title": "12. Contact",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Pour toute question relative à cette politique de confidentialité ou au traitement de vos données personnelles :"
+            },
+            {
+              "type": "lines",
+              "lines": [
+                "Thomas Derême",
+                "12 Rue du Midi, 1003 Lausanne",
+                "thomas.dereme@hotmail.com",
+                "+41 76 688 72 81"
+              ]
+            }
+          ]
+        }
+      ]
     }
   },
   "Faq": {

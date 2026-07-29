@@ -513,16 +513,244 @@
     },
     "privacy": {
       "title": "Privacy policy",
-      "intro": "This policy describes how data is processed on this site, in line with the Swiss Federal Act on Data Protection (nLPD).",
-      "dataTitle": "Data collected",
-      "dataText": "No health data is collected through this site. The contact details you share (email, phone) are used only to answer your request.",
-      "cookiesTitle": "Cookies & audience measurement",
-      "cookiesText": "With your consent, Google Analytics 4 measures site audience (Consent Mode v2, anonymised IP). You can decline or withdraw your consent at any time via the cookie banner.",
-      "mapsTitle": "Google Maps",
-      "mapsText": "The practice map (Google Maps) is only loaded after you accept cookies.",
-      "rightsTitle": "Your rights",
-      "rightsText": "You have the right to access, correct and delete your data. For any request, contact Thomas Derême.",
-      "note": "This document should be reviewed by a professional before going live."
+      "lastUpdated": "Last updated: July 28, 2026",
+      "intro": "This privacy policy describes how Thomas Derême, self-employed physiotherapist, processes the personal data of users of the website www.thomasdereme.ch, in accordance with the Swiss Federal Act on Data Protection (nFADP) and, where applicable, the General Data Protection Regulation (GDPR) for visitors located in the European Union.",
+      "sections": [
+        {
+          "title": "1. Data controller",
+          "blocks": [
+            {
+              "type": "lines",
+              "lines": [
+                "Thomas Derême",
+                "Self-employed physiotherapist",
+                "12 Rue du Midi, 1003 Lausanne, Switzerland",
+                "E-mail: thomas.dereme@hotmail.com",
+                "Phone / WhatsApp: +41 76 688 72 81"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "For any question about this policy or to exercise your rights, you can contact Thomas Derême directly using the details above."
+            }
+          ]
+        },
+        {
+          "title": "2. Data collected",
+          "blocks": []
+        },
+        {
+          "title": "2.1 Data you provide voluntarily",
+          "sub": true,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "When you contact us by e-mail, phone or WhatsApp, or when you book an appointment, you share certain personal data with us, in particular:"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "First and last name",
+                "E-mail address",
+                "Phone number",
+                "The content of your message or request"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "This data is used solely to respond to your request, organise your appointment or handle the administrative follow-up of your file."
+            },
+            {
+              "type": "p",
+              "text": "No health data is collected directly through the website. Medical information is gathered exclusively as part of therapeutic care at the practice, and is subject to professional secrecy as well as the rules applicable to medical records (retention, confidentiality, restricted access)."
+            }
+          ]
+        },
+        {
+          "title": "2.2 Online appointment booking (OneDoc)",
+          "sub": true,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Online appointments are booked through the third-party platform OneDoc. When you use this service, your data (name, contact details, chosen time slot) is processed directly by OneDoc, in accordance with its own privacy policy. We invite you to read it on the OneDoc website before using this service."
+            }
+          ]
+        },
+        {
+          "title": "2.3 Browsing data (cookies and audience measurement)",
+          "sub": true,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Subject to your consent, the website uses:"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "Google Analytics 4 (Google Ireland Ltd.), with Consent Mode v2 and IP address anonymisation, to produce anonymised traffic statistics (pages viewed, visit duration, traffic sources). This data does not allow you to be identified personally.",
+                "Google Maps, to display the location of the practice. The map is only loaded, and only transmits data to Google, after you accept cookies via the banner provided for this purpose."
+              ]
+            },
+            {
+              "type": "p",
+              "text": "You can accept, decline or withdraw your consent to these cookies at any time via the banner displayed on the website."
+            }
+          ]
+        },
+        {
+          "title": "3. Purposes of processing",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Your data is processed for the following purposes:"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "Responding to your contact or information requests",
+                "Managing the booking and follow-up of your appointments",
+                "Handling the administrative and therapeutic follow-up of the practice's patients",
+                "Measuring the website's audience and improving its content (with your consent)",
+                "Displaying the location of the practice (with your consent)",
+                "Complying with our legal obligations, in particular regarding medical record keeping"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "4. Legal basis",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Under the nFADP and, where applicable, the GDPR, the processing described above is based on:"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "Your consent, for audience-measurement cookies and the Google Maps map",
+                "The performance of a contractual or pre-contractual relationship, for appointment management and therapeutic care",
+                "Our legal obligations, in particular regarding the retention of medical records",
+                "Our legitimate interest, in responding to your contact requests"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "5. Data recipients",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Your data may be shared with the following service providers, strictly to the extent necessary for the purposes described:"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "OneDoc (appointment booking platform)",
+                "Google Ireland Ltd. (Google Analytics, Google Maps)",
+                "The website's hosting provider (Vercel Inc.)"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Your data is never sold, rented or shared with third parties for commercial purposes."
+            }
+          ]
+        },
+        {
+          "title": "6. Data transfers abroad",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Some providers (in particular Google) may process data outside Switzerland, including in the United States. These transfers are governed by appropriate safeguards (standard contractual clauses or equivalent mechanisms recognised by the Federal Data Protection and Information Commissioner)."
+            }
+          ]
+        },
+        {
+          "title": "7. Retention periods",
+          "blocks": [
+            {
+              "type": "ul",
+              "items": [
+                "Data sent by e-mail, phone or WhatsApp is kept for as long as necessary to handle your request.",
+                "Patient records are kept in accordance with the legal obligations applicable to healthcare professionals in Switzerland (in principle 10 years after the end of treatment, unless otherwise provided).",
+                "Audience-measurement data (Google Analytics) is kept according to the settings defined in our Google Analytics account, generally 14 months."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "8. Data security",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Appropriate technical and organisational measures are in place to protect your data against unauthorised access, loss, disclosure or alteration."
+            }
+          ]
+        },
+        {
+          "title": "9. Your rights",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "In accordance with the nFADP (and the GDPR where applicable), you have the following rights regarding your personal data:"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "Right of access: obtain confirmation that data concerning you is being processed, as well as a copy of that data",
+                "Right to rectification: have inaccurate or incomplete data corrected",
+                "Right to erasure: request the deletion of your data, within the limits provided by law (in particular the obligations to retain medical records)",
+                "Right to object: object to certain processing, in particular processing based on your consent",
+                "Right to withdraw your consent at any time, for processing that depends on it (cookies, Google Maps), without affecting the lawfulness of processing carried out before the withdrawal"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "To exercise these rights, contact Thomas Derême using the details given in section 1."
+            },
+            {
+              "type": "p",
+              "text": "You also have the right to lodge a complaint with the Federal Data Protection and Information Commissioner (FDPIC): www.edoeb.admin.ch."
+            }
+          ]
+        },
+        {
+          "title": "10. Cookies",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "The website only uses cookies for audience measurement (Google Analytics) and to display the Google Maps map. No advertising cookies are used. You can manage your preferences via the cookie banner shown on your first visit, and change them at any time."
+            }
+          ]
+        },
+        {
+          "title": "11. Changes to this policy",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "This privacy policy may be updated at any time, in particular to keep up with changes in legislation or in the services used on the website. The date of the last update is shown at the top of this document."
+            }
+          ]
+        },
+        {
+          "title": "12. Contact",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "For any question about this privacy policy or the processing of your personal data:"
+            },
+            {
+              "type": "lines",
+              "lines": [
+                "Thomas Derême",
+                "12 Rue du Midi, 1003 Lausanne",
+                "thomas.dereme@hotmail.com",
+                "+41 76 688 72 81"
+              ]
+            }
+          ]
+        }
+      ]
     }
   },
   "Faq": {
