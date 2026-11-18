@@ -11,6 +11,8 @@ import { RevealObserver } from '@/components/ui/RevealObserver';
 import { ConsentProvider } from '@/components/analytics/ConsentProvider';
 import { ConsentBanner } from '@/components/analytics/ConsentBanner';
 import { GoogleAnalytics } from '@/components/analytics/GoogleAnalytics';
+import { JsonLd } from '@/components/seo/JsonLd';
+import { organizationJsonLd } from '@/lib/jsonld';
 import '../../globals.css';
 
 const sans = Hanken_Grotesk({
@@ -94,6 +96,7 @@ export default async function LocaleLayout({
       className={`${sans.variable} ${serif.variable} ${serifSecondary.variable} ${serifItalic.variable} ${logo.variable}`}
     >
       <body>
+        <JsonLd data={organizationJsonLd()} />
         <NextIntlClientProvider>
           <ConsentProvider>
             <Header />

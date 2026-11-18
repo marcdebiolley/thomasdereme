@@ -1,5 +1,36 @@
 import { SITE } from './site';
 
+/**
+ * Organization schema - rendu dans le layout (toutes les pages) : nom, logo
+ * et liens lisibles par les crawlers IA/SEO, qui cherchent ce @type précis.
+ */
+export function organizationJsonLd() {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    '@id': `${SITE.url}/#organization`,
+    name: 'Thomas Derême - Physiothérapeute',
+    url: SITE.url,
+    logo: {
+      '@type': 'ImageObject',
+      url: `${SITE.url}/brand/td-logo-512.png`,
+      width: 512,
+      height: 512,
+    },
+    email: SITE.email,
+    telephone: SITE.phone,
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress: SITE.address.street,
+      postalCode: SITE.address.postalCode,
+      addressLocality: SITE.address.locality,
+      addressRegion: SITE.address.region,
+      addressCountry: SITE.address.country,
+    },
+    sameAs: [SITE.social.instagram, SITE.social.linkedin].filter(Boolean),
+  };
+}
+
 /** Physiotherapy LocalBusiness schema - local SEO + GEO/IA, used on the home page. */
 export function physiotherapyJsonLd() {
   return {
